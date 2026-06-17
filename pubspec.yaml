@@ -1,7 +1,7 @@
 name: agility_timer
 description: 体育敏捷性反应训练计时器 - 节奏节拍器与随机变向信号训练工具
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
   sdk: '>=3.0.0 <4.0.0'

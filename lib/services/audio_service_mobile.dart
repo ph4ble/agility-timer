@@ -13,7 +13,7 @@ class MobileAudioService implements AudioService {
 
   @override
   Future<void> init() async {
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 6; i++) {
       final player = AudioPlayer();
       await player.setSource(BytesSource(ToneGenerator.tickWav()));
       _pool.add(player);
@@ -33,10 +33,35 @@ class MobileAudioService implements AudioService {
 
   @override
   Future<void> playSignal(DirectionSignalType type, double volume) async {
+    await _playOnDedicated(ToneGenerator.signalWav(type), volume);
+  }
+
+  @override
+  Future<void> playCountInBeep(int number, double volume) async {
+    final wav = switch (number) {
+      3 => ToneGenerator.countIn3Wav(),
+      2 => ToneGenerator.countIn2Wav(),
+      1 => ToneGenerator.countIn1Wav(),
+      _ => ToneGenerator.countInStartWav(),
+    };
+    await _playOnDedicated(wav, volume);
+  }
+
+  @override
+  Future<void> playCountdownWarning(double volume) async {
+    await _playOnDedicated(ToneGenerator.countdownWarningWav(), volume);
+  }
+
+  @override
+  Future<void> playEndBell(double volume) async {
+    await _playOnDedicated(ToneGenerator.endBellWav(), volume);
+  }
+
+  Future<void> _playOnDedicated(Uint8List wav, double volume) async {
     if (_pool.isEmpty) return;
     final player = _pool.last;
     await player.stop();
-    await player.setSource(BytesSource(ToneGenerator.signalWav(type)));
+    await player.setSource(BytesSource(wav));
     await player.setVolume(volume);
     await player.resume();
   }

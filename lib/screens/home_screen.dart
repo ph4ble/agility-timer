@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     // Compute flex ratios so sections with more content get more space
-    int randomFlex = _randomBpm ? 2 : 1;
+    int randomFlex = _randomBpm ? 3 : 1;
     int modeFlex;
     switch (_mode) {
       case TrainingMode.interval:
@@ -74,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               const SizedBox(height: 6),
               Expanded(
-                flex: 2,
+                flex: 3,
                 child: _buildSection('方向 & 声音', Icons.directions_run, _buildDirectionSound()),
               ),
               const SizedBox(height: 6),
@@ -112,27 +112,29 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildSection(String title, IconData icon, Widget content) {
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.fromLTRB(10, 8, 10, 8),
-      decoration: BoxDecoration(
-        color: const Color(0xFF16213E),
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: Colors.white12),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Icon(icon, color: Colors.white54, size: 13),
-              const SizedBox(width: 5),
-              Text(title, style: const TextStyle(color: Colors.white54, fontSize: 11)),
-            ],
-          ),
-          const SizedBox(height: 4),
-          Expanded(child: content),
-        ],
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(12),
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.fromLTRB(10, 8, 10, 8),
+        decoration: BoxDecoration(
+          color: const Color(0xFF16213E),
+          border: Border.all(color: Colors.white12),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Icon(icon, color: Colors.white54, size: 13),
+                const SizedBox(width: 5),
+                Text(title, style: const TextStyle(color: Colors.white54, fontSize: 11)),
+              ],
+            ),
+            const SizedBox(height: 4),
+            Expanded(child: content),
+          ],
+        ),
       ),
     );
   }

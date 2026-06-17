@@ -9,5 +9,8 @@ abstract class AudioService {
   Future<void> init();
   Future<void> playTick(double volume);
   Future<void> playSignal(DirectionSignalType type, double volume);
+  Future<void> playCountInBeep(int number, double volume);
+  Future<void> playCountdownWarning(double volume);
+  Future<void> playEndBell(double volume);
   Future<void> dispose();
 }

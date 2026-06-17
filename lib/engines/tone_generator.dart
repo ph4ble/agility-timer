@@ -13,12 +13,36 @@ class ToneGenerator {
     return _generateWav(frequency: 900, durationMs: 60, volume: 0.9);
   }
 
-  static Uint8List countInWav() {
-    return _generateWav(frequency: 880, durationMs: 100, volume: 0.6);
+  // Count-in beeps (different pitch per number)
+  static Uint8List countIn3Wav() {
+    return _generateWav(frequency: 440, durationMs: 120, volume: 0.7);
   }
 
-  static Uint8List countInFinalWav() {
-    return _generateWav(frequency: 1200, durationMs: 150, volume: 0.8);
+  static Uint8List countIn2Wav() {
+    return _generateWav(frequency: 660, durationMs: 120, volume: 0.7);
+  }
+
+  static Uint8List countIn1Wav() {
+    return _generateWav(frequency: 880, durationMs: 120, volume: 0.7);
+  }
+
+  static Uint8List countInStartWav() {
+    return _generateWav(frequency: 1200, durationMs: 200, volume: 0.9);
+  }
+
+  // 10-second countdown warning — three quick beeps
+  static Uint8List countdownWarningWav() {
+    return _multiBeepWav(1000, 60, 50, 3, 0.8);
+  }
+
+  // Final 5-second warning — faster beeps
+  static Uint8List countdownFinalWav() {
+    return _multiBeepWav(1200, 40, 30, 5, 0.9);
+  }
+
+  // End bell — descending chime
+  static Uint8List endBellWav() {
+    return _chimeWav([1200, 1000, 800, 600], 200, 40, 0.9);
   }
 
   /// Generic alert sweep (for tone mode).
@@ -41,24 +65,61 @@ class ToneGenerator {
     }
   }
 
-  /// Rapid ascending two-note — "向前!"
+  /// Rapid ascending two-note
   static Uint8List _dirForwardWav() {
     return _twoNoteWav(800, 1300, 45, 55, 0.95);
   }
 
-  /// Rapid descending two-note — "向后!"
+  /// Rapid descending two-note
   static Uint8List _dirBackwardWav() {
     return _twoNoteWav(1200, 600, 45, 55, 0.95);
   }
 
-  /// Sharp rising chirp — "左!"
+  /// Sharp rising chirp
   static Uint8List _dirLeftWav() {
     return _generateSweepWav(1600, 2600, 75, 0.9);
   }
 
-  /// Sharp falling chirp — "右!"
+  /// Sharp falling chirp
   static Uint8List _dirRightWav() {
     return _generateSweepWav(2600, 1400, 75, 0.9);
+  }
+
+  /// Multiple quick beeps with gaps
+  static Uint8List _multiBeepWav(double freq, int durMs, int gapMs, int count, double volume) {
+    final beepSamples = (_sampleRate * durMs / 1000).round();
+    final gapSamples = (_sampleRate * gapMs / 1000).round();
+    final total = (beepSamples + gapSamples) * count;
+    final data = Int16List(total);
+
+    for (int b = 0; b < count; b++) {
+      final offset = b * (beepSamples + gapSamples);
+      for (int i = 0; i < beepSamples; i++) {
+        final t = i / _sampleRate;
+        final env = max(0, 1.0 - i / beepSamples);
+        data[offset + i] = (volume * env * sin(2 * pi * freq * t) * 32767).round().clamp(-32768, 32767);
+      }
+    }
+    return _encodeWav(data);
+  }
+
+  /// Descending chime of multiple notes
+  static Uint8List _chimeWav(List<double> freqs, int durMs, int gapMs, double volume) {
+    final noteSamples = (_sampleRate * durMs / 1000).round();
+    final gapSamples = (_sampleRate * gapMs / 1000).round();
+    final total = (noteSamples + gapSamples) * freqs.length;
+    final data = Int16List(total);
+
+    for (int n = 0; n < freqs.length; n++) {
+      final offset = n * (noteSamples + gapSamples);
+      final freq = freqs[n];
+      for (int i = 0; i < noteSamples; i++) {
+        final t = i / _sampleRate;
+        final env = max(0, 1.0 - i / noteSamples);
+        data[offset + i] = (volume * env * sin(2 * pi * freq * t) * 32767).round().clamp(-32768, 32767);
+      }
+    }
+    return _encodeWav(data);
   }
 
   /// Two rapid notes with a tiny gap between them.
@@ -81,7 +142,7 @@ class ToneGenerator {
       final env = max(0, 1.0 - i / n1 * 0.3);
       data[idx] = (volume * env * sin(2 * pi * freq1 * t) * 32767).round().clamp(-32768, 32767);
     }
-    idx += gapSamples; // silent gap
+    idx += gapSamples;
     for (int i = 0; i < n2; i++, idx++) {
       final t = i / _sampleRate;
       final env = max(0, 1.0 - i / n2);
