@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
-        <item name="android:windowBackground">@android:color/black</item>
-    </style>
-    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
-        <item name="android:windowBackground">@android:color/black</item>
-    </style>
-</resources>
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxzdHlsZSBuYW1lPSJMYXVuY2hUaGVtZSIgcGFyZW50PSJAYW5kcm9pZDpzdHlsZS9UaGVtZS5MaWdodC5Ob1RpdGxlQmFyIj4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd0JhY2tncm91bmQiPkBhbmRyb2lkOmNvbG9yL2JsYWNrPC9pdGVtPgogICAgPC9zdHlsZT4KICAgIDxzdHlsZSBuYW1lPSJOb3JtYWxUaGVtZSIgcGFyZW50PSJAYW5kcm9pZDpzdHlsZS9UaGVtZS5MaWdodC5Ob1RpdGxlQmFyIj4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd0JhY2tncm91bmQiPkBhbmRyb2lkOmNvbG9yL2JsYWNrPC9pdGVtPgogICAgPC9zdHlsZT4KPC9yZXNvdXJjZXM+Cg==

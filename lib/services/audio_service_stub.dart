@@ -1,6 +1,1 @@
-import '../engines/tone_generator.dart';
-import 'audio_service.dart';
-
-AudioService createAudioService() => MobileAudioService();
-
-// Implementation is in audio_service_mobile.dart
+aW1wb3J0ICcuLi9lbmdpbmVzL3RvbmVfZ2VuZXJhdG9yLmRhcnQnOwppbXBvcnQgJ2F1ZGlvX3NlcnZpY2UuZGFydCc7CgpBdWRpb1NlcnZpY2UgY3JlYXRlQXVkaW9TZXJ2aWNlKCkgPT4gTW9iaWxlQXVkaW9TZXJ2aWNlKCk7CgovLyBJbXBsZW1lbnRhdGlvbiBpcyBpbiBhdWRpb19zZXJ2aWNlX21vYmlsZS5kYXJ0Cg==

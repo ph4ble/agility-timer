@@ -1,7 +1,1 @@
-include: package:flutter_lints/flutter.yaml
-
-linter:
-  rules:
-    prefer_const_constructors: true
-    prefer_const_declarations: true
-    avoid_print: true
+aW5jbHVkZTogcGFja2FnZTpmbHV0dGVyX2xpbnRzL2ZsdXR0ZXIueWFtbAoKbGludGVyOgogIHJ1bGVzOgogICAgcHJlZmVyX2NvbnN0X2NvbnN0cnVjdG9yczogdHJ1ZQogICAgcHJlZmVyX2NvbnN0X2RlY2xhcmF0aW9uczogdHJ1ZQogICAgYXZvaWRfcHJpbnQ6IHRydWUK

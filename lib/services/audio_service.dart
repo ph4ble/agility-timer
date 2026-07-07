@@ -1,16 +1,1 @@
-import '../engines/tone_generator.dart';
-import 'audio_service_stub.dart'
-    if (dart.library.html) 'audio_service_web.dart'
-    if (dart.library.io) 'audio_service_mobile.dart';
-
-abstract class AudioService {
-  factory AudioService() => createAudioService();
-
-  Future<void> init();
-  Future<void> playTick(double volume);
-  Future<void> playSignal(DirectionSignalType type, double volume);
-  Future<void> playCountInBeep(int number, double volume);
-  Future<void> playCountdownWarning(double volume);
-  Future<void> playEndBell(double volume);
-  Future<void> dispose();
-}
+aW1wb3J0ICcuLi9lbmdpbmVzL3RvbmVfZ2VuZXJhdG9yLmRhcnQnOwppbXBvcnQgJ2F1ZGlvX3NlcnZpY2Vfc3R1Yi5kYXJ0JwogICAgaWYgKGRhcnQubGlicmFyeS5odG1sKSAnYXVkaW9fc2VydmljZV93ZWIuZGFydCcKICAgIGlmIChkYXJ0LmxpYnJhcnkuaW8pICdhdWRpb19zZXJ2aWNlX21vYmlsZS5kYXJ0JzsKCmFic3RyYWN0IGNsYXNzIEF1ZGlvU2VydmljZSB7CiAgZmFjdG9yeSBBdWRpb1NlcnZpY2UoKSA9PiBjcmVhdGVBdWRpb1NlcnZpY2UoKTsKCiAgRnV0dXJlPHZvaWQ+IGluaXQoKTsKICBGdXR1cmU8dm9pZD4gcGxheVRpY2soZG91YmxlIHZvbHVtZSk7CiAgRnV0dXJlPHZvaWQ+IHBsYXlTaWduYWwoRGlyZWN0aW9uU2lnbmFsVHlwZSB0eXBlLCBkb3VibGUgdm9sdW1lKTsKICBGdXR1cmU8dm9pZD4gcGxheUNvdW50SW5CZWVwKGludCBudW1iZXIsIGRvdWJsZSB2b2x1bWUpOwogIEZ1dHVyZTx2b2lkPiBwbGF5Q291bnRkb3duV2FybmluZyhkb3VibGUgdm9sdW1lKTsKICBGdXR1cmU8dm9pZD4gcGxheUVuZEJlbGwoZG91YmxlIHZvbHVtZSk7CiAgRnV0dXJlPHZvaWQ+IGRpc3Bvc2UoKTsKfQo=
