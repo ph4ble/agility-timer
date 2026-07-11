@@ -86,3 +86,4 @@ Repo: `wechat-mini-program/`
 - **`useLoad` not `useDidShow`**: In Taro 4.x, `useLoad` is the correct hook for receiving page route params on initial load
 - **Sharing via Taro hooks**: `useShareAppMessage` (转发好友) + `useShareTimeline` (朋友圈) registered on both pages; sharing is opt-in per page in WeChat, and 朋友圈 only appears on Android WeChat
 - **`setKeepScreenOn` for wakelock**: Mini program equivalent of Flutter's `wakelock_plus`; enabled on active training phases, disabled on pause/finish/unmount
+- **Mini program appid & publish**: Real appid is `wxa9e98ca5d2e9199d` (in `wechat-mini-program/project.config.json`; must NOT be `touristappid` or forwarding is disabled). The appid is DevTools-only, not compiled into `dist/`. Publish flow: `npm run build:weapp` → open `dist/` in WeChat DevTools → 编译 → 预览 (verify share button + Moments entry) → 上传 → submit for review in the mini program admin console → 发布. 朋友圈 only shows on Android WeChat.

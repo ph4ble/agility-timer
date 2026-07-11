@@ -28,6 +28,8 @@ originSessionId: de9e3a89-5ff8-4de8-ba30-422c1c9936ff
 
 11. **Entire remote repo stored as double-base64 gibberish** — A prior Git Data API push created blobs with the base64 string but the wrong `encoding`, so GitHub stored the base64 text literally; all 77 files (docs + source) were unreadable on github.com and produced gibberish on clone. Fixed by rebuilding the whole tree: create each blob with `{content: <base64>, encoding: "base64"}`, verify the returned blob SHA matches the local `git cat-file` SHA, then one tree + commit (parent = remote main tip) + ref update. Rebuilt at commit 646c6824. Note: `github.com` is blocked so `git fetch` fails and local `origin/main` stays stale/diverged — that's cosmetic.
 
+12. **Share buttons greyed out / no Moments entry** — Two causes: (a) pages had no share callbacks — fixed by adding `useShareAppMessage` + `useShareTimeline` (issue #9); (b) `project.config.json` used `appid: "touristappid"` (tourist/test id), which WeChat disables forwarding for — fixed by switching to the real appid `wxa9e98ca5d2e9199d`. Note: the appid in `project.config.json` is read by WeChat DevTools only and is NOT compiled into `dist/`, so no rebuild is needed after changing it; just reopen DevTools and re-upload. 朋友圈 still only appears on Android WeChat (platform limit).
+
 ### Flutter Android Issues & Fixes
 
 1. **audioplayers_android compileSdk 33 incompatible** — Plugin forced compileSdk 33 while dependencies required 34+. Fixed by editing `~/.pub-cache/hosted/pub.dev/audioplayers_android-4.0.3/android/build.gradle` to compileSdk 36.
