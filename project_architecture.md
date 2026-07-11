@@ -82,7 +82,7 @@ Repo: `wechat-mini-program/`
 - **CSS animations over JS**: Beat ring pulse and direction arrow use CSS keyframes instead of JS animation loops (better performance in mini program WebView)
 - **WAV generation over audio files**: Pure JS WAV synthesis means no external audio assets needed, all sounds generated from math
 - **Custom base64 encoder**: WeChat runtime doesn't have `btoa()`, so a manual base64 implementation was needed
-- **GitHub push via API**: `github.com` is blocked from the user's network; `api.github.com` works, so commits are pushed via Git Data API
+- **GitHub push via API**: `github.com` is blocked from the user's network; `api.github.com` works, so commits are pushed via the Git Data API. Blobs MUST be created with `{content: <base64>, encoding: "base64"}` — a prior push used the wrong encoding and stored every file double-base64-encoded (gibberish); the whole repo was rebuilt correctly at commit 646c6824. Verify each returned blob SHA equals the local git blob SHA before committing.
 - **`useLoad` not `useDidShow`**: In Taro 4.x, `useLoad` is the correct hook for receiving page route params on initial load
 - **Sharing via Taro hooks**: `useShareAppMessage` (转发好友) + `useShareTimeline` (朋友圈) registered on both pages; sharing is opt-in per page in WeChat, and 朋友圈 only appears on Android WeChat
 - **`setKeepScreenOn` for wakelock**: Mini program equivalent of Flutter's `wakelock_plus`; enabled on active training phases, disabled on pause/finish/unmount

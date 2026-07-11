@@ -26,6 +26,8 @@ originSessionId: de9e3a89-5ff8-4de8-ba30-422c1c9936ff
 
 10. **Screen auto-dims during training (自动熄屏)** — The mini program never called the keep-screen-on API (the Flutter version uses `wakelock_plus`, but the Taro port omitted the equivalent). Fixed by calling `Taro.setKeepScreenOn({ keepScreenOn: true })` on active training phases (countIn/running/rest) in `pages/training/index.tsx`, and resetting to `false` on pause/finish and on page unmount.
 
+11. **Entire remote repo stored as double-base64 gibberish** — A prior Git Data API push created blobs with the base64 string but the wrong `encoding`, so GitHub stored the base64 text literally; all 77 files (docs + source) were unreadable on github.com and produced gibberish on clone. Fixed by rebuilding the whole tree: create each blob with `{content: <base64>, encoding: "base64"}`, verify the returned blob SHA matches the local `git cat-file` SHA, then one tree + commit (parent = remote main tip) + ref update. Rebuilt at commit 646c6824. Note: `github.com` is blocked so `git fetch` fails and local `origin/main` stays stale/diverged — that's cosmetic.
+
 ### Flutter Android Issues & Fixes
 
 1. **audioplayers_android compileSdk 33 incompatible** — Plugin forced compileSdk 33 while dependencies required 34+. Fixed by editing `~/.pub-cache/hosted/pub.dev/audioplayers_android-4.0.3/android/build.gradle` to compileSdk 36.
