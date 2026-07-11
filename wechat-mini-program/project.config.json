@@ -2,7 +2,7 @@
   "miniprogramRoot": "dist/",
   "projectname": "wechat-agility-timer",
   "description": "敏捷训练计时器",
-  "appid": "touristappid",
+  "appid": "wxa9e98ca5d2e9199d",
   "setting": {
     "urlCheck": true,
     "es6": false,
