@@ -1,1 +1,294 @@
-aW1wb3J0IHsgdXNlU3RhdGUsIHVzZUVmZmVjdCB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IFRhcm8gZnJvbSAnQHRhcm9qcy90YXJvJzsKaW1wb3J0IHsgVmlldywgVGV4dCwgUGlja2VyLCBTd2l0Y2gsIFNsaWRlciB9IGZyb20gJ0B0YXJvanMvY29tcG9uZW50cyc7CmltcG9ydCBCcG1Db250cm9sIGZyb20gJy4uLy4uL2NvbXBvbmVudHMvQnBtQ29udHJvbCc7CmltcG9ydCB7CiAgVHJhaW5pbmdDb25maWcsCiAgVHJhaW5pbmdNb2RlLAogIFNpZ25hbFNvdW5kVHlwZSwKICBERUZBVUxUX0NPTkZJRywKfSBmcm9tICcuLi8uLi9tb2RlbHMvY29uZmlnJzsKaW1wb3J0ICcuL2luZGV4LnNjc3MnOwoKY29uc3QgTU9ERV9MQUJFTFM6IFJlY29yZDxUcmFpbmluZ01vZGUsIHN0cmluZz4gPSB7CiAgW1RyYWluaW5nTW9kZS5mcmVlXTogJ+iHqueUseiuree7gycsCiAgW1RyYWluaW5nTW9kZS50aW1lZF06ICforqHml7borq3nu4MnLAogIFtUcmFpbmluZ01vZGUucHJvZ3Jlc3NpdmVdOiAn5riQ6L+b5Yqg6YCfJywKICBbVHJhaW5pbmdNb2RlLmludGVydmFsXTogJ+mXtOath+iuree7gycsCn07Cgpjb25zdCBNT0RFUyA9IE9iamVjdC52YWx1ZXMoVHJhaW5pbmdNb2RlKTsKCmNvbnN0IFNUT1JBR0VfS0VZID0gJ3RyYWluaW5nX2NvbmZpZyc7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lUGFnZSgpIHsKICBjb25zdCBbY29uZmlnLCBzZXRDb25maWddID0gdXNlU3RhdGU8VHJhaW5pbmdDb25maWc+KCgpID0+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHNhdmVkID0gVGFyby5nZXRTdG9yYWdlU3luYyhTVE9SQUdFX0tFWSk7CiAgICAgIHJldHVybiBzYXZlZCA/IHsgLi4uREVGQVVMVF9DT05GSUcsIC4uLkpTT04ucGFyc2Uoc2F2ZWQpIH0gOiB7IC4uLkRFRkFVTFRfQ09ORklHIH07CiAgICB9IGNhdGNoIHsKICAgICAgcmV0dXJuIHsgLi4uREVGQVVMVF9DT05GSUcgfTsKICAgIH0KICB9KTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIFRhcm8uc2V0U3RvcmFnZVN5bmMoU1RPUkFHRV9LRVksIEpTT04uc3RyaW5naWZ5KGNvbmZpZykpOwogIH0sIFtjb25maWddKTsKCiAgY29uc3QgdXBkYXRlID0gPEsgZXh0ZW5kcyBrZXlvZiBUcmFpbmluZ0NvbmZpZz4oa2V5OiBLLCB2YWx1ZTogVHJhaW5pbmdDb25maWdbS10pID0+IHsKICAgIHNldENvbmZpZyhwcmV2ID0+ICh7IC4uLnByZXYsIFtrZXldOiB2YWx1ZSB9KSk7CiAgfTsKCiAgY29uc3QgaGFuZGxlU3RhcnQgPSAoKSA9PiB7CiAgICBUYXJvLm5hdmlnYXRlVG8oewogICAgICB1cmw6IGAvcGFnZXMvdHJhaW5pbmcvaW5kZXg/Y29uZmlnPSR7ZW5jb2RlVVJJQ29tcG9uZW50KEpTT04uc3RyaW5naWZ5KGNvbmZpZykpfWAsCiAgICB9KTsKICB9OwoKICByZXR1cm4gKAogICAgPFZpZXcgY2xhc3NOYW1lPSdob21lLXBhZ2UnPgogICAgICA8VmlldyBjbGFzc05hbWU9J2hvbWUtaGVhZGVyJz4KICAgICAgICA8VGV4dCBjbGFzc05hbWU9J2hvbWUtdGl0bGUnPuaVj+aNt+iuree7g+iuoeaXtuWZqDwvVGV4dD4KICAgICAgICA8VGV4dCBjbGFzc05hbWU9J2hvbWUtc3VidGl0bGUnPkFnaWxpdHkgVHJhaW5pbmcgVGltZXI8L1RleHQ+CiAgICAgIDwvVmlldz4KCiAgICAgIDxWaWV3IGNsYXNzTmFtZT0naG9tZS1jb250ZW50Jz4KICAgICAgICB7LyogVHJhaW5pbmcgTW9kZSAqL30KICAgICAgICA8VmlldyBjbGFzc05hbWU9J3NlY3Rpb24nPgogICAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdzZWN0aW9uLXRpdGxlJz7orq3nu4PmqKHlvI88L1RleHQ+CiAgICAgICAgICA8VmlldyBjbGFzc05hbWU9J21vZGUtdGFicyc+CiAgICAgICAgICAgIHtNT0RFUy5tYXAobW9kZSA9PiAoCiAgICAgICAgICAgICAgPFZpZXcKICAgICAgICAgICAgICAgIGtleT17bW9kZX0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YG1vZGUtdGFiICR7Y29uZmlnLm1vZGUgPT09IG1vZGUgPyAnbW9kZS10YWItLWFjdGl2ZScgOiAnJ31gfQogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdXBkYXRlKCdtb2RlJywgbW9kZSl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdtb2RlLXRhYi10ZXh0Jz57TU9ERV9MQUJFTFNbbW9kZV19PC9UZXh0PgogICAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L1ZpZXc+CiAgICAgICAgPC9WaWV3PgoKICAgICAgICB7LyogQlBNICovfQogICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nc2VjdGlvbic+CiAgICAgICAgICA8QnBtQ29udHJvbAogICAgICAgICAgICBicG09e2NvbmZpZy5icG19CiAgICAgICAgICAgIG9uQnBtQ2hhbmdlPXsoYnBtKSA9PiB1cGRhdGUoJ2JwbScsIGJwbSl9CiAgICAgICAgICAvPgogICAgICAgIDwvVmlldz4KCiAgICAgICAgey8qIFRpbWVkIG1vZGUgZHVyYXRpb24gKi99CiAgICAgICAge2NvbmZpZy5tb2RlID09PSBUcmFpbmluZ01vZGUudGltZWQgJiYgKAogICAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdzZWN0aW9uIHNlY3Rpb24tLXJvdyc+CiAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nc2VjdGlvbi10aXRsZSc+6K6t57uD5pe26ZW/PC9UZXh0PgogICAgICAgICAgICA8VmlldyBjbGFzc05hbWU9J2R1cmF0aW9uLWNvbnRyb2wnPgogICAgICAgICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nZHVyYXRpb24tYnRuJyBvbkNsaWNrPXsoKSA9PiB1cGRhdGUoJ3RyYWluaW5nRHVyYXRpb24nLCBNYXRoLm1heCgxLCBjb25maWcudHJhaW5pbmdEdXJhdGlvbiAtIDEpKX0+CiAgICAgICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J2R1cmF0aW9uLWJ0bi10ZXh0Jz4tPC9UZXh0PgogICAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J2R1cmF0aW9uLXZhbHVlJz57Y29uZmlnLnRyYWluaW5nRHVyYXRpb259IOWIhumSnzwvVGV4dD4KICAgICAgICAgICAgICA8VmlldyBjbGFzc05hbWU9J2R1cmF0aW9uLWJ0bicgb25DbGljaz17KCkgPT4gdXBkYXRlKCd0cmFpbmluZ0R1cmF0aW9uJywgTWF0aC5taW4oNjAsIGNvbmZpZy50cmFpbmluZ0R1cmF0aW9uICsgMSkpfT4KICAgICAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nZHVyYXRpb24tYnRuLXRleHQnPis8L1RleHQ+CiAgICAgICAgICAgICAgPC9WaWV3PgogICAgICAgICAgICA8L1ZpZXc+CiAgICAgICAgICA8L1ZpZXc+CiAgICAgICAgKX0KCiAgICAgICAgey8qIEludGVydmFsIHNldHRpbmdzICovfQogICAgICAgIHtjb25maWcubW9kZSA9PT0gVHJhaW5pbmdNb2RlLmludGVydmFsICYmICgKICAgICAgICAgIDw+CiAgICAgICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nc2VjdGlvbiBzZWN0aW9uLS1yb3cnPgogICAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nc2VjdGlvbi10aXRsZSc+6K6t57uD5pe26ZW/ICjnp5IpPC9UZXh0PgogICAgICAgICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nZHVyYXRpb24tY29udHJvbCc+CiAgICAgICAgICAgICAgICA8VmlldyBjbGFzc05hbWU9J2R1cmF0aW9uLWJ0bicgb25DbGljaz17KCkgPT4gdXBkYXRlKCdpbnRlcnZhbFdvcmtTZWNvbmRzJywgTWF0aC5tYXgoNSwgY29uZmlnLmludGVydmFsV29ya1NlY29uZHMgLSA1KSl9PgogICAgICAgICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J2R1cmF0aW9uLWJ0bi10ZXh0Jz4tNTwvVGV4dD4KICAgICAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nZHVyYXRpb24tdmFsdWUnPntjb25maWcuaW50ZXJ2YWxXb3JrU2Vjb25kc31zPC9UZXh0PgogICAgICAgICAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdkdXJhdGlvbi1idG4nIG9uQ2xpY2s9eygpID0+IHVwZGF0ZSgnaW50ZXJ2YWxXb3JrU2Vjb25kcycsIE1hdGgubWluKDMwMCwgY29uZmlnLmludGVydmFsV29ya1NlY29uZHMgKyA1KSl9PgogICAgICAgICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J2R1cmF0aW9uLWJ0bi10ZXh0Jz4rNTwvVGV4dD4KICAgICAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgICAgICA8L1ZpZXc+CiAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdzZWN0aW9uIHNlY3Rpb24tLXJvdyc+CiAgICAgICAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdzZWN0aW9uLXRpdGxlJz7kvJHmga/ml7bplb8gKOenkik8L1RleHQ+CiAgICAgICAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdkdXJhdGlvbi1jb250cm9sJz4KICAgICAgICAgICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nZHVyYXRpb24tYnRuJyBvbkNsaWNrPXsoKSA9PiB1cGRhdGUoJ2ludGVydmFsUmVzdFNlY29uZHMnLCBNYXRoLm1heCg1LCBjb25maWcuaW50ZXJ2YWxSZXN0U2Vjb25kcyAtIDUpKX0+CiAgICAgICAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nZHVyYXRpb24tYnRuLXRleHQnPi01PC9UZXh0PgogICAgICAgICAgICAgICAgPC9WaWV3PgogICAgICAgICAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdkdXJhdGlvbi12YWx1ZSc+e2NvbmZpZy5pbnRlcnZhbFJlc3RTZWNvbmRzfXM8L1RleHQ+CiAgICAgICAgICAgICAgICA8VmlldyBjbGFzc05hbWU9J2R1cmF0aW9uLWJ0bicgb25DbGljaz17KCkgPT4gdXBkYXRlKCdpbnRlcnZhbFJlc3RTZWNvbmRzJywgTWF0aC5taW4oMTIwLCBjb25maWcuaW50ZXJ2YWxSZXN0U2Vjb25kcyArIDUpKX0+CiAgICAgICAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nZHVyYXRpb24tYnRuLXRleHQnPis1PC9UZXh0PgogICAgICAgICAgICAgICAgPC9WaWV3PgogICAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgICAgPC9WaWV3PgogICAgICAgICAgICA8VmlldyBjbGFzc05hbWU9J3NlY3Rpb24gc2VjdGlvbi0tcm93Jz4KICAgICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J3NlY3Rpb24tdGl0bGUnPui9ruaVsDwvVGV4dD4KICAgICAgICAgICAgICA8VmlldyBjbGFzc05hbWU9J2R1cmF0aW9uLWNvbnRyb2wnPgogICAgICAgICAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdkdXJhdGlvbi1idG4nIG9uQ2xpY2s9eygpID0+IHVwZGF0ZSgnaW50ZXJ2YWxSb3VuZHMnLCBNYXRoLm1heCgxLCBjb25maWcuaW50ZXJ2YWxSb3VuZHMgLSAxKSl9PgogICAgICAgICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J2R1cmF0aW9uLWJ0bi10ZXh0Jz4tPC9UZXh0PgogICAgICAgICAgICAgICAgPC9WaWV3PgogICAgICAgICAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdkdXJhdGlvbi12YWx1ZSc+e2NvbmZpZy5pbnRlcnZhbFJvdW5kc30g6L2uPC9UZXh0PgogICAgICAgICAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdkdXJhdGlvbi1idG4nIG9uQ2xpY2s9eygpID0+IHVwZGF0ZSgnaW50ZXJ2YWxSb3VuZHMnLCBNYXRoLm1pbigzMCwgY29uZmlnLmludGVydmFsUm91bmRzICsgMSkpfT4KICAgICAgICAgICAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdkdXJhdGlvbi1idG4tdGV4dCc+KzwvVGV4dD4KICAgICAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgICAgICA8L1ZpZXc+CiAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgIDwvPgogICAgICAgICl9CgogICAgICAgIHsvKiBEaXJlY3Rpb24gQ291bnQgKi99CiAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdzZWN0aW9uIHNlY3Rpb24tLXJvdyc+CiAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J3NlY3Rpb24tdGl0bGUnPuWPmOWQkeaVsOmHjzwvVGV4dD4KICAgICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nY2hpcC1yb3cnPgogICAgICAgICAgICB7WzIsIDMsIDRdLm1hcChuID0+ICgKICAgICAgICAgICAgICA8VmlldwogICAgICAgICAgICAgICAga2V5PXtufQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgY2hpcCAke2NvbmZpZy5kaXJlY3Rpb25Db3VudCA9PT0gbiA/ICdjaGlwLS1hY3RpdmUnIDogJyd9YH0KICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHVwZGF0ZSgnZGlyZWN0aW9uQ291bnQnLCBuKX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J2NoaXAtdGV4dCc+e259IOaWueWQkTwvVGV4dD4KICAgICAgICAgICAgICA8L1ZpZXc+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9WaWV3PgogICAgICAgIDwvVmlldz4KCiAgICAgICAgey8qIEJlYXRzIHRvIGNoYW5nZSAqL30KICAgICAgICA8VmlldyBjbGFzc05hbWU9J3NlY3Rpb24gc2VjdGlvbi0tcm93Jz4KICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nc2VjdGlvbi10aXRsZSc+5Y+Y5ZCR6Ze06ZqUPC9UZXh0PgogICAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdyYW5nZS1yb3cnPgogICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J3JhbmdlLXZhbCc+e2NvbmZpZy5taW5CZWF0c1RvQ2hhbmdlfTwvVGV4dD4KICAgICAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdyYW5nZS1zZXAnPi08L1RleHQ+CiAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0ncmFuZ2UtdmFsJz57Y29uZmlnLm1heEJlYXRzVG9DaGFuZ2V9PC9UZXh0PgogICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J3JhbmdlLXVuaXQnPuaLjTwvVGV4dD4KICAgICAgICAgIDwvVmlldz4KICAgICAgICA8L1ZpZXc+CiAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdzbGlkZXItZ3JvdXAnPgogICAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdzbGlkZXItaXRlbSc+CiAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nc2xpZGVyLWxhYmVsJz7mnIDlsI/mi43mlbA6IHtjb25maWcubWluQmVhdHNUb0NoYW5nZX08L1RleHQ+CiAgICAgICAgICAgIDxTbGlkZXIKICAgICAgICAgICAgICB2YWx1ZT17Y29uZmlnLm1pbkJlYXRzVG9DaGFuZ2V9CiAgICAgICAgICAgICAgbWluPXsxfQogICAgICAgICAgICAgIG1heD17MTZ9CiAgICAgICAgICAgICAgc3RlcD17MX0KICAgICAgICAgICAgICBhY3RpdmVDb2xvcj0nI0U5MUU2MycKICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I9J3JnYmEoMjU1LDI1NSwyNTUsMC4xMiknCiAgICAgICAgICAgICAgYmxvY2tDb2xvcj0nI0U5MUU2MycKICAgICAgICAgICAgICBibG9ja1NpemU9ezIwfQogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gdXBkYXRlKCdtaW5CZWF0c1RvQ2hhbmdlJywgZS5kZXRhaWwudmFsdWUpfQogICAgICAgICAgICAvPgogICAgICAgICAgPC9WaWV3PgogICAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdzbGlkZXItaXRlbSc+CiAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nc2xpZGVyLWxhYmVsJz7mnIDlpKfmi43mlbA6IHtjb25maWcubWF4QmVhdHNUb0NoYW5nZX08L1RleHQ+CiAgICAgICAgICAgIDxTbGlkZXIKICAgICAgICAgICAgICB2YWx1ZT17Y29uZmlnLm1heEJlYXRzVG9DaGFuZ2V9CiAgICAgICAgICAgICAgbWluPXtNYXRoLm1heCgyLCBjb25maWcubWluQmVhdHNUb0NoYW5nZSl9CiAgICAgICAgICAgICAgbWF4PXsxNn0KICAgICAgICAgICAgICBzdGVwPXsxfQogICAgICAgICAgICAgIGFjdGl2ZUNvbG9yPScjRTkxRTYzJwogICAgICAgICAgICAgIGJhY2tncm91bmRDb2xvcj0ncmdiYSgyNTUsMjU1LDI1NSwwLjEyKScKICAgICAgICAgICAgICBibG9ja0NvbG9yPScjRTkxRTYzJwogICAgICAgICAgICAgIGJsb2NrU2l6ZT17MjB9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiB1cGRhdGUoJ21heEJlYXRzVG9DaGFuZ2UnLCBlLmRldGFpbC52YWx1ZSl9CiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L1ZpZXc+CiAgICAgICAgPC9WaWV3PgoKICAgICAgICB7LyogU2lnbmFsIFNvdW5kIFR5cGUgKi99CiAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdzZWN0aW9uIHNlY3Rpb24tLXJvdyc+CiAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J3NlY3Rpb24tdGl0bGUnPuaPkOekuumfszwvVGV4dD4KICAgICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nY2hpcC1yb3cnPgogICAgICAgICAgICA8VmlldwogICAgICAgICAgICAgIGNsYXNzTmFtZT17YGNoaXAgJHtjb25maWcuc2lnbmFsU291bmRUeXBlID09PSBTaWduYWxTb3VuZFR5cGUudG9uZSA/ICdjaGlwLS1hY3RpdmUnIDogJyd9YH0KICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB1cGRhdGUoJ3NpZ25hbFNvdW5kVHlwZScsIFNpZ25hbFNvdW5kVHlwZS50b25lKX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nY2hpcC10ZXh0Jz7mj5DnpLrpn7M8L1RleHQ+CiAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgICAgPFZpZXcKICAgICAgICAgICAgICBjbGFzc05hbWU9e2BjaGlwICR7Y29uZmlnLnNpZ25hbFNvdW5kVHlwZSA9PT0gU2lnbmFsU291bmRUeXBlLnZvaWNlRGlyZWN0aW9uID8gJ2NoaXAtLWFjdGl2ZScgOiAnJ31gfQogICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHVwZGF0ZSgnc2lnbmFsU291bmRUeXBlJywgU2lnbmFsU291bmRUeXBlLnZvaWNlRGlyZWN0aW9uKX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nY2hpcC10ZXh0Jz7mlrnlkJHpn7PosIM8L1RleHQ+CiAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgIDwvVmlldz4KICAgICAgICA8L1ZpZXc+CgogICAgICAgIHsvKiBSYW5kb20gQlBNICovfQogICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nc2VjdGlvbic+CiAgICAgICAgICA8VmlldyBjbGFzc05hbWU9J3NlY3Rpb24tLXJvdyc+CiAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nc2VjdGlvbi10aXRsZSc+6ZqP5py65Y+Y6YCfPC9UZXh0PgogICAgICAgICAgICA8U3dpdGNoCiAgICAgICAgICAgICAgY2hlY2tlZD17Y29uZmlnLmVuYWJsZVJhbmRvbUJwbX0KICAgICAgICAgICAgICBjb2xvcj0nI0U5MUU2MycKICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHVwZGF0ZSgnZW5hYmxlUmFuZG9tQnBtJywgZS5kZXRhaWwudmFsdWUpfQogICAgICAgICAgICAvPgogICAgICAgICAgPC9WaWV3PgogICAgICAgICAge2NvbmZpZy5lbmFibGVSYW5kb21CcG0gJiYgKAogICAgICAgICAgICA8VmlldyBjbGFzc05hbWU9J3NsaWRlci1pdGVtJyBzdHlsZT17eyBtYXJnaW5Ub3A6IDEyIH19PgogICAgICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nc2xpZGVyLWxhYmVsJz7lj5jljJbluYXluqY6IHtjb25maWcucmFuZG9tQnBtUGVyY2VudH0lPC9UZXh0PgogICAgICAgICAgICAgIDxTbGlkZXIKICAgICAgICAgICAgICAgIHZhbHVlPXtjb25maWcucmFuZG9tQnBtUGVyY2VudH0KICAgICAgICAgICAgICAgIG1pbj17NX0KICAgICAgICAgICAgICAgIG1heD17MzB9CiAgICAgICAgICAgICAgICBzdGVwPXs1fQogICAgICAgICAgICAgICAgYWN0aXZlQ29sb3I9JyNFOTFFNjMnCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I9J3JnYmEoMjU1LDI1NSwyNTUsMC4xMiknCiAgICAgICAgICAgICAgICBibG9ja0NvbG9yPScjRTkxRTYzJwogICAgICAgICAgICAgICAgYmxvY2tTaXplPXsyMH0KICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gdXBkYXRlKCdyYW5kb21CcG1QZXJjZW50JywgZS5kZXRhaWwudmFsdWUpfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvVmlldz4KICAgICAgICAgICl9CiAgICAgICAgPC9WaWV3PgoKICAgICAgICB7LyogVm9sdW1lIHNldHRpbmdzICovfQogICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nc2VjdGlvbic+CiAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J3NlY3Rpb24tdGl0bGUnPumfs+mHj+iuvue9rjwvVGV4dD4KICAgICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nc2xpZGVyLWl0ZW0nPgogICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J3NsaWRlci1sYWJlbCc+5o+Q56S66Z+z6YePOiB7TWF0aC5yb3VuZChjb25maWcuc2lnbmFsVm9sdW1lICogMTAwKX0lPC9UZXh0PgogICAgICAgICAgICA8U2xpZGVyCiAgICAgICAgICAgICAgdmFsdWU9e2NvbmZpZy5zaWduYWxWb2x1bWUgKiAxMDB9CiAgICAgICAgICAgICAgbWluPXsxMH0KICAgICAgICAgICAgICBtYXg9ezEwMH0KICAgICAgICAgICAgICBzdGVwPXs1fQogICAgICAgICAgICAgIGFjdGl2ZUNvbG9yPScjMDBFNUZGJwogICAgICAgICAgICAgIGJhY2tncm91bmRDb2xvcj0ncmdiYSgyNTUsMjU1LDI1NSwwLjEyKScKICAgICAgICAgICAgICBibG9ja0NvbG9yPScjMDBFNUZGJwogICAgICAgICAgICAgIGJsb2NrU2l6ZT17MjB9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiB1cGRhdGUoJ3NpZ25hbFZvbHVtZScsIGUuZGV0YWlsLnZhbHVlIC8gMTAwKX0KICAgICAgICAgICAgLz4KICAgICAgICAgIDwvVmlldz4KICAgICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nc2xpZGVyLWl0ZW0nPgogICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J3NsaWRlci1sYWJlbCc+6IqC5ouN6Z+z6YePOiB7TWF0aC5yb3VuZChjb25maWcucmVndWxhclZvbHVtZSAqIDEwMCl9JTwvVGV4dD4KICAgICAgICAgICAgPFNsaWRlcgogICAgICAgICAgICAgIHZhbHVlPXtjb25maWcucmVndWxhclZvbHVtZSAqIDEwMH0KICAgICAgICAgICAgICBtaW49ezEwfQogICAgICAgICAgICAgIG1heD17MTAwfQogICAgICAgICAgICAgIHN0ZXA9ezV9CiAgICAgICAgICAgICAgYWN0aXZlQ29sb3I9JyMwMEU1RkYnCiAgICAgICAgICAgICAgYmFja2dyb3VuZENvbG9yPSdyZ2JhKDI1NSwyNTUsMjU1LDAuMTIpJwogICAgICAgICAgICAgIGJsb2NrQ29sb3I9JyMwMEU1RkYnCiAgICAgICAgICAgICAgYmxvY2tTaXplPXsyMH0KICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHVwZGF0ZSgncmVndWxhclZvbHVtZScsIGUuZGV0YWlsLnZhbHVlIC8gMTAwKX0KICAgICAgICAgICAgLz4KICAgICAgICAgIDwvVmlldz4KICAgICAgICA8L1ZpZXc+CiAgICAgIDwvVmlldz4KCiAgICAgIDxWaWV3IGNsYXNzTmFtZT0naG9tZS1mb290ZXInPgogICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nc3RhcnQtYnRuJyBvbkNsaWNrPXtoYW5kbGVTdGFydH0+CiAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J3N0YXJ0LWJ0bi10ZXh0Jz7lvIDlp4vorq3nu4M8L1RleHQ+CiAgICAgICAgPC9WaWV3PgogICAgICA8L1ZpZXc+CiAgICA8L1ZpZXc+CiAgKTsKfQo=
+import { useState, useEffect } from 'react';
+import Taro, { useShareAppMessage, useShareTimeline } from '@tarojs/taro';
+import { View, Text, Picker, Switch, Slider } from '@tarojs/components';
+import BpmControl from '../../components/BpmControl';
+import {
+  TrainingConfig,
+  TrainingMode,
+  SignalSoundType,
+  DEFAULT_CONFIG,
+} from '../../models/config';
+import './index.scss';
+
+const MODE_LABELS: Record<TrainingMode, string> = {
+  [TrainingMode.free]: '自由训练',
+  [TrainingMode.timed]: '计时训练',
+  [TrainingMode.progressive]: '渐进加速',
+  [TrainingMode.interval]: '间歇训练',
+};
+
+const MODES = Object.values(TrainingMode);
+
+const STORAGE_KEY = 'training_config';
+
+export default function HomePage() {
+  const [config, setConfig] = useState<TrainingConfig>(() => {
+    try {
+      const saved = Taro.getStorageSync(STORAGE_KEY);
+      return saved ? { ...DEFAULT_CONFIG, ...JSON.parse(saved) } : { ...DEFAULT_CONFIG };
+    } catch {
+      return { ...DEFAULT_CONFIG };
+    }
+  });
+
+  useEffect(() => {
+    Taro.setStorageSync(STORAGE_KEY, JSON.stringify(config));
+  }, [config]);
+
+  const update = <K extends keyof TrainingConfig>(key: K, value: TrainingConfig[K]) => {
+    setConfig(prev => ({ ...prev, [key]: value }));
+  };
+
+  const handleStart = () => {
+    Taro.navigateTo({
+      url: `/pages/training/index?config=${encodeURIComponent(JSON.stringify(config))}`,
+    });
+  };
+
+  // 转发给好友
+  useShareAppMessage(() => ({
+    title: '敏捷训练计时器 — 变向反应训练神器',
+    path: '/pages/index/index',
+  }));
+
+  // 分享到朋友圈（仅安卓微信显示）
+  useShareTimeline(() => ({
+    title: '敏捷训练计时器 — 变向反应训练神器',
+  }));
+
+  return (
+    <View className='home-page'>
+      <View className='home-header'>
+        <Text className='home-title'>敏捷训练计时器</Text>
+        <Text className='home-subtitle'>Agility Training Timer</Text>
+      </View>
+
+      <View className='home-content'>
+        {/* Training Mode */}
+        <View className='section'>
+          <Text className='section-title'>训练模式</Text>
+          <View className='mode-tabs'>
+            {MODES.map(mode => (
+              <View
+                key={mode}
+                className={`mode-tab ${config.mode === mode ? 'mode-tab--active' : ''}`}
+                onClick={() => update('mode', mode)}
+              >
+                <Text className='mode-tab-text'>{MODE_LABELS[mode]}</Text>
+              </View>
+            ))}
+          </View>
+        </View>
+
+        {/* BPM */}
+        <View className='section'>
+          <BpmControl
+            bpm={config.bpm}
+            onBpmChange={(bpm) => update('bpm', bpm)}
+          />
+        </View>
+
+        {/* Timed mode duration */}
+        {config.mode === TrainingMode.timed && (
+          <View className='section section--row'>
+            <Text className='section-title'>训练时长</Text>
+            <View className='duration-control'>
+              <View className='duration-btn' onClick={() => update('trainingDuration', Math.max(1, config.trainingDuration - 1))}>
+                <Text className='duration-btn-text'>-</Text>
+              </View>
+              <Text className='duration-value'>{config.trainingDuration} 分钟</Text>
+              <View className='duration-btn' onClick={() => update('trainingDuration', Math.min(60, config.trainingDuration + 1))}>
+                <Text className='duration-btn-text'>+</Text>
+              </View>
+            </View>
+          </View>
+        )}
+
+        {/* Interval settings */}
+        {config.mode === TrainingMode.interval && (
+          <>
+            <View className='section section--row'>
+              <Text className='section-title'>训练时长 (秒)</Text>
+              <View className='duration-control'>
+                <View className='duration-btn' onClick={() => update('intervalWorkSeconds', Math.max(5, config.intervalWorkSeconds - 5))}>
+                  <Text className='duration-btn-text'>-5</Text>
+                </View>
+                <Text className='duration-value'>{config.intervalWorkSeconds}s</Text>
+                <View className='duration-btn' onClick={() => update('intervalWorkSeconds', Math.min(300, config.intervalWorkSeconds + 5))}>
+                  <Text className='duration-btn-text'>+5</Text>
+                </View>
+              </View>
+            </View>
+            <View className='section section--row'>
+              <Text className='section-title'>休息时长 (秒)</Text>
+              <View className='duration-control'>
+                <View className='duration-btn' onClick={() => update('intervalRestSeconds', Math.max(5, config.intervalRestSeconds - 5))}>
+                  <Text className='duration-btn-text'>-5</Text>
+                </View>
+                <Text className='duration-value'>{config.intervalRestSeconds}s</Text>
+                <View className='duration-btn' onClick={() => update('intervalRestSeconds', Math.min(120, config.intervalRestSeconds + 5))}>
+                  <Text className='duration-btn-text'>+5</Text>
+                </View>
+              </View>
+            </View>
+            <View className='section section--row'>
+              <Text className='section-title'>轮数</Text>
+              <View className='duration-control'>
+                <View className='duration-btn' onClick={() => update('intervalRounds', Math.max(1, config.intervalRounds - 1))}>
+                  <Text className='duration-btn-text'>-</Text>
+                </View>
+                <Text className='duration-value'>{config.intervalRounds} 轮</Text>
+                <View className='duration-btn' onClick={() => update('intervalRounds', Math.min(30, config.intervalRounds + 1))}>
+                  <Text className='duration-btn-text'>+</Text>
+                </View>
+              </View>
+            </View>
+          </>
+        )}
+
+        {/* Direction Count */}
+        <View className='section section--row'>
+          <Text className='section-title'>变向数量</Text>
+          <View className='chip-row'>
+            {[2, 3, 4].map(n => (
+              <View
+                key={n}
+                className={`chip ${config.directionCount === n ? 'chip--active' : ''}`}
+                onClick={() => update('directionCount', n)}
+              >
+                <Text className='chip-text'>{n} 方向</Text>
+              </View>
+            ))}
+          </View>
+        </View>
+
+        {/* Beats to change */}
+        <View className='section section--row'>
+          <Text className='section-title'>变向间隔</Text>
+          <View className='range-row'>
+            <Text className='range-val'>{config.minBeatsToChange}</Text>
+            <Text className='range-sep'>-</Text>
+            <Text className='range-val'>{config.maxBeatsToChange}</Text>
+            <Text className='range-unit'>拍</Text>
+          </View>
+        </View>
+        <View className='slider-group'>
+          <View className='slider-item'>
+            <Text className='slider-label'>最小拍数: {config.minBeatsToChange}</Text>
+            <Slider
+              value={config.minBeatsToChange}
+              min={1}
+              max={16}
+              step={1}
+              activeColor='#E91E63'
+              backgroundColor='rgba(255,255,255,0.12)'
+              blockColor='#E91E63'
+              blockSize={20}
+              onChange={(e) => update('minBeatsToChange', e.detail.value)}
+            />
+          </View>
+          <View className='slider-item'>
+            <Text className='slider-label'>最大拍数: {config.maxBeatsToChange}</Text>
+            <Slider
+              value={config.maxBeatsToChange}
+              min={Math.max(2, config.minBeatsToChange)}
+              max={16}
+              step={1}
+              activeColor='#E91E63'
+              backgroundColor='rgba(255,255,255,0.12)'
+              blockColor='#E91E63'
+              blockSize={20}
+              onChange={(e) => update('maxBeatsToChange', e.detail.value)}
+            />
+          </View>
+        </View>
+
+        {/* Signal Sound Type */}
+        <View className='section section--row'>
+          <Text className='section-title'>提示音</Text>
+          <View className='chip-row'>
+            <View
+              className={`chip ${config.signalSoundType === SignalSoundType.tone ? 'chip--active' : ''}`}
+              onClick={() => update('signalSoundType', SignalSoundType.tone)}
+            >
+              <Text className='chip-text'>提示音</Text>
+            </View>
+            <View
+              className={`chip ${config.signalSoundType === SignalSoundType.voiceDirection ? 'chip--active' : ''}`}
+              onClick={() => update('signalSoundType', SignalSoundType.voiceDirection)}
+            >
+              <Text className='chip-text'>方向音调</Text>
+            </View>
+          </View>
+        </View>
+
+        {/* Random BPM */}
+        <View className='section'>
+          <View className='section--row'>
+            <Text className='section-title'>随机变速</Text>
+            <Switch
+              checked={config.enableRandomBpm}
+              color='#E91E63'
+              onChange={(e) => update('enableRandomBpm', e.detail.value)}
+            />
+          </View>
+          {config.enableRandomBpm && (
+            <View className='slider-item' style={{ marginTop: 12 }}>
+              <Text className='slider-label'>变化幅度: {config.randomBpmPercent}%</Text>
+              <Slider
+                value={config.randomBpmPercent}
+                min={5}
+                max={30}
+                step={5}
+                activeColor='#E91E63'
+                backgroundColor='rgba(255,255,255,0.12)'
+                blockColor='#E91E63'
+                blockSize={20}
+                onChange={(e) => update('randomBpmPercent', e.detail.value)}
+              />
+            </View>
+          )}
+        </View>
+
+        {/* Volume settings */}
+        <View className='section'>
+          <Text className='section-title'>音量设置</Text>
+          <View className='slider-item'>
+            <Text className='slider-label'>提示音量: {Math.round(config.signalVolume * 100)}%</Text>
+            <Slider
+              value={config.signalVolume * 100}
+              min={10}
+              max={100}
+              step={5}
+              activeColor='#00E5FF'
+              backgroundColor='rgba(255,255,255,0.12)'
+              blockColor='#00E5FF'
+              blockSize={20}
+              onChange={(e) => update('signalVolume', e.detail.value / 100)}
+            />
+          </View>
+          <View className='slider-item'>
+            <Text className='slider-label'>节拍音量: {Math.round(config.regularVolume * 100)}%</Text>
+            <Slider
+              value={config.regularVolume * 100}
+              min={10}
+              max={100}
+              step={5}
+              activeColor='#00E5FF'
+              backgroundColor='rgba(255,255,255,0.12)'
+              blockColor='#00E5FF'
+              blockSize={20}
+              onChange={(e) => update('regularVolume', e.detail.value / 100)}
+            />
+          </View>
+        </View>
+      </View>
+
+      <View className='home-footer'>
+        <View className='start-btn' onClick={handleStart}>
+          <Text className='start-btn-text'>开始训练</Text>
+        </View>
+      </View>
+    </View>
+  );
+}

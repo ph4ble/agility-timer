@@ -1,1 +1,100 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CmltcG9ydCAnLi4vbW9kZWxzL3RyYWluaW5nX2NvbmZpZy5kYXJ0JzsKCmNsYXNzIERpcmVjdGlvbk92ZXJsYXkgZXh0ZW5kcyBTdGF0ZWZ1bFdpZGdldCB7CiAgZmluYWwgZG91YmxlIHNpemU7CiAgZmluYWwgVm9pZENhbGxiYWNrPyBvblNpZ25hbDsKCiAgY29uc3QgRGlyZWN0aW9uT3ZlcmxheSh7c3VwZXIua2V5LCB0aGlzLnNpemUgPSAyODAsIHRoaXMub25TaWduYWx9KTsKCiAgQG92ZXJyaWRlCiAgU3RhdGU8RGlyZWN0aW9uT3ZlcmxheT4gY3JlYXRlU3RhdGUoKSA9PiBEaXJlY3Rpb25PdmVybGF5U3RhdGUoKTsKfQoKY2xhc3MgRGlyZWN0aW9uT3ZlcmxheVN0YXRlIGV4dGVuZHMgU3RhdGU8RGlyZWN0aW9uT3ZlcmxheT4gd2l0aCBTaW5nbGVUaWNrZXJQcm92aWRlclN0YXRlTWl4aW4gewogIGxhdGUgQW5pbWF0aW9uQ29udHJvbGxlciBfY29udHJvbGxlcjsKICBsYXRlIEFuaW1hdGlvbjxkb3VibGU+IF9zY2FsZUFuaW07CgogIERpcmVjdGlvbj8gX2N1cnJlbnREaXJlY3Rpb247CiAgQ29sb3IgX2N1cnJlbnRDb2xvciA9IENvbG9ycy5yZWRBY2NlbnQ7CgogIHN0YXRpYyBjb25zdCBfZGlyQ29sb3JzID0gewogICAgRGlyZWN0aW9uLmZvcndhcmQ6IENvbG9yKDB4RkY0Q0FGNTApLAogICAgRGlyZWN0aW9uLmJhY2t3YXJkOiBDb2xvcigweEZGMjE5NkYzKSwKICAgIERpcmVjdGlvbi5sZWZ0OiBDb2xvcigweEZGRkY5ODAwKSwKICAgIERpcmVjdGlvbi5yaWdodDogQ29sb3IoMHhGRkU5MUU2MyksCiAgfTsKCiAgQG92ZXJyaWRlCiAgdm9pZCBpbml0U3RhdGUoKSB7CiAgICBzdXBlci5pbml0U3RhdGUoKTsKICAgIF9jb250cm9sbGVyID0gQW5pbWF0aW9uQ29udHJvbGxlcigKICAgICAgdnN5bmM6IHRoaXMsCiAgICAgIGR1cmF0aW9uOiBjb25zdCBEdXJhdGlvbihtaWxsaXNlY29uZHM6IDQwMCksCiAgICApOwogICAgX3NjYWxlQW5pbSA9IFR3ZWVuKGJlZ2luOiAwLjMsIGVuZDogMS4wKS5hbmltYXRlKAogICAgICBDdXJ2ZWRBbmltYXRpb24ocGFyZW50OiBfY29udHJvbGxlciwgY3VydmU6IEN1cnZlcy5lbGFzdGljT3V0KSwKICAgICk7CiAgfQoKICB2b2lkIHNob3dEaXJlY3Rpb24oRGlyZWN0aW9uIGRpcikgewogICAgX2N1cnJlbnREaXJlY3Rpb24gPSBkaXI7CiAgICBfY3VycmVudENvbG9yID0gX2RpckNvbG9yc1tkaXJdID8/IENvbG9ycy5yZWRBY2NlbnQ7CiAgICBfY29udHJvbGxlci5mb3J3YXJkKGZyb206IDApOwogIH0KCiAgQG92ZXJyaWRlCiAgdm9pZCBkaXNwb3NlKCkgewogICAgX2NvbnRyb2xsZXIuZGlzcG9zZSgpOwogICAgc3VwZXIuZGlzcG9zZSgpOwogIH0KCiAgQG92ZXJyaWRlCiAgV2lkZ2V0IGJ1aWxkKEJ1aWxkQ29udGV4dCBjb250ZXh0KSB7CiAgICByZXR1cm4gU2l6ZWRCb3goCiAgICAgIHdpZHRoOiB3aWRnZXQuc2l6ZSwKICAgICAgaGVpZ2h0OiB3aWRnZXQuc2l6ZSwKICAgICAgY2hpbGQ6IEFuaW1hdGVkQnVpbGRlcigKICAgICAgICBhbmltYXRpb246IF9jb250cm9sbGVyLAogICAgICAgIGJ1aWxkZXI6IChfLCBjaGlsZCkgewogICAgICAgICAgaWYgKF9jdXJyZW50RGlyZWN0aW9uID09IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuIGNvbnN0IFNpemVkQm94LnNocmluaygpOwogICAgICAgICAgfQogICAgICAgICAgcmV0dXJuIE9wYWNpdHkoCiAgICAgICAgICAgIG9wYWNpdHk6IChfY29udHJvbGxlci52YWx1ZSA8PSAwLjIpCiAgICAgICAgICAgICAgICA/IF9jb250cm9sbGVyLnZhbHVlIC8gMC4yCiAgICAgICAgICAgICAgICA6IDEuMCAtIChfY29udHJvbGxlci52YWx1ZSAtIDAuMikgLyAwLjgsCiAgICAgICAgICAgIGNoaWxkOiBUcmFuc2Zvcm0uc2NhbGUoCiAgICAgICAgICAgICAgc2NhbGU6IF9zY2FsZUFuaW0udmFsdWUsCiAgICAgICAgICAgICAgY2hpbGQ6IF9idWlsZEFycm93KF9jdXJyZW50RGlyZWN0aW9uISwgX2N1cnJlbnRDb2xvciksCiAgICAgICAgICAgICksCiAgICAgICAgICApOwogICAgICAgIH0sCiAgICAgICksCiAgICApOwogIH0KCiAgV2lkZ2V0IF9idWlsZEFycm93KERpcmVjdGlvbiBkaXIsIENvbG9yIGNvbG9yKSB7CiAgICBJY29uRGF0YSBpY29uOwogICAgc3dpdGNoIChkaXIpIHsKICAgICAgY2FzZSBEaXJlY3Rpb24uZm9yd2FyZDoKICAgICAgICBpY29uID0gSWNvbnMuYXJyb3dfdXB3YXJkX3JvdW5kZWQ7CiAgICAgIGNhc2UgRGlyZWN0aW9uLmJhY2t3YXJkOgogICAgICAgIGljb24gPSBJY29ucy5hcnJvd19kb3dud2FyZF9yb3VuZGVkOwogICAgICBjYXNlIERpcmVjdGlvbi5sZWZ0OgogICAgICAgIGljb24gPSBJY29ucy5hcnJvd19iYWNrX3JvdW5kZWQ7CiAgICAgIGNhc2UgRGlyZWN0aW9uLnJpZ2h0OgogICAgICAgIGljb24gPSBJY29ucy5hcnJvd19mb3J3YXJkX3JvdW5kZWQ7CiAgICB9CiAgICByZXR1cm4gQ29udGFpbmVyKAogICAgICBkZWNvcmF0aW9uOiBCb3hEZWNvcmF0aW9uKAogICAgICAgIHNoYXBlOiBCb3hTaGFwZS5jaXJjbGUsCiAgICAgICAgY29sb3I6IGNvbG9yLndpdGhPcGFjaXR5KDAuOSksCiAgICAgICAgYm94U2hhZG93OiBbCiAgICAgICAgICBCb3hTaGFkb3coY29sb3I6IGNvbG9yLndpdGhPcGFjaXR5KDAuNSksIGJsdXJSYWRpdXM6IDMwLCBzcHJlYWRSYWRpdXM6IDEwKSwKICAgICAgICBdLAogICAgICApLAogICAgICBjaGlsZDogSWNvbihpY29uLCBzaXplOiB3aWRnZXQuc2l6ZSAqIDAuNSwgY29sb3I6IENvbG9ycy53aGl0ZSksCiAgICApOwogIH0KfQo=
+import 'package:flutter/material.dart';
+import '../models/training_config.dart';
+
+class DirectionOverlay extends StatefulWidget {
+  final double size;
+  final VoidCallback? onSignal;
+
+  const DirectionOverlay({super.key, this.size = 280, this.onSignal});
+
+  @override
+  State<DirectionOverlay> createState() => DirectionOverlayState();
+}
+
+class DirectionOverlayState extends State<DirectionOverlay> with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _scaleAnim;
+
+  Direction? _currentDirection;
+  Color _currentColor = Colors.redAccent;
+
+  static const _dirColors = {
+    Direction.forward: Color(0xFF4CAF50),
+    Direction.backward: Color(0xFF2196F3),
+    Direction.left: Color(0xFFFF9800),
+    Direction.right: Color(0xFFE91E63),
+  };
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 400),
+    );
+    _scaleAnim = Tween(begin: 0.3, end: 1.0).animate(
+      CurvedAnimation(parent: _controller, curve: Curves.elasticOut),
+    );
+  }
+
+  void showDirection(Direction dir) {
+    _currentDirection = dir;
+    _currentColor = _dirColors[dir] ?? Colors.redAccent;
+    _controller.forward(from: 0);
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: widget.size,
+      height: widget.size,
+      child: AnimatedBuilder(
+        animation: _controller,
+        builder: (_, child) {
+          if (_currentDirection == null) {
+            return const SizedBox.shrink();
+          }
+          return Opacity(
+            opacity: (_controller.value <= 0.2)
+                ? _controller.value / 0.2
+                : 1.0 - (_controller.value - 0.2) / 0.8,
+            child: Transform.scale(
+              scale: _scaleAnim.value,
+              child: _buildArrow(_currentDirection!, _currentColor),
+            ),
+          );
+        },
+      ),
+    );
+  }
+
+  Widget _buildArrow(Direction dir, Color color) {
+    IconData icon;
+    switch (dir) {
+      case Direction.forward:
+        icon = Icons.arrow_upward_rounded;
+      case Direction.backward:
+        icon = Icons.arrow_downward_rounded;
+      case Direction.left:
+        icon = Icons.arrow_back_rounded;
+      case Direction.right:
+        icon = Icons.arrow_forward_rounded;
+    }
+    return Container(
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        color: color.withOpacity(0.9),
+        boxShadow: [
+          BoxShadow(color: color.withOpacity(0.5), blurRadius: 30, spreadRadius: 10),
+        ],
+      ),
+      child: Icon(icon, size: widget.size * 0.5, color: Colors.white),
+    );
+  }
+}

@@ -1,1 +1,373 @@
-aW1wb3J0ICdkYXJ0OmFzeW5jJzsKCmltcG9ydCAncGFja2FnZTpmbHV0dGVyL21hdGVyaWFsLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6Zmx1dHRlci9zZXJ2aWNlcy5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOndha2Vsb2NrX3BsdXMvd2FrZWxvY2tfcGx1cy5kYXJ0JzsKCmltcG9ydCAnLi4vZW5naW5lcy9tZXRyb25vbWVfZW5naW5lLmRhcnQnOwppbXBvcnQgJy4uL2VuZ2luZXMvdG9uZV9nZW5lcmF0b3IuZGFydCc7CmltcG9ydCAnLi4vZW5naW5lcy90cmFpbmluZ19lbmdpbmUuZGFydCc7CmltcG9ydCAnLi4vbW9kZWxzL3RyYWluaW5nX2NvbmZpZy5kYXJ0JzsKaW1wb3J0ICcuLi9zZXJ2aWNlcy9hdWRpb19zZXJ2aWNlLmRhcnQnOwppbXBvcnQgJy4uL3dpZGdldHMvYmVhdF9yaW5nLmRhcnQnOwppbXBvcnQgJy4uL3dpZGdldHMvZGlyZWN0aW9uX292ZXJsYXkuZGFydCc7CgpjbGFzcyBUcmFpbmluZ1NjcmVlbiBleHRlbmRzIFN0YXRlZnVsV2lkZ2V0IHsKICBmaW5hbCBUcmFpbmluZ0NvbmZpZyBjb25maWc7CgogIGNvbnN0IFRyYWluaW5nU2NyZWVuKHtzdXBlci5rZXksIHJlcXVpcmVkIHRoaXMuY29uZmlnfSk7CgogIEBvdmVycmlkZQogIFN0YXRlPFRyYWluaW5nU2NyZWVuPiBjcmVhdGVTdGF0ZSgpID0+IF9UcmFpbmluZ1NjcmVlblN0YXRlKCk7Cn0KCmNsYXNzIF9UcmFpbmluZ1NjcmVlblN0YXRlIGV4dGVuZHMgU3RhdGU8VHJhaW5pbmdTY3JlZW4+CiAgICB3aXRoIFRpY2tlclByb3ZpZGVyU3RhdGVNaXhpbiB7CiAgZmluYWwgR2xvYmFsS2V5PEJlYXRSaW5nU3RhdGU+IF9iZWF0UmluZ0tleSA9IEdsb2JhbEtleSgpOwogIGZpbmFsIEdsb2JhbEtleTxEaXJlY3Rpb25PdmVybGF5U3RhdGU+IF9kaXJlY3Rpb25LZXkgPSBHbG9iYWxLZXkoKTsKCiAgbGF0ZSBUcmFpbmluZ0VuZ2luZSBfZW5naW5lOwogIGxhdGUgQXVkaW9TZXJ2aWNlIF9hdWRpbzsKCiAgU3RyZWFtU3Vic2NyaXB0aW9uPEJlYXRFdmVudD4/IF9iZWF0U3ViOwogIFN0cmVhbVN1YnNjcmlwdGlvbjxTaWduYWxFdmVudD4/IF9zaWduYWxTdWI7CiAgU3RyZWFtU3Vic2NyaXB0aW9uPFRyYWluaW5nU3RhdGU+PyBfc3RhdGVTdWI7CiAgU3RyZWFtU3Vic2NyaXB0aW9uPHZvaWQ+PyBfdGlja1N1YjsKICBTdHJlYW1TdWJzY3JpcHRpb248Q291bnRkb3duRXZlbnQ+PyBfY291bnRkb3duU3ViOwogIFN0cmVhbVN1YnNjcmlwdGlvbjx2b2lkPj8gX2VuZEJlbGxTdWI7CgogIFRyYWluaW5nU3RhdGUgX3N0YXRlID0gVHJhaW5pbmdTdGF0ZSgpOwogIGludCBfY291bnRJblZhbHVlID0gMzsKICBpbnQgX2NvdW50ZG93blJlbWFpbmluZyA9IC0xOwogIGJvb2wgX2lzUGF1c2VkID0gZmFsc2U7CiAgbGF0ZSBBbmltYXRpb25Db250cm9sbGVyIF90aW1lckZsYXNoQ29udHJvbGxlcjsKICBsYXRlIEFuaW1hdGlvbjxkb3VibGU+IF90aW1lckZsYXNoQW5pbTsKCiAgQG92ZXJyaWRlCiAgdm9pZCBpbml0U3RhdGUoKSB7CiAgICBzdXBlci5pbml0U3RhdGUoKTsKICAgIF90aW1lckZsYXNoQ29udHJvbGxlciA9IEFuaW1hdGlvbkNvbnRyb2xsZXIoCiAgICAgIHZzeW5jOiB0aGlzLAogICAgICBkdXJhdGlvbjogY29uc3QgRHVyYXRpb24obWlsbGlzZWNvbmRzOiA1MDApLAogICAgKTsKICAgIF90aW1lckZsYXNoQW5pbSA9IFR3ZWVuKGJlZ2luOiAxLjAsIGVuZDogMC40KS5hbmltYXRlKAogICAgICBDdXJ2ZWRBbmltYXRpb24ocGFyZW50OiBfdGltZXJGbGFzaENvbnRyb2xsZXIsIGN1cnZlOiBDdXJ2ZXMuZWFzZUluT3V0KSwKICAgICk7CiAgICBfZW5naW5lID0gVHJhaW5pbmdFbmdpbmUod2lkZ2V0LmNvbmZpZyk7CiAgICBfYXVkaW8gPSBBdWRpb1NlcnZpY2UoKTsKICAgIF9pbml0QW5kU3RhcnQoKTsKICB9CgogIEZ1dHVyZTx2b2lkPiBfaW5pdEFuZFN0YXJ0KCkgYXN5bmMgewogICAgYXdhaXQgX2F1ZGlvLmluaXQoKTsKICAgIGlmICghbW91bnRlZCkgcmV0dXJuOwogICAgX3N0YXJ0VHJhaW5pbmcoKTsKICB9CgogIEZ1dHVyZTx2b2lkPiBfc3RhcnRUcmFpbmluZygpIGFzeW5jIHsKICAgIF9zdGF0ZVN1YiA9IF9lbmdpbmUuc3RhdGVTdHJlYW0ubGlzdGVuKChzdGF0ZSkgewogICAgICBpZiAobW91bnRlZCkgewogICAgICAgIHNldFN0YXRlKCgpIHsKICAgICAgICAgIF9zdGF0ZSA9IHN0YXRlOwogICAgICAgICAgX2lzUGF1c2VkID0gc3RhdGUucGhhc2UgPT0gVHJhaW5pbmdQaGFzZS5wYXVzZWQ7CiAgICAgICAgfSk7CiAgICAgIH0KICAgICAgaWYgKHN0YXRlLnBoYXNlID09IFRyYWluaW5nUGhhc2UucnVubmluZykgewogICAgICAgIFdha2Vsb2NrUGx1cy5lbmFibGUoKTsKICAgICAgfSBlbHNlIGlmIChzdGF0ZS5waGFzZSA9PSBUcmFpbmluZ1BoYXNlLnBhdXNlZCB8fAogICAgICAgICAgc3RhdGUucGhhc2UgPT0gVHJhaW5pbmdQaGFzZS5maW5pc2hlZCkgewogICAgICAgIFdha2Vsb2NrUGx1cy5kaXNhYmxlKCk7CiAgICAgIH0KICAgICAgaWYgKHN0YXRlLnBoYXNlID09IFRyYWluaW5nUGhhc2UuZmluaXNoZWQpIHsKICAgICAgICBfc2hvd0ZpbmlzaGVkRGlhbG9nKCk7CiAgICAgIH0KICAgIH0pOwoKICAgIF9zaWduYWxTdWIgPSBfZW5naW5lLnNpZ25hbFN0cmVhbS5saXN0ZW4oKHNpZ25hbCkgewogICAgICBfYXVkaW8ucGxheVNpZ25hbChzaWduYWwuc2lnbmFsVHlwZSwgd2lkZ2V0LmNvbmZpZy5zaWduYWxWb2x1bWUpOwogICAgICBfZGlyZWN0aW9uS2V5LmN1cnJlbnRTdGF0ZT8uc2hvd0RpcmVjdGlvbihzaWduYWwuZGlyZWN0aW9uKTsKICAgICAgSGFwdGljRmVlZGJhY2suaGVhdnlJbXBhY3QoKTsKICAgIH0pOwoKICAgIF90aWNrU3ViID0gX2VuZ2luZS50aWNrU3RyZWFtLmxpc3RlbigoXykgewogICAgICBfYXVkaW8ucGxheVRpY2sod2lkZ2V0LmNvbmZpZy5yZWd1bGFyVm9sdW1lKTsKICAgICAgX2JlYXRSaW5nS2V5LmN1cnJlbnRTdGF0ZT8ucHVsc2UoKTsKICAgIH0pOwoKICAgIF9iZWF0U3ViID0gX2VuZ2luZS5iZWF0U3RyZWFtLmxpc3RlbigoYmVhdCkgewogICAgICBpZiAoYmVhdC5pc0NvdW50SW4pIHsKICAgICAgICBpZiAoYmVhdC5iZWF0TnVtYmVyID4gMCkgewogICAgICAgICAgaWYgKG1vdW50ZWQpIHNldFN0YXRlKCgpID0+IF9jb3VudEluVmFsdWUgPSBiZWF0LmJlYXROdW1iZXIpOwogICAgICAgICAgX2F1ZGlvLnBsYXlDb3VudEluQmVlcChiZWF0LmJlYXROdW1iZXIsIHdpZGdldC5jb25maWcucmVndWxhclZvbHVtZSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIGlmIChtb3VudGVkKSBzZXRTdGF0ZSgoKSA9PiBfY291bnRJblZhbHVlID0gMCk7CiAgICAgICAgICBfYXVkaW8ucGxheUNvdW50SW5CZWVwKDAsIHdpZGdldC5jb25maWcucmVndWxhclZvbHVtZSk7CiAgICAgICAgfQogICAgICB9CiAgICB9KTsKCiAgICBfY291bnRkb3duU3ViID0gX2VuZ2luZS5jb3VudGRvd25TdHJlYW0ubGlzdGVuKChldmVudCkgewogICAgICBfYXVkaW8ucGxheUNvdW50ZG93bldhcm5pbmcod2lkZ2V0LmNvbmZpZy5yZWd1bGFyVm9sdW1lKTsKICAgICAgaWYgKG1vdW50ZWQpIHNldFN0YXRlKCgpID0+IF9jb3VudGRvd25SZW1haW5pbmcgPSBldmVudC5yZW1haW5pbmdTZWNvbmRzKTsKICAgICAgX3RpbWVyRmxhc2hDb250cm9sbGVyLnJlcGVhdChyZXZlcnNlOiB0cnVlKTsKICAgICAgRnV0dXJlLmRlbGF5ZWQoY29uc3QgRHVyYXRpb24oc2Vjb25kczogMiksICgpIHsKICAgICAgICBpZiAobW91bnRlZCkgewogICAgICAgICAgX3RpbWVyRmxhc2hDb250cm9sbGVyLnN0b3AoKTsKICAgICAgICAgIF90aW1lckZsYXNoQ29udHJvbGxlci5yZXNldCgpOwogICAgICAgICAgc2V0U3RhdGUoKCkgPT4gX2NvdW50ZG93blJlbWFpbmluZyA9IC0xKTsKICAgICAgICB9CiAgICAgIH0pOwogICAgfSk7CgogICAgX2VuZEJlbGxTdWIgPSBfZW5naW5lLmVuZEJlbGxTdHJlYW0ubGlzdGVuKChfKSB7CiAgICAgIF9hdWRpby5wbGF5RW5kQmVsbCh3aWRnZXQuY29uZmlnLnJlZ3VsYXJWb2x1bWUpOwogICAgfSk7CgogICAgYXdhaXQgX2VuZ2luZS5zdGFydCgpOwogIH0KCiAgdm9pZCBfdG9nZ2xlUGF1c2UoKSB7CiAgICBpZiAoX2lzUGF1c2VkKSB7CiAgICAgIF9lbmdpbmUucmVzdW1lKCk7CiAgICB9IGVsc2UgewogICAgICBfZW5naW5lLnBhdXNlKCk7CiAgICB9CiAgfQoKICB2b2lkIF9zdG9wVHJhaW5pbmcoKSB7CiAgICBfZW5naW5lLnN0b3AoKTsKICB9CgogIHZvaWQgX3Nob3dGaW5pc2hlZERpYWxvZygpIHsKICAgIHNob3dEaWFsb2coCiAgICAgIGNvbnRleHQ6IGNvbnRleHQsCiAgICAgIGJhcnJpZXJEaXNtaXNzaWJsZTogZmFsc2UsCiAgICAgIGJ1aWxkZXI6IChjdHgpID0+IEFsZXJ0RGlhbG9nKAogICAgICAgIGJhY2tncm91bmRDb2xvcjogY29uc3QgQ29sb3IoMHhGRjFBMUEyRSksCiAgICAgICAgc2hhcGU6IFJvdW5kZWRSZWN0YW5nbGVCb3JkZXIoYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoMjApKSwKICAgICAgICB0aXRsZTogY29uc3QgVGV4dCgn6K6t57uD57uT5p2fJywKICAgICAgICAgICAgc3R5bGU6IFRleHRTdHlsZShjb2xvcjogQ29sb3JzLndoaXRlKSwgdGV4dEFsaWduOiBUZXh0QWxpZ24uY2VudGVyKSwKICAgICAgICBjb250ZW50OiBDb2x1bW4oCiAgICAgICAgICBtYWluQXhpc1NpemU6IE1haW5BeGlzU2l6ZS5taW4sCiAgICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgICBUZXh0KCfml7bpl7Q6ICR7X2Zvcm1hdFRpbWUoX3N0YXRlLmVsYXBzZWRTZWNvbmRzKX0nLAogICAgICAgICAgICAgICAgc3R5bGU6IGNvbnN0IFRleHRTdHlsZShjb2xvcjogQ29sb3JzLndoaXRlNzApKSwKICAgICAgICAgICAgY29uc3QgU2l6ZWRCb3goaGVpZ2h0OiA4KSwKICAgICAgICAgICAgVGV4dCgn5Y+Y5ZCR5L+h5Y+3OiAke19zdGF0ZS5zaWduYWxDb3VudH0g5qyhJywKICAgICAgICAgICAgICAgIHN0eWxlOiBjb25zdCBUZXh0U3R5bGUoY29sb3I6IENvbG9ycy53aGl0ZTcwKSksCiAgICAgICAgICAgIGNvbnN0IFNpemVkQm94KGhlaWdodDogOCksCiAgICAgICAgICAgIFRleHQoJ+W5s+Wdh0JQTTogJHtfc3RhdGUuY3VycmVudEJwbX0nLAogICAgICAgICAgICAgICAgc3R5bGU6IGNvbnN0IFRleHRTdHlsZShjb2xvcjogQ29sb3JzLndoaXRlNzApKSwKICAgICAgICAgIF0sCiAgICAgICAgKSwKICAgICAgICBhY3Rpb25zOiBbCiAgICAgICAgICBUZXh0QnV0dG9uKAogICAgICAgICAgICBvblByZXNzZWQ6ICgpIHsKICAgICAgICAgICAgICBOYXZpZ2F0b3IucG9wKGN0eCk7CiAgICAgICAgICAgICAgaWYgKG1vdW50ZWQpIE5hdmlnYXRvci5wb3AoY29udGV4dCk7CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGNoaWxkOiBjb25zdCBUZXh0KCfov5Tlm54nLCBzdHlsZTogVGV4dFN0eWxlKGZvbnRTaXplOiAxNikpLAogICAgICAgICAgKSwKICAgICAgICBdLAogICAgICApLAogICAgKTsKICB9CgogIEBvdmVycmlkZQogIHZvaWQgZGlzcG9zZSgpIHsKICAgIF9iZWF0U3ViPy5jYW5jZWwoKTsKICAgIF9zaWduYWxTdWI/LmNhbmNlbCgpOwogICAgX3N0YXRlU3ViPy5jYW5jZWwoKTsKICAgIF90aWNrU3ViPy5jYW5jZWwoKTsKICAgIF9jb3VudGRvd25TdWI/LmNhbmNlbCgpOwogICAgX2VuZEJlbGxTdWI/LmNhbmNlbCgpOwogICAgX2VuZ2luZS5kaXNwb3NlKCk7CiAgICBfYXVkaW8uZGlzcG9zZSgpOwogICAgX3RpbWVyRmxhc2hDb250cm9sbGVyLmRpc3Bvc2UoKTsKICAgIFdha2Vsb2NrUGx1cy5kaXNhYmxlKCk7CiAgICBzdXBlci5kaXNwb3NlKCk7CiAgfQoKICBAb3ZlcnJpZGUKICBXaWRnZXQgYnVpbGQoQnVpbGRDb250ZXh0IGNvbnRleHQpIHsKICAgIGZpbmFsIGlzUmVzdCA9IF9zdGF0ZS5waGFzZSA9PSBUcmFpbmluZ1BoYXNlLnJlc3Q7CiAgICBmaW5hbCBpc0NvdW50SW4gPSBfc3RhdGUucGhhc2UgPT0gVHJhaW5pbmdQaGFzZS5jb3VudEluOwogICAgZmluYWwgaXNGaW5pc2hlZCA9IF9zdGF0ZS5waGFzZSA9PSBUcmFpbmluZ1BoYXNlLmZpbmlzaGVkOwogICAgZmluYWwgc2NyZWVuV2lkdGggPSBNZWRpYVF1ZXJ5Lm9mKGNvbnRleHQpLnNpemUud2lkdGg7CiAgICBmaW5hbCByaW5nU2l6ZSA9IChzY3JlZW5XaWR0aCAqIDAuNDgpLmNsYW1wKDE2MC4wLCAyNDAuMCk7CgogICAgcmV0dXJuIFNjYWZmb2xkKAogICAgICBiYWNrZ3JvdW5kQ29sb3I6IGlzUmVzdCA/IGNvbnN0IENvbG9yKDB4RkYxNjIxM0UpIDogY29uc3QgQ29sb3IoMHhGRjFBMUEyRSksCiAgICAgIGJvZHk6IFNhZmVBcmVhKAogICAgICAgIGNoaWxkOiBDb2x1bW4oCiAgICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgICBjb25zdCBTaXplZEJveChoZWlnaHQ6IDgpLAogICAgICAgICAgICAvLyBUb3A6IGJpZyB0aW1lciArIEJQTQogICAgICAgICAgICBfYnVpbGRIZWFkZXIoaXNSZXN0LCBpc0NvdW50SW4pLAogICAgICAgICAgICBjb25zdCBTaXplZEJveChoZWlnaHQ6IDgpLAogICAgICAgICAgICAvLyBNaWRkbGU6IGJlYXQgcmluZyArIGRpcmVjdGlvbiBvciBjb3VudC1pbgogICAgICAgICAgICBFeHBhbmRlZCgKICAgICAgICAgICAgICBjaGlsZDogQ2VudGVyKAogICAgICAgICAgICAgICAgY2hpbGQ6IGlzQ291bnRJbgogICAgICAgICAgICAgICAgICAgID8gX2J1aWxkQ291bnRJbihyaW5nU2l6ZSkKICAgICAgICAgICAgICAgICAgICA6IF9idWlsZE1haW5EaXNwbGF5KHJpbmdTaXplLCBpc1Jlc3QpLAogICAgICAgICAgICAgICksCiAgICAgICAgICAgICksCiAgICAgICAgICAgIC8vIEJvdHRvbTogcGF1c2UgKyBzdG9wIGJ1dHRvbnMKICAgICAgICAgICAgaWYgKCFpc0NvdW50SW4gJiYgIWlzRmluaXNoZWQpIF9idWlsZEJvdHRvbUJ1dHRvbnMoaXNSZXN0KSwKICAgICAgICAgICAgY29uc3QgU2l6ZWRCb3goaGVpZ2h0OiAxNiksCiAgICAgICAgICBdLAogICAgICAgICksCiAgICAgICksCiAgICApOwogIH0KCiAgV2lkZ2V0IF9idWlsZEhlYWRlcihib29sIGlzUmVzdCwgYm9vbCBpc0NvdW50SW4pIHsKICAgIGZpbmFsIHRpbWVTdHIgPSBfZm9ybWF0VGltZShfc3RhdGUuZWxhcHNlZFNlY29uZHMpOwogICAgZmluYWwgaXNVcmdlbnQgPSBfY291bnRkb3duUmVtYWluaW5nID4gMCAmJiBfY291bnRkb3duUmVtYWluaW5nIDw9IDEwOwoKICAgIHJldHVybiBBbmltYXRlZEJ1aWxkZXIoCiAgICAgIGFuaW1hdGlvbjogX3RpbWVyRmxhc2hBbmltLAogICAgICBidWlsZGVyOiAoXywgY2hpbGQpIHsKICAgICAgICBmaW5hbCBvcGFjaXR5ID0gaXNVcmdlbnQgPyBfdGltZXJGbGFzaEFuaW0udmFsdWUgOiAxLjA7CiAgICAgICAgcmV0dXJuIE9wYWNpdHkoCiAgICAgICAgICBvcGFjaXR5OiBvcGFjaXR5LAogICAgICAgICAgY2hpbGQ6IENvbHVtbigKICAgICAgICAgICAgY2hpbGRyZW46IFsKICAgICAgICAgICAgICAvLyBCaWcgdGltZXIKICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGltZVN0ciwKICAgICAgICAgICAgICAgIHN0eWxlOiBUZXh0U3R5bGUoCiAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiA4OCwKICAgICAgICAgICAgICAgICAgZm9udFdlaWdodDogRm9udFdlaWdodC53MTAwLAogICAgICAgICAgICAgICAgICBjb2xvcjogaXNVcmdlbnQgPyBjb25zdCBDb2xvcigweEZGRkY1MjUyKSA6IENvbG9ycy53aGl0ZSwKICAgICAgICAgICAgICAgICAgbGV0dGVyU3BhY2luZzogNiwKICAgICAgICAgICAgICAgICAgZm9udEZlYXR1cmVzOiBjb25zdCBbRm9udEZlYXR1cmUudGFidWxhckZpZ3VyZXMoKV0sCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgaWYgKGlzUmVzdCkKICAgICAgICAgICAgICAgIGNvbnN0IFBhZGRpbmcoCiAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IEVkZ2VJbnNldHMub25seSh0b3A6IDIpLAogICAgICAgICAgICAgICAgICBjaGlsZDogVGV4dCgn5LyRIOaBrycsCiAgICAgICAgICAgICAgICAgICAgICBzdHlsZTogVGV4dFN0eWxlKAogICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAxOCwKICAgICAgICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0OiBGb250V2VpZ2h0LmJvbGQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IENvbG9ycy5vcmFuZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0dGVyU3BhY2luZzogOCkpLAogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICBpZiAoaXNDb3VudEluKQogICAgICAgICAgICAgICAgY29uc3QgUGFkZGluZygKICAgICAgICAgICAgICAgICAgcGFkZGluZzogRWRnZUluc2V0cy5vbmx5KHRvcDogNCksCiAgICAgICAgICAgICAgICAgIGNoaWxkOiBUZXh0KCflh4blpIcnLAogICAgICAgICAgICAgICAgICAgICAgc3R5bGU6IFRleHRTdHlsZShmb250U2l6ZTogMTQsIGNvbG9yOiBDb2xvcnMud2hpdGU1NCkpLAogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICBpZiAoX2lzUGF1c2VkICYmICFpc0NvdW50SW4pCiAgICAgICAgICAgICAgICBjb25zdCBQYWRkaW5nKAogICAgICAgICAgICAgICAgICBwYWRkaW5nOiBFZGdlSW5zZXRzLm9ubHkodG9wOiA0KSwKICAgICAgICAgICAgICAgICAgY2hpbGQ6IFRleHQoJ+W3suaaguWBnCcsCiAgICAgICAgICAgICAgICAgICAgICBzdHlsZTogVGV4dFN0eWxlKGZvbnRTaXplOiAxNCwgY29sb3I6IENvbG9ycy5vcmFuZ2UpKSwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgLy8gQlBNIGJlbG93IHRpbWVyIChzbWFsbCkKICAgICAgICAgICAgICBpZiAoIWlzQ291bnRJbiAmJiBfc3RhdGUucGhhc2UgIT0gVHJhaW5pbmdQaGFzZS5maW5pc2hlZCkKICAgICAgICAgICAgICAgIFBhZGRpbmcoCiAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IGNvbnN0IEVkZ2VJbnNldHMub25seSh0b3A6IDYpLAogICAgICAgICAgICAgICAgICBjaGlsZDogVGV4dCgnJHtfc3RhdGUuY3VycmVudEJwbX0gQlBNJywKICAgICAgICAgICAgICAgICAgICAgIHN0eWxlOiBjb25zdCBUZXh0U3R5bGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDE2LCBjb2xvcjogQ29sb3JzLndoaXRlMzgsIGxldHRlclNwYWNpbmc6IDIpKSwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgIF0sCiAgICAgICAgICApLAogICAgICAgICk7CiAgICAgIH0sCiAgICApOwogIH0KCiAgV2lkZ2V0IF9idWlsZENvdW50SW4oZG91YmxlIHJpbmdTaXplKSB7CiAgICByZXR1cm4gQ29sdW1uKAogICAgICBtYWluQXhpc0FsaWdubWVudDogTWFpbkF4aXNBbGlnbm1lbnQuY2VudGVyLAogICAgICBtYWluQXhpc1NpemU6IE1haW5BeGlzU2l6ZS5taW4sCiAgICAgIGNoaWxkcmVuOiBbCiAgICAgICAgVGV4dCgKICAgICAgICAgIF9jb3VudEluVmFsdWUgPiAwID8gJyRfY291bnRJblZhbHVlJyA6ICflvIDlp4shJywKICAgICAgICAgIHN0eWxlOiBUZXh0U3R5bGUoCiAgICAgICAgICAgIGZvbnRTaXplOiBfY291bnRJblZhbHVlID4gMCA/IDEwMCA6IDU2LAogICAgICAgICAgICBmb250V2VpZ2h0OiBGb250V2VpZ2h0LmJvbGQsCiAgICAgICAgICAgIGNvbG9yOiBfY291bnRJblZhbHVlID4gMCA/IENvbG9ycy53aGl0ZSA6IGNvbnN0IENvbG9yKDB4RkYwMEU1RkYpLAogICAgICAgICAgKSwKICAgICAgICApLAogICAgICAgIGNvbnN0IFNpemVkQm94KGhlaWdodDogMjQpLAogICAgICAgIFN0YWNrKAogICAgICAgICAgYWxpZ25tZW50OiBBbGlnbm1lbnQuY2VudGVyLAogICAgICAgICAgY2hpbGRyZW46IFsKICAgICAgICAgICAgQmVhdFJpbmcoCiAgICAgICAgICAgICAga2V5OiBfYmVhdFJpbmdLZXksCiAgICAgICAgICAgICAgc2l6ZTogcmluZ1NpemUsCiAgICAgICAgICAgICAgY29sb3I6IGNvbnN0IENvbG9yKDB4RkYwMEU1RkYpLAogICAgICAgICAgICApLAogICAgICAgICAgXSwKICAgICAgICApLAogICAgICBdLAogICAgKTsKICB9CgogIFdpZGdldCBfYnVpbGRNYWluRGlzcGxheShkb3VibGUgcmluZ1NpemUsIGJvb2wgaXNSZXN0KSB7CiAgICByZXR1cm4gU3RhY2soCiAgICAgIGFsaWdubWVudDogQWxpZ25tZW50LmNlbnRlciwKICAgICAgY2hpbGRyZW46IFsKICAgICAgICBCZWF0UmluZygKICAgICAgICAgIGtleTogX2JlYXRSaW5nS2V5LAogICAgICAgICAgc2l6ZTogcmluZ1NpemUsCiAgICAgICAgICBjb2xvcjogaXNSZXN0ID8gQ29sb3JzLm9yYW5nZSA6IGNvbnN0IENvbG9yKDB4RkYwMEU1RkYpLAogICAgICAgICksCiAgICAgICAgRGlyZWN0aW9uT3ZlcmxheShrZXk6IF9kaXJlY3Rpb25LZXksIHNpemU6IHJpbmdTaXplICogMS4xNSksCiAgICAgIF0sCiAgICApOwogIH0KCiAgV2lkZ2V0IF9idWlsZEJvdHRvbUJ1dHRvbnMoYm9vbCBpc1Jlc3QpIHsKICAgIHJldHVybiBQYWRkaW5nKAogICAgICBwYWRkaW5nOiBjb25zdCBFZGdlSW5zZXRzLnN5bW1ldHJpYyhob3Jpem9udGFsOiAzMiksCiAgICAgIGNoaWxkOiBSb3coCiAgICAgICAgbWFpbkF4aXNBbGlnbm1lbnQ6IE1haW5BeGlzQWxpZ25tZW50LmNlbnRlciwKICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgLy8gUGF1c2UvUmVzdW1lIGJ1dHRvbgogICAgICAgICAgU2l6ZWRCb3goCiAgICAgICAgICAgIHdpZHRoOiA2NCwKICAgICAgICAgICAgaGVpZ2h0OiA2NCwKICAgICAgICAgICAgY2hpbGQ6IEZsb2F0aW5nQWN0aW9uQnV0dG9uKAogICAgICAgICAgICAgIG9uUHJlc3NlZDogX3RvZ2dsZVBhdXNlLAogICAgICAgICAgICAgIGJhY2tncm91bmRDb2xvcjoKICAgICAgICAgICAgICAgICAgX2lzUGF1c2VkID8gY29uc3QgQ29sb3IoMHhGRjRDQUY1MCkgOiBDb2xvcnMud2hpdGUyNCwKICAgICAgICAgICAgICBjaGlsZDogSWNvbigKICAgICAgICAgICAgICAgIF9pc1BhdXNlZCA/IEljb25zLnBsYXlfYXJyb3dfcm91bmRlZCA6IEljb25zLnBhdXNlX3JvdW5kZWQsCiAgICAgICAgICAgICAgICBzaXplOiAzMiwKICAgICAgICAgICAgICAgIGNvbG9yOiBfaXNQYXVzZWQgPyBDb2xvcnMud2hpdGUgOiBDb2xvcnMud2hpdGU3MCwKICAgICAgICAgICAgICApLAogICAgICAgICAgICApLAogICAgICAgICAgKSwKICAgICAgICAgIGNvbnN0IFNpemVkQm94KHdpZHRoOiAyNCksCiAgICAgICAgICAvLyBTdG9wIGJ1dHRvbgogICAgICAgICAgU2l6ZWRCb3goCiAgICAgICAgICAgIHdpZHRoOiA2NCwKICAgICAgICAgICAgaGVpZ2h0OiA2NCwKICAgICAgICAgICAgY2hpbGQ6IEZsb2F0aW5nQWN0aW9uQnV0dG9uKAogICAgICAgICAgICAgIG9uUHJlc3NlZDogKCkgewogICAgICAgICAgICAgICAgX3N0b3BUcmFpbmluZygpOwogICAgICAgICAgICAgICAgTmF2aWdhdG9yLnBvcChjb250ZXh0KTsKICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgIGJhY2tncm91bmRDb2xvcjogY29uc3QgQ29sb3IoMHhGRkU5MUU2MyksCiAgICAgICAgICAgICAgY2hpbGQ6CiAgICAgICAgICAgICAgICAgIGNvbnN0IEljb24oSWNvbnMuc3RvcF9yb3VuZGVkLCBzaXplOiAzMiwgY29sb3I6IENvbG9ycy53aGl0ZSksCiAgICAgICAgICAgICksCiAgICAgICAgICApLAogICAgICAgIF0sCiAgICAgICksCiAgICApOwogIH0KCiAgU3RyaW5nIF9mb3JtYXRUaW1lKGludCBzZWNvbmRzKSB7CiAgICBmaW5hbCBtaW5zID0gc2Vjb25kcyB+LyA2MDsKICAgIGZpbmFsIHNlY3MgPSBzZWNvbmRzICUgNjA7CiAgICByZXR1cm4gJyR7bWlucy50b1N0cmluZygpLnBhZExlZnQoMiwgJzAnKX06JHtzZWNzLnRvU3RyaW5nKCkucGFkTGVmdCgyLCAnMCcpfSc7CiAgfQp9Cg==
+import 'dart:async';
+
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:wakelock_plus/wakelock_plus.dart';
+
+import '../engines/metronome_engine.dart';
+import '../engines/tone_generator.dart';
+import '../engines/training_engine.dart';
+import '../models/training_config.dart';
+import '../services/audio_service.dart';
+import '../widgets/beat_ring.dart';
+import '../widgets/direction_overlay.dart';
+
+class TrainingScreen extends StatefulWidget {
+  final TrainingConfig config;
+
+  const TrainingScreen({super.key, required this.config});
+
+  @override
+  State<TrainingScreen> createState() => _TrainingScreenState();
+}
+
+class _TrainingScreenState extends State<TrainingScreen>
+    with TickerProviderStateMixin {
+  final GlobalKey<BeatRingState> _beatRingKey = GlobalKey();
+  final GlobalKey<DirectionOverlayState> _directionKey = GlobalKey();
+
+  late TrainingEngine _engine;
+  late AudioService _audio;
+
+  StreamSubscription<BeatEvent>? _beatSub;
+  StreamSubscription<SignalEvent>? _signalSub;
+  StreamSubscription<TrainingState>? _stateSub;
+  StreamSubscription<void>? _tickSub;
+  StreamSubscription<CountdownEvent>? _countdownSub;
+  StreamSubscription<void>? _endBellSub;
+
+  TrainingState _state = TrainingState();
+  int _countInValue = 3;
+  int _countdownRemaining = -1;
+  bool _isPaused = false;
+  late AnimationController _timerFlashController;
+  late Animation<double> _timerFlashAnim;
+
+  @override
+  void initState() {
+    super.initState();
+    _timerFlashController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 500),
+    );
+    _timerFlashAnim = Tween(begin: 1.0, end: 0.4).animate(
+      CurvedAnimation(parent: _timerFlashController, curve: Curves.easeInOut),
+    );
+    _engine = TrainingEngine(widget.config);
+    _audio = AudioService();
+    _initAndStart();
+  }
+
+  Future<void> _initAndStart() async {
+    await _audio.init();
+    if (!mounted) return;
+    _startTraining();
+  }
+
+  Future<void> _startTraining() async {
+    _stateSub = _engine.stateStream.listen((state) {
+      if (mounted) {
+        setState(() {
+          _state = state;
+          _isPaused = state.phase == TrainingPhase.paused;
+        });
+      }
+      if (state.phase == TrainingPhase.running) {
+        WakelockPlus.enable();
+      } else if (state.phase == TrainingPhase.paused ||
+          state.phase == TrainingPhase.finished) {
+        WakelockPlus.disable();
+      }
+      if (state.phase == TrainingPhase.finished) {
+        _showFinishedDialog();
+      }
+    });
+
+    _signalSub = _engine.signalStream.listen((signal) {
+      _audio.playSignal(signal.signalType, widget.config.signalVolume);
+      _directionKey.currentState?.showDirection(signal.direction);
+      HapticFeedback.heavyImpact();
+    });
+
+    _tickSub = _engine.tickStream.listen((_) {
+      _audio.playTick(widget.config.regularVolume);
+      _beatRingKey.currentState?.pulse();
+    });
+
+    _beatSub = _engine.beatStream.listen((beat) {
+      if (beat.isCountIn) {
+        if (beat.beatNumber > 0) {
+          if (mounted) setState(() => _countInValue = beat.beatNumber);
+          _audio.playCountInBeep(beat.beatNumber, widget.config.regularVolume);
+        } else {
+          if (mounted) setState(() => _countInValue = 0);
+          _audio.playCountInBeep(0, widget.config.regularVolume);
+        }
+      }
+    });
+
+    _countdownSub = _engine.countdownStream.listen((event) {
+      _audio.playCountdownWarning(widget.config.regularVolume);
+      if (mounted) setState(() => _countdownRemaining = event.remainingSeconds);
+      _timerFlashController.repeat(reverse: true);
+      Future.delayed(const Duration(seconds: 2), () {
+        if (mounted) {
+          _timerFlashController.stop();
+          _timerFlashController.reset();
+          setState(() => _countdownRemaining = -1);
+        }
+      });
+    });
+
+    _endBellSub = _engine.endBellStream.listen((_) {
+      _audio.playEndBell(widget.config.regularVolume);
+    });
+
+    await _engine.start();
+  }
+
+  void _togglePause() {
+    if (_isPaused) {
+      _engine.resume();
+    } else {
+      _engine.pause();
+    }
+  }
+
+  void _stopTraining() {
+    _engine.stop();
+  }
+
+  void _showFinishedDialog() {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: const Color(0xFF1A1A2E),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: const Text('训练结束',
+            style: TextStyle(color: Colors.white), textAlign: TextAlign.center),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text('时间: ${_formatTime(_state.elapsedSeconds)}',
+                style: const TextStyle(color: Colors.white70)),
+            const SizedBox(height: 8),
+            Text('变向信号: ${_state.signalCount} 次',
+                style: const TextStyle(color: Colors.white70)),
+            const SizedBox(height: 8),
+            Text('平均BPM: ${_state.currentBpm}',
+                style: const TextStyle(color: Colors.white70)),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () {
+              Navigator.pop(ctx);
+              if (mounted) Navigator.pop(context);
+            },
+            child: const Text('返回', style: TextStyle(fontSize: 16)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  void dispose() {
+    _beatSub?.cancel();
+    _signalSub?.cancel();
+    _stateSub?.cancel();
+    _tickSub?.cancel();
+    _countdownSub?.cancel();
+    _endBellSub?.cancel();
+    _engine.dispose();
+    _audio.dispose();
+    _timerFlashController.dispose();
+    WakelockPlus.disable();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final isRest = _state.phase == TrainingPhase.rest;
+    final isCountIn = _state.phase == TrainingPhase.countIn;
+    final isFinished = _state.phase == TrainingPhase.finished;
+    final screenWidth = MediaQuery.of(context).size.width;
+    final ringSize = (screenWidth * 0.48).clamp(160.0, 240.0);
+
+    return Scaffold(
+      backgroundColor: isRest ? const Color(0xFF16213E) : const Color(0xFF1A1A2E),
+      body: SafeArea(
+        child: Column(
+          children: [
+            const SizedBox(height: 8),
+            // Top: big timer + BPM
+            _buildHeader(isRest, isCountIn),
+            const SizedBox(height: 8),
+            // Middle: beat ring + direction or count-in
+            Expanded(
+              child: Center(
+                child: isCountIn
+                    ? _buildCountIn(ringSize)
+                    : _buildMainDisplay(ringSize, isRest),
+              ),
+            ),
+            // Bottom: pause + stop buttons
+            if (!isCountIn && !isFinished) _buildBottomButtons(isRest),
+            const SizedBox(height: 16),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildHeader(bool isRest, bool isCountIn) {
+    final timeStr = _formatTime(_state.elapsedSeconds);
+    final isUrgent = _countdownRemaining > 0 && _countdownRemaining <= 10;
+
+    return AnimatedBuilder(
+      animation: _timerFlashAnim,
+      builder: (_, child) {
+        final opacity = isUrgent ? _timerFlashAnim.value : 1.0;
+        return Opacity(
+          opacity: opacity,
+          child: Column(
+            children: [
+              // Big timer
+              Text(
+                timeStr,
+                style: TextStyle(
+                  fontSize: 88,
+                  fontWeight: FontWeight.w100,
+                  color: isUrgent ? const Color(0xFFFF5252) : Colors.white,
+                  letterSpacing: 6,
+                  fontFeatures: const [FontFeature.tabularFigures()],
+                ),
+              ),
+              if (isRest)
+                const Padding(
+                  padding: EdgeInsets.only(top: 2),
+                  child: Text('休 息',
+                      style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.orange,
+                          letterSpacing: 8)),
+                ),
+              if (isCountIn)
+                const Padding(
+                  padding: EdgeInsets.only(top: 4),
+                  child: Text('准备',
+                      style: TextStyle(fontSize: 14, color: Colors.white54)),
+                ),
+              if (_isPaused && !isCountIn)
+                const Padding(
+                  padding: EdgeInsets.only(top: 4),
+                  child: Text('已暂停',
+                      style: TextStyle(fontSize: 14, color: Colors.orange)),
+                ),
+              // BPM below timer (small)
+              if (!isCountIn && _state.phase != TrainingPhase.finished)
+                Padding(
+                  padding: const EdgeInsets.only(top: 6),
+                  child: Text('${_state.currentBpm} BPM',
+                      style: const TextStyle(
+                          fontSize: 16, color: Colors.white38, letterSpacing: 2)),
+                ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildCountIn(double ringSize) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text(
+          _countInValue > 0 ? '$_countInValue' : '开始!',
+          style: TextStyle(
+            fontSize: _countInValue > 0 ? 100 : 56,
+            fontWeight: FontWeight.bold,
+            color: _countInValue > 0 ? Colors.white : const Color(0xFF00E5FF),
+          ),
+        ),
+        const SizedBox(height: 24),
+        Stack(
+          alignment: Alignment.center,
+          children: [
+            BeatRing(
+              key: _beatRingKey,
+              size: ringSize,
+              color: const Color(0xFF00E5FF),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+
+  Widget _buildMainDisplay(double ringSize, bool isRest) {
+    return Stack(
+      alignment: Alignment.center,
+      children: [
+        BeatRing(
+          key: _beatRingKey,
+          size: ringSize,
+          color: isRest ? Colors.orange : const Color(0xFF00E5FF),
+        ),
+        DirectionOverlay(key: _directionKey, size: ringSize * 1.15),
+      ],
+    );
+  }
+
+  Widget _buildBottomButtons(bool isRest) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 32),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          // Pause/Resume button
+          SizedBox(
+            width: 64,
+            height: 64,
+            child: FloatingActionButton(
+              onPressed: _togglePause,
+              backgroundColor:
+                  _isPaused ? const Color(0xFF4CAF50) : Colors.white24,
+              child: Icon(
+                _isPaused ? Icons.play_arrow_rounded : Icons.pause_rounded,
+                size: 32,
+                color: _isPaused ? Colors.white : Colors.white70,
+              ),
+            ),
+          ),
+          const SizedBox(width: 24),
+          // Stop button
+          SizedBox(
+            width: 64,
+            height: 64,
+            child: FloatingActionButton(
+              onPressed: () {
+                _stopTraining();
+                Navigator.pop(context);
+              },
+              backgroundColor: const Color(0xFFE91E63),
+              child:
+                  const Icon(Icons.stop_rounded, size: 32, color: Colors.white),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _formatTime(int seconds) {
+    final mins = seconds ~/ 60;
+    final secs = seconds % 60;
+    return '${mins.toString().padLeft(2, '0')}:${secs.toString().padLeft(2, '0')}';
+  }
+}

@@ -1,1 +1,169 @@
-aW1wb3J0IHsgRGlyZWN0aW9uU2lnbmFsVHlwZSB9IGZyb20gJy4uL21vZGVscy9jb25maWcnOwoKY29uc3QgU0FNUExFX1JBVEUgPSA0NDEwMDsKY29uc3QgQklUU19QRVJfU0FNUExFID0gMTY7CgpmdW5jdGlvbiBlbmNvZGVXYXYoc2FtcGxlczogSW50MTZBcnJheSk6IEFycmF5QnVmZmVyIHsKICBjb25zdCBkYXRhU2l6ZSA9IHNhbXBsZXMubGVuZ3RoICogKEJJVFNfUEVSX1NBTVBMRSAvIDgpOwogIGNvbnN0IGZpbGVTaXplID0gMzYgKyBkYXRhU2l6ZTsKICBjb25zdCBieXRlUmF0ZSA9IFNBTVBMRV9SQVRFICogQklUU19QRVJfU0FNUExFIC8gODsKICBjb25zdCBidWZmZXIgPSBuZXcgQXJyYXlCdWZmZXIoNDQgKyBkYXRhU2l6ZSk7CiAgY29uc3QgdmlldyA9IG5ldyBEYXRhVmlldyhidWZmZXIpOwoKICAvLyBSSUZGIGhlYWRlcgogIHZpZXcuc2V0VWludDgoMCwgMHg1Mik7IHZpZXcuc2V0VWludDgoMSwgMHg0OSk7IC8vICJSSSIKICB2aWV3LnNldFVpbnQ4KDIsIDB4NDYpOyB2aWV3LnNldFVpbnQ4KDMsIDB4NDYpOyAvLyAiRkYiCiAgdmlldy5zZXRVaW50MzIoNCwgZmlsZVNpemUsIHRydWUpOwogIHZpZXcuc2V0VWludDgoOCwgMHg1Nyk7IHZpZXcuc2V0VWludDgoOSwgMHg0MSk7IC8vICJXQSIKICB2aWV3LnNldFVpbnQ4KDEwLCAweDU2KTsgdmlldy5zZXRVaW50OCgxMSwgMHg0NSk7IC8vICJWRSIKICB2aWV3LnNldFVpbnQ4KDEyLCAweDY2KTsgdmlldy5zZXRVaW50OCgxMywgMHg2RCk7IC8vICJmbSIKICB2aWV3LnNldFVpbnQ4KDE0LCAweDc0KTsgdmlldy5zZXRVaW50OCgxNSwgMHgyMCk7IC8vICJ0ICIKICB2aWV3LnNldFVpbnQzMigxNiwgMTYsIHRydWUpOyAvLyBjaHVuayBzaXplCiAgdmlldy5zZXRVaW50MTYoMjAsIDEsIHRydWUpOyAvLyBQQ00KICB2aWV3LnNldFVpbnQxNigyMiwgMSwgdHJ1ZSk7IC8vIG1vbm8KICB2aWV3LnNldFVpbnQzMigyNCwgU0FNUExFX1JBVEUsIHRydWUpOwogIHZpZXcuc2V0VWludDMyKDI4LCBieXRlUmF0ZSwgdHJ1ZSk7CiAgdmlldy5zZXRVaW50MTYoMzIsIEJJVFNfUEVSX1NBTVBMRSAvIDgsIHRydWUpOwogIHZpZXcuc2V0VWludDE2KDM0LCBCSVRTX1BFUl9TQU1QTEUsIHRydWUpOwogIHZpZXcuc2V0VWludDgoMzYsIDB4NjQpOyB2aWV3LnNldFVpbnQ4KDM3LCAweDYxKTsgLy8gImRhIgogIHZpZXcuc2V0VWludDgoMzgsIDB4NzQpOyB2aWV3LnNldFVpbnQ4KDM5LCAweDYxKTsgLy8gInRhIgogIHZpZXcuc2V0VWludDMyKDQwLCBkYXRhU2l6ZSwgdHJ1ZSk7CgogIGNvbnN0IGJ5dGVEYXRhID0gbmV3IFVpbnQ4QXJyYXkoZGF0YVNpemUpOwogIGNvbnN0IHNhbXBsZVZpZXcgPSBuZXcgRGF0YVZpZXcoc2FtcGxlcy5idWZmZXIpOwogIGZvciAobGV0IGkgPSAwOyBpIDwgZGF0YVNpemU7IGkrKykgewogICAgYnl0ZURhdGFbaV0gPSBzYW1wbGVWaWV3LmdldFVpbnQ4KGkpOwogIH0KICBjb25zdCBvdXQgPSBuZXcgVWludDhBcnJheShidWZmZXIpOwogIG91dC5zZXQoYnl0ZURhdGEsIDQ0KTsKICByZXR1cm4gYnVmZmVyOwp9CgpmdW5jdGlvbiBnZW5lcmF0ZVdhdihmcmVxOiBudW1iZXIsIGR1ck1zOiBudW1iZXIsIHZvbDogbnVtYmVyKTogQXJyYXlCdWZmZXIgewogIGNvbnN0IG4gPSBNYXRoLmZsb29yKFNBTVBMRV9SQVRFICogZHVyTXMgLyAxMDAwKTsKICBjb25zdCBzYW1wbGVzID0gbmV3IEludDE2QXJyYXkobik7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBuOyBpKyspIHsKICAgIGNvbnN0IHQgPSBpIC8gU0FNUExFX1JBVEU7CiAgICBjb25zdCBlbnYgPSBNYXRoLm1heCgwLCAxIC0gaSAvIG4pOwogICAgc2FtcGxlc1tpXSA9IE1hdGgubWF4KC0zMjc2OCwgTWF0aC5taW4oMzI3NjcsIE1hdGgucm91bmQodm9sICogZW52ICogTWF0aC5zaW4oMiAqIE1hdGguUEkgKiBmcmVxICogdCkgKiAzMjc2NykpKTsKICB9CiAgcmV0dXJuIGVuY29kZVdhdihzYW1wbGVzKTsKfQoKZnVuY3Rpb24gZ2VuZXJhdGVTd2VlcFdhdihzdGFydEZyZXE6IG51bWJlciwgZW5kRnJlcTogbnVtYmVyLCBkdXJNczogbnVtYmVyLCB2b2w6IG51bWJlcik6IEFycmF5QnVmZmVyIHsKICBjb25zdCBuID0gTWF0aC5mbG9vcihTQU1QTEVfUkFURSAqIGR1ck1zIC8gMTAwMCk7CiAgY29uc3Qgc2FtcGxlcyA9IG5ldyBJbnQxNkFycmF5KG4pOwogIGZvciAobGV0IGkgPSAwOyBpIDwgbjsgaSsrKSB7CiAgICBjb25zdCB0ID0gaSAvIFNBTVBMRV9SQVRFOwogICAgY29uc3QgZW52ID0gTWF0aC5tYXgoMCwgMSAtIGkgLyBuKTsKICAgIGNvbnN0IGZyZXEgPSBzdGFydEZyZXEgKyAoZW5kRnJlcSAtIHN0YXJ0RnJlcSkgKiAoaSAvIG4pOwogICAgc2FtcGxlc1tpXSA9IE1hdGgubWF4KC0zMjc2OCwgTWF0aC5taW4oMzI3NjcsIE1hdGgucm91bmQodm9sICogZW52ICogTWF0aC5zaW4oMiAqIE1hdGguUEkgKiBmcmVxICogdCkgKiAzMjc2NykpKTsKICB9CiAgcmV0dXJuIGVuY29kZVdhdihzYW1wbGVzKTsKfQoKZnVuY3Rpb24gdHdvTm90ZVdhdihmMTogbnVtYmVyLCBmMjogbnVtYmVyLCBkMTogbnVtYmVyLCBkMjogbnVtYmVyLCB2b2w6IG51bWJlcik6IEFycmF5QnVmZmVyIHsKICBjb25zdCBnYXBTYW1wbGVzID0gTWF0aC5mbG9vcihTQU1QTEVfUkFURSAqIDE1IC8gMTAwMCk7CiAgY29uc3QgbjEgPSBNYXRoLmZsb29yKFNBTVBMRV9SQVRFICogZDEgLyAxMDAwKTsKICBjb25zdCBuMiA9IE1hdGguZmxvb3IoU0FNUExFX1JBVEUgKiBkMiAvIDEwMDApOwogIGNvbnN0IHRvdGFsID0gbjEgKyBnYXBTYW1wbGVzICsgbjI7CiAgY29uc3Qgc2FtcGxlcyA9IG5ldyBJbnQxNkFycmF5KHRvdGFsKTsKICBsZXQgaWR4ID0gMDsKICBmb3IgKGxldCBpID0gMDsgaSA8IG4xOyBpKyssIGlkeCsrKSB7CiAgICBjb25zdCB0ID0gaSAvIFNBTVBMRV9SQVRFOwogICAgY29uc3QgZW52ID0gTWF0aC5tYXgoMCwgMSAtIGkgLyBuMSAqIDAuMyk7CiAgICBzYW1wbGVzW2lkeF0gPSBNYXRoLm1heCgtMzI3NjgsIE1hdGgubWluKDMyNzY3LCBNYXRoLnJvdW5kKHZvbCAqIGVudiAqIE1hdGguc2luKDIgKiBNYXRoLlBJICogZjEgKiB0KSAqIDMyNzY3KSkpOwogIH0KICBpZHggKz0gZ2FwU2FtcGxlczsKICBmb3IgKGxldCBpID0gMDsgaSA8IG4yOyBpKyssIGlkeCsrKSB7CiAgICBjb25zdCB0ID0gaSAvIFNBTVBMRV9SQVRFOwogICAgY29uc3QgZW52ID0gTWF0aC5tYXgoMCwgMSAtIGkgLyBuMik7CiAgICBzYW1wbGVzW2lkeF0gPSBNYXRoLm1heCgtMzI3NjgsIE1hdGgubWluKDMyNzY3LCBNYXRoLnJvdW5kKHZvbCAqIGVudiAqIE1hdGguc2luKDIgKiBNYXRoLlBJICogZjIgKiB0KSAqIDMyNzY3KSkpOwogIH0KICByZXR1cm4gZW5jb2RlV2F2KHNhbXBsZXMpOwp9CgpmdW5jdGlvbiBtdWx0aUJlZXBXYXYoZnJlcTogbnVtYmVyLCBkdXJNczogbnVtYmVyLCBnYXBNczogbnVtYmVyLCBjb3VudDogbnVtYmVyLCB2b2w6IG51bWJlcik6IEFycmF5QnVmZmVyIHsKICBjb25zdCBiZWVwU2FtcGxlcyA9IE1hdGguZmxvb3IoU0FNUExFX1JBVEUgKiBkdXJNcyAvIDEwMDApOwogIGNvbnN0IGdhcFNhbXBsZXMgPSBNYXRoLmZsb29yKFNBTVBMRV9SQVRFICogZ2FwTXMgLyAxMDAwKTsKICBjb25zdCB0b3RhbCA9IChiZWVwU2FtcGxlcyArIGdhcFNhbXBsZXMpICogY291bnQ7CiAgY29uc3Qgc2FtcGxlcyA9IG5ldyBJbnQxNkFycmF5KHRvdGFsKTsKICBmb3IgKGxldCBiID0gMDsgYiA8IGNvdW50OyBiKyspIHsKICAgIGNvbnN0IG9mZnNldCA9IGIgKiAoYmVlcFNhbXBsZXMgKyBnYXBTYW1wbGVzKTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgYmVlcFNhbXBsZXM7IGkrKykgewogICAgICBjb25zdCB0ID0gaSAvIFNBTVBMRV9SQVRFOwogICAgICBjb25zdCBlbnYgPSBNYXRoLm1heCgwLCAxIC0gaSAvIGJlZXBTYW1wbGVzKTsKICAgICAgc2FtcGxlc1tvZmZzZXQgKyBpXSA9IE1hdGgubWF4KC0zMjc2OCwgTWF0aC5taW4oMzI3NjcsIE1hdGgucm91bmQodm9sICogZW52ICogTWF0aC5zaW4oMiAqIE1hdGguUEkgKiBmcmVxICogdCkgKiAzMjc2NykpKTsKICAgIH0KICB9CiAgcmV0dXJuIGVuY29kZVdhdihzYW1wbGVzKTsKfQoKZnVuY3Rpb24gY2hpbWVXYXYoZnJlcXM6IG51bWJlcltdLCBkdXJNczogbnVtYmVyLCBnYXBNczogbnVtYmVyLCB2b2w6IG51bWJlcik6IEFycmF5QnVmZmVyIHsKICBjb25zdCBub3RlU2FtcGxlcyA9IE1hdGguZmxvb3IoU0FNUExFX1JBVEUgKiBkdXJNcyAvIDEwMDApOwogIGNvbnN0IGdhcFNhbXBsZXMgPSBNYXRoLmZsb29yKFNBTVBMRV9SQVRFICogZ2FwTXMgLyAxMDAwKTsKICBjb25zdCB0b3RhbCA9IChub3RlU2FtcGxlcyArIGdhcFNhbXBsZXMpICogZnJlcXMubGVuZ3RoOwogIGNvbnN0IHNhbXBsZXMgPSBuZXcgSW50MTZBcnJheSh0b3RhbCk7CiAgZm9yIChsZXQgbiA9IDA7IG4gPCBmcmVxcy5sZW5ndGg7IG4rKykgewogICAgY29uc3Qgb2Zmc2V0ID0gbiAqIChub3RlU2FtcGxlcyArIGdhcFNhbXBsZXMpOwogICAgY29uc3QgZnJlcSA9IGZyZXFzW25dOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBub3RlU2FtcGxlczsgaSsrKSB7CiAgICAgIGNvbnN0IHQgPSBpIC8gU0FNUExFX1JBVEU7CiAgICAgIGNvbnN0IGVudiA9IE1hdGgubWF4KDAsIDEgLSBpIC8gbm90ZVNhbXBsZXMpOwogICAgICBzYW1wbGVzW29mZnNldCArIGldID0gTWF0aC5tYXgoLTMyNzY4LCBNYXRoLm1pbigzMjc2NywgTWF0aC5yb3VuZCh2b2wgKiBlbnYgKiBNYXRoLnNpbigyICogTWF0aC5QSSAqIGZyZXEgKiB0KSAqIDMyNzY3KSkpOwogICAgfQogIH0KICByZXR1cm4gZW5jb2RlV2F2KHNhbXBsZXMpOwp9CgovLyBFeHBvcnRlZCBmdW5jdGlvbnMKZXhwb3J0IGZ1bmN0aW9uIHRpY2tXYXYoKTogQXJyYXlCdWZmZXIgewogIHJldHVybiBnZW5lcmF0ZVdhdigxODAwLCA0MCwgMC43KTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNvdW50SW4zV2F2KCk6IEFycmF5QnVmZmVyIHsKICByZXR1cm4gZ2VuZXJhdGVXYXYoNDQwLCAxMjAsIDAuNyk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBjb3VudEluMldhdigpOiBBcnJheUJ1ZmZlciB7CiAgcmV0dXJuIGdlbmVyYXRlV2F2KDY2MCwgMTIwLCAwLjcpOwp9CgpleHBvcnQgZnVuY3Rpb24gY291bnRJbjFXYXYoKTogQXJyYXlCdWZmZXIgewogIHJldHVybiBnZW5lcmF0ZVdhdig4ODAsIDEyMCwgMC43KTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNvdW50SW5TdGFydFdhdigpOiBBcnJheUJ1ZmZlciB7CiAgcmV0dXJuIGdlbmVyYXRlV2F2KDEyMDAsIDIwMCwgMC45KTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNvdW50ZG93bldhcm5pbmdXYXYoKTogQXJyYXlCdWZmZXIgewogIHJldHVybiBtdWx0aUJlZXBXYXYoMTAwMCwgNjAsIDUwLCAzLCAwLjgpOwp9CgpleHBvcnQgZnVuY3Rpb24gY291bnRkb3duRmluYWxXYXYoKTogQXJyYXlCdWZmZXIgewogIHJldHVybiBtdWx0aUJlZXBXYXYoMTIwMCwgNDAsIDMwLCA1LCAwLjkpOwp9CgpleHBvcnQgZnVuY3Rpb24gZW5kQmVsbFdhdigpOiBBcnJheUJ1ZmZlciB7CiAgcmV0dXJuIGNoaW1lV2F2KFsxMjAwLCAxMDAwLCA4MDAsIDYwMF0sIDIwMCwgNDAsIDAuOSk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBzaWduYWxXYXYodHlwZTogRGlyZWN0aW9uU2lnbmFsVHlwZSk6IEFycmF5QnVmZmVyIHsKICBzd2l0Y2ggKHR5cGUpIHsKICAgIGNhc2UgRGlyZWN0aW9uU2lnbmFsVHlwZS5hbGVydDoKICAgICAgcmV0dXJuIGdlbmVyYXRlU3dlZXBXYXYoNjAwLCAxMjAwLCAxNTAsIDAuOSk7CiAgICBjYXNlIERpcmVjdGlvblNpZ25hbFR5cGUud2hpc3RsZToKICAgICAgcmV0dXJuIGdlbmVyYXRlU3dlZXBXYXYoMTIwMCwgMjAwMCwgMTIwLCAwLjg1KTsKICAgIGNhc2UgRGlyZWN0aW9uU2lnbmFsVHlwZS5kcnVtOgogICAgICByZXR1cm4gZ2VuZXJhdGVXYXYoMTIwLCAxMDAsIDEuMCk7CiAgICBjYXNlIERpcmVjdGlvblNpZ25hbFR5cGUuZGlyRm9yd2FyZDoKICAgICAgcmV0dXJuIHR3b05vdGVXYXYoODAwLCAxMzAwLCA0NSwgNTUsIDAuOTUpOwogICAgY2FzZSBEaXJlY3Rpb25TaWduYWxUeXBlLmRpckJhY2t3YXJkOgogICAgICByZXR1cm4gdHdvTm90ZVdhdigxMjAwLCA2MDAsIDQ1LCA1NSwgMC45NSk7CiAgICBjYXNlIERpcmVjdGlvblNpZ25hbFR5cGUuZGlyTGVmdDoKICAgICAgcmV0dXJuIGdlbmVyYXRlU3dlZXBXYXYoMTYwMCwgMjYwMCwgNzUsIDAuOSk7CiAgICBjYXNlIERpcmVjdGlvblNpZ25hbFR5cGUuZGlyUmlnaHQ6CiAgICAgIHJldHVybiBnZW5lcmF0ZVN3ZWVwV2F2KDI2MDAsIDE0MDAsIDc1LCAwLjkpOwogIH0KfQo=
+import { DirectionSignalType } from '../models/config';
+
+const SAMPLE_RATE = 44100;
+const BITS_PER_SAMPLE = 16;
+
+function encodeWav(samples: Int16Array): ArrayBuffer {
+  const dataSize = samples.length * (BITS_PER_SAMPLE / 8);
+  const fileSize = 36 + dataSize;
+  const byteRate = SAMPLE_RATE * BITS_PER_SAMPLE / 8;
+  const buffer = new ArrayBuffer(44 + dataSize);
+  const view = new DataView(buffer);
+
+  // RIFF header
+  view.setUint8(0, 0x52); view.setUint8(1, 0x49); // "RI"
+  view.setUint8(2, 0x46); view.setUint8(3, 0x46); // "FF"
+  view.setUint32(4, fileSize, true);
+  view.setUint8(8, 0x57); view.setUint8(9, 0x41); // "WA"
+  view.setUint8(10, 0x56); view.setUint8(11, 0x45); // "VE"
+  view.setUint8(12, 0x66); view.setUint8(13, 0x6D); // "fm"
+  view.setUint8(14, 0x74); view.setUint8(15, 0x20); // "t "
+  view.setUint32(16, 16, true); // chunk size
+  view.setUint16(20, 1, true); // PCM
+  view.setUint16(22, 1, true); // mono
+  view.setUint32(24, SAMPLE_RATE, true);
+  view.setUint32(28, byteRate, true);
+  view.setUint16(32, BITS_PER_SAMPLE / 8, true);
+  view.setUint16(34, BITS_PER_SAMPLE, true);
+  view.setUint8(36, 0x64); view.setUint8(37, 0x61); // "da"
+  view.setUint8(38, 0x74); view.setUint8(39, 0x61); // "ta"
+  view.setUint32(40, dataSize, true);
+
+  const byteData = new Uint8Array(dataSize);
+  const sampleView = new DataView(samples.buffer);
+  for (let i = 0; i < dataSize; i++) {
+    byteData[i] = sampleView.getUint8(i);
+  }
+  const out = new Uint8Array(buffer);
+  out.set(byteData, 44);
+  return buffer;
+}
+
+function generateWav(freq: number, durMs: number, vol: number): ArrayBuffer {
+  const n = Math.floor(SAMPLE_RATE * durMs / 1000);
+  const samples = new Int16Array(n);
+  for (let i = 0; i < n; i++) {
+    const t = i / SAMPLE_RATE;
+    const env = Math.max(0, 1 - i / n);
+    samples[i] = Math.max(-32768, Math.min(32767, Math.round(vol * env * Math.sin(2 * Math.PI * freq * t) * 32767)));
+  }
+  return encodeWav(samples);
+}
+
+function generateSweepWav(startFreq: number, endFreq: number, durMs: number, vol: number): ArrayBuffer {
+  const n = Math.floor(SAMPLE_RATE * durMs / 1000);
+  const samples = new Int16Array(n);
+  for (let i = 0; i < n; i++) {
+    const t = i / SAMPLE_RATE;
+    const env = Math.max(0, 1 - i / n);
+    const freq = startFreq + (endFreq - startFreq) * (i / n);
+    samples[i] = Math.max(-32768, Math.min(32767, Math.round(vol * env * Math.sin(2 * Math.PI * freq * t) * 32767)));
+  }
+  return encodeWav(samples);
+}
+
+function twoNoteWav(f1: number, f2: number, d1: number, d2: number, vol: number): ArrayBuffer {
+  const gapSamples = Math.floor(SAMPLE_RATE * 15 / 1000);
+  const n1 = Math.floor(SAMPLE_RATE * d1 / 1000);
+  const n2 = Math.floor(SAMPLE_RATE * d2 / 1000);
+  const total = n1 + gapSamples + n2;
+  const samples = new Int16Array(total);
+  let idx = 0;
+  for (let i = 0; i < n1; i++, idx++) {
+    const t = i / SAMPLE_RATE;
+    const env = Math.max(0, 1 - i / n1 * 0.3);
+    samples[idx] = Math.max(-32768, Math.min(32767, Math.round(vol * env * Math.sin(2 * Math.PI * f1 * t) * 32767)));
+  }
+  idx += gapSamples;
+  for (let i = 0; i < n2; i++, idx++) {
+    const t = i / SAMPLE_RATE;
+    const env = Math.max(0, 1 - i / n2);
+    samples[idx] = Math.max(-32768, Math.min(32767, Math.round(vol * env * Math.sin(2 * Math.PI * f2 * t) * 32767)));
+  }
+  return encodeWav(samples);
+}
+
+function multiBeepWav(freq: number, durMs: number, gapMs: number, count: number, vol: number): ArrayBuffer {
+  const beepSamples = Math.floor(SAMPLE_RATE * durMs / 1000);
+  const gapSamples = Math.floor(SAMPLE_RATE * gapMs / 1000);
+  const total = (beepSamples + gapSamples) * count;
+  const samples = new Int16Array(total);
+  for (let b = 0; b < count; b++) {
+    const offset = b * (beepSamples + gapSamples);
+    for (let i = 0; i < beepSamples; i++) {
+      const t = i / SAMPLE_RATE;
+      const env = Math.max(0, 1 - i / beepSamples);
+      samples[offset + i] = Math.max(-32768, Math.min(32767, Math.round(vol * env * Math.sin(2 * Math.PI * freq * t) * 32767)));
+    }
+  }
+  return encodeWav(samples);
+}
+
+function chimeWav(freqs: number[], durMs: number, gapMs: number, vol: number): ArrayBuffer {
+  const noteSamples = Math.floor(SAMPLE_RATE * durMs / 1000);
+  const gapSamples = Math.floor(SAMPLE_RATE * gapMs / 1000);
+  const total = (noteSamples + gapSamples) * freqs.length;
+  const samples = new Int16Array(total);
+  for (let n = 0; n < freqs.length; n++) {
+    const offset = n * (noteSamples + gapSamples);
+    const freq = freqs[n];
+    for (let i = 0; i < noteSamples; i++) {
+      const t = i / SAMPLE_RATE;
+      const env = Math.max(0, 1 - i / noteSamples);
+      samples[offset + i] = Math.max(-32768, Math.min(32767, Math.round(vol * env * Math.sin(2 * Math.PI * freq * t) * 32767)));
+    }
+  }
+  return encodeWav(samples);
+}
+
+// Exported functions
+export function tickWav(): ArrayBuffer {
+  return generateWav(1800, 40, 0.7);
+}
+
+export function countIn3Wav(): ArrayBuffer {
+  return generateWav(440, 120, 0.7);
+}
+
+export function countIn2Wav(): ArrayBuffer {
+  return generateWav(660, 120, 0.7);
+}
+
+export function countIn1Wav(): ArrayBuffer {
+  return generateWav(880, 120, 0.7);
+}
+
+export function countInStartWav(): ArrayBuffer {
+  return generateWav(1200, 200, 0.9);
+}
+
+export function countdownWarningWav(): ArrayBuffer {
+  return multiBeepWav(1000, 60, 50, 3, 0.8);
+}
+
+export function countdownFinalWav(): ArrayBuffer {
+  return multiBeepWav(1200, 40, 30, 5, 0.9);
+}
+
+export function endBellWav(): ArrayBuffer {
+  return chimeWav([1200, 1000, 800, 600], 200, 40, 0.9);
+}
+
+export function signalWav(type: DirectionSignalType): ArrayBuffer {
+  switch (type) {
+    case DirectionSignalType.alert:
+      return generateSweepWav(600, 1200, 150, 0.9);
+    case DirectionSignalType.whistle:
+      return generateSweepWav(1200, 2000, 120, 0.85);
+    case DirectionSignalType.drum:
+      return generateWav(120, 100, 1.0);
+    case DirectionSignalType.dirForward:
+      return twoNoteWav(800, 1300, 45, 55, 0.95);
+    case DirectionSignalType.dirBackward:
+      return twoNoteWav(1200, 600, 45, 55, 0.95);
+    case DirectionSignalType.dirLeft:
+      return generateSweepWav(1600, 2600, 75, 0.9);
+    case DirectionSignalType.dirRight:
+      return generateSweepWav(2600, 1400, 75, 0.9);
+  }
+}

@@ -1,1 +1,8 @@
-bW9kdWxlLmV4cG9ydHMgPSB7CiAgcHJlc2V0czogWwogICAgWyd0YXJvJywgewogICAgICBmcmFtZXdvcms6ICdyZWFjdCcsCiAgICAgIHRzOiB0cnVlLAogICAgfV0sCiAgXSwKfQo=
+module.exports = {
+  presets: [
+    ['taro', {
+      framework: 'react',
+      ts: true,
+    }],
+  ],
+}

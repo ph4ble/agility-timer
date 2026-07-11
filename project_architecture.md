@@ -1,1 +1,88 @@
-LS0tCm5hbWU6IFByb2plY3QgQXJjaGl0ZWN0dXJlCmRlc2NyaXB0aW9uOiBPdmVyYWxsIGFyY2hpdGVjdHVyZSBvZiB0aGUgYWdpbGl0eS10aW1lciBwcm9qZWN0IGluY2x1ZGluZyBib3RoIEZsdXR0ZXIgKEFuZHJvaWQpIGFuZCBUYXJvIChXZUNoYXQgTWluaSBQcm9ncmFtKSB2ZXJzaW9ucwp0eXBlOiBwcm9qZWN0Cm9yaWdpblNlc3Npb25JZDogZGU5ZTNhODktNWZmOC00ZGU4LWJhMzAtNDIyYzFjOTkzNmZmCi0tLQojIyBQcm9qZWN0OiDmlY/mjbforq3nu4PorqHml7blmaggKEFnaWxpdHkgVHJhaW5pbmcgVGltZXIpCgpBIHNwb3J0cyBhZ2lsaXR5IHRyYWluaW5nIHRpbWVyIGFwcCBidWlsdCBmb3IgdHdvIHBsYXRmb3Jtcywgc2hhcmluZyB0aGUgc2FtZSBmZWF0dXJlIHNldCBhbmQgZGVzaWduIGxhbmd1YWdlLgoKKipXaHk6KiogVGhlIHVzZXIgd2FudGVkIHRvIGRpc3RyaWJ1dGUgdG8gYm90aCBBbmRyb2lkIHVzZXJzIChBUEspIGFuZCBXZUNoYXQgdXNlcnMgKG1pbmkgcHJvZ3JhbSwgbm8gaW5zdGFsbCByZXF1aXJlZCkuIFRoZSBGbHV0dGVyIHZlcnNpb24gdGFyZ2V0cyBBbmRyb2lkLiBUaGUgVGFybyB2ZXJzaW9uIHRhcmdldHMgV2VDaGF0IE1pbmkgUHJvZ3JhbS4KCioqSG93IHRvIGFwcGx5OioqIFdoZW4gbWFraW5nIGZlYXR1cmUgY2hhbmdlcywgYm90aCBwbGF0Zm9ybXMgc2hvdWxkIGJlIHVwZGF0ZWQuIFRoZSBlbmdpbmVzIChtZXRyb25vbWUsIHRvbmUgZ2VuZXJhdG9yLCB0cmFpbmluZyBzdGF0ZSBtYWNoaW5lKSBoYXZlIHRoZSBzYW1lIGxvZ2ljIGJ1dCBkaWZmZXJlbnQgaW1wbGVtZW50YXRpb25zIGR1ZSB0byBwbGF0Zm9ybSBjb25zdHJhaW50cy4KCiMjIyBHaXRIdWIgUmVwbzogaHR0cHM6Ly9naXRodWIuY29tL3BoNGJsZS9hZ2lsaXR5LXRpbWVyCgotICoqbWFpbioqIGJyYW5jaCBjb250YWlucyBib3RoIHZlcnNpb25zCi0gUm9vdDogRmx1dHRlciBBbmRyb2lkIGFwcCAoVjAuMSwgVjAuMikKLSBgd2VjaGF0LW1pbmktcHJvZ3JhbS9gOiBUYXJvIG1pbmkgcHJvZ3JhbSAoVjAuMS1taW5pKQoKIyMjIEZsdXR0ZXIgQW5kcm9pZCBWZXJzaW9uIChSb290IGRpcmVjdG9yeSkKClBhdGg6IGAvVXNlcnMveXd3bC9EZXNrdG9wL+maj+acuuS6i+S7tuWumuaXtuWZqOmhueebri9gCgp8IENvbXBvbmVudCB8IFBhdGggfCBSb2xlIHwKfC0tLS0tLS0tLS0tfC0tLS0tLXwtLS0tLS18CnwgRW50cnkgfCBgbGliL21haW4uZGFydGAgfCBBcHAgZW50cnkgcG9pbnQgfAp8IEhvbWUgU2NyZWVuIHwgYGxpYi9zY3JlZW5zL2hvbWVfc2NyZWVuLmRhcnRgIHwgU2V0dGluZ3MgcGFnZSwgc2luZ2xlIHNjcmVlbiBubyBzY3JvbGwgfAp8IFRyYWluaW5nIFNjcmVlbiB8IGBsaWIvc2NyZWVucy90cmFpbmluZ19zY3JlZW4uZGFydGAgfCBDb3VudC1pbiwgYmVhdCByaW5nLCBkaXJlY3Rpb24gYXJyb3csIHBhdXNlL3N0b3AgfAp8IENvbmZpZyBNb2RlbCB8IGBsaWIvbW9kZWxzL3RyYWluaW5nX2NvbmZpZy5kYXJ0YCB8IEVudW1zLCBUcmFpbmluZ0NvbmZpZywgZGVmYXVsdHMgfAp8IFRyYWluaW5nIEVuZ2luZSB8IGBsaWIvZW5naW5lcy90cmFpbmluZ19lbmdpbmUuZGFydGAgfCBTdGF0ZSBtYWNoaW5lOiBpZGxl4oaSY291bnRJbuKGknJ1bm5pbmfihpJyZXN04oaScGF1c2Vk4oaSZmluaXNoZWQgfAp8IE1ldHJvbm9tZSBFbmdpbmUgfCBgbGliL2VuZ2luZXMvbWV0cm9ub21lX2VuZ2luZS5kYXJ0YCB8IFRpbWVyLWJhc2VkIG1ldHJvbm9tZSB8CnwgVG9uZSBHZW5lcmF0b3IgfCBgbGliL2VuZ2luZXMvdG9uZV9nZW5lcmF0b3IuZGFydGAgfCBXQVYgYXVkaW8gc3ludGhlc2lzIGluIERhcnQgfAp8IEF1ZGlvIFNlcnZpY2UgfCBgbGliL3NlcnZpY2VzL2F1ZGlvX3NlcnZpY2VfbW9iaWxlLmRhcnRgIHwgYXVkaW9wbGF5ZXJzLWJhc2VkIGF1ZGlvIHBvb2wgfAp8IEJQTSBDb250cm9sIHwgYGxpYi93aWRnZXRzL2JwbV9jb250cm9sLmRhcnRgIHwgQ29tcGFjdCBCUE0gc2xpZGVyIHdpdGggKy8tIGJ1dHRvbnMgfAp8IEJlYXQgUmluZyB8IGBsaWIvd2lkZ2V0cy9iZWF0X3JpbmcuZGFydGAgfCBBbmltYXRlZCBwdWxzaW5nIHJpbmcgfAp8IERpcmVjdGlvbiBPdmVybGF5IHwgYGxpYi93aWRnZXRzL2RpcmVjdGlvbl9vdmVybGF5LmRhcnRgIHwgQXJyb3cgcG9wIGFuaW1hdGlvbiB8CnwgQW5kcm9pZCBCdWlsZCB8IGBhbmRyb2lkL2AgfCBjb21waWxlU2RrPTM2LCBBR1AgOS4wLjEsIEdyYWRsZSA5LjEuMCwgSmF2YSAxNyB8CnwgV2FrZUxvY2sgfCBgd2FrZWxvY2tfcGx1c2AgfCBLZWVwIHNjcmVlbiBvbiBkdXJpbmcgdHJhaW5pbmcgfAoKIyMjIFRhcm8gTWluaSBQcm9ncmFtIFZlcnNpb24KClBhdGg6IGAvVXNlcnMveXd3bC9EZXNrdG9wL3dlY2hhdC1hZ2lsaXR5LXRpbWVyL2AKUmVwbzogYHdlY2hhdC1taW5pLXByb2dyYW0vYAoKfCBDb21wb25lbnQgfCBQYXRoIHwgUm9sZSB8CnwtLS0tLS0tLS0tLXwtLS0tLS18LS0tLS0tfAp8IEFwcCBFbnRyeSB8IGBzcmMvYXBwLnRzeGAgfCBSb290IGNvbXBvbmVudCB8CnwgQXBwIENvbmZpZyB8IGBzcmMvYXBwLmNvbmZpZy50c2AgfCBQYWdlcyBjb25maWcgKGluZGV4LCB0cmFpbmluZykgfAp8IEFwcCBTdHlsZXMgfCBgc3JjL2FwcC5zY3NzYCB8IERhcmsgdGhlbWUgQ1NTIHZhcmlhYmxlcyB8CnwgSG9tZSBQYWdlIHwgYHNyYy9wYWdlcy9pbmRleC9pbmRleC50c3hgIHwgU2V0dGluZ3M6IG1vZGUsIEJQTSwgZGlyZWN0aW9uLCBzaWduYWwsIHZvbHVtZXMgfAp8IFRyYWluaW5nIFBhZ2UgfCBgc3JjL3BhZ2VzL3RyYWluaW5nL2luZGV4LnRzeGAgfCBUaW1lciwgYmVhdCByaW5nLCBkaXJlY3Rpb24gYXJyb3csIGNvbnRyb2xzIHwKfCBDb25maWcgTW9kZWwgfCBgc3JjL21vZGVscy9jb25maWcudHNgIHwgU2FtZSBlbnVtcy90eXBlcyBhcyBGbHV0dGVyLCBwb3J0ZWQgdG8gVFMgfAp8IFRyYWluaW5nIEVuZ2luZSB8IGBzcmMvZW5naW5lcy90cmFpbmluZ0VuZ2luZS50c2AgfCBTYW1lIHN0YXRlIG1hY2hpbmUsIHNldEludGVydmFsLWJhc2VkIHwKfCBNZXRyb25vbWUgfCBgc3JjL2VuZ2luZXMvbWV0cm9ub21lLnRzYCB8IHNldEludGVydmFsLWRyaXZlbiBtZXRyb25vbWUgfAp8IFRvbmUgR2VuZXJhdG9yIHwgYHNyYy9lbmdpbmVzL3RvbmVHZW5lcmF0b3IudHNgIHwgUHVyZSBKUyBXQVYgc3ludGhlc2lzIChzYW1lIGFsZ29yaXRobXMgYXMgRGFydCkgfAp8IEF1ZGlvIE1hbmFnZXIgfCBgc3JjL2VuZ2luZXMvYXVkaW9NYW5hZ2VyLnRzYCB8IFRhcm8uY3JlYXRlSW5uZXJBdWRpb0NvbnRleHQgcG9vbCwgY3VzdG9tIGJhc2U2NCBlbmNvZGVyIHwKfCBCUE0gQ29udHJvbCB8IGBzcmMvY29tcG9uZW50cy9CcG1Db250cm9sL2luZGV4LnRzeGAgfCBUYXJvIFNsaWRlciArICsvLSBxdWljayBidXR0b25zIHwKfCBCZWF0IFJpbmcgfCBgc3JjL2NvbXBvbmVudHMvQmVhdFJpbmcvaW5kZXgudHN4YCB8IENTUyBAa2V5ZnJhbWVzIHB1bHNlIGFuaW1hdGlvbiB8CnwgRGlyZWN0aW9uIEFycm93IHwgYHNyYy9jb21wb25lbnRzL0RpcmVjdGlvbkFycm93L2luZGV4LnRzeGAgfCBDU1MgcG9wL2ZhZGUgYW5pbWF0aW9uIHwKfCBCdWlsZCBDb25maWcgfCBgY29uZmlnL2luZGV4LnRzYCB8IFRhcm8gNC4yLCB3ZWJwYWNrNSwgZGVzaWduV2lkdGggMzc1IHwKfCBCdWlsZCBPdXRwdXQgfCBgZGlzdC9gIHwgV2VDaGF0IG1pbmkgcHJvZ3JhbSBjb21waWxlZCBvdXRwdXQgfAoKIyMjIENvcmUgRmVhdHVyZSBTZXQgKEJvdGggUGxhdGZvcm1zKQoKLSAqKjQgVHJhaW5pbmcgTW9kZXMqKjogRnJlZSwgVGltZWQsIFByb2dyZXNzaXZlIChCUE0gcmFtcCksIEludGVydmFsICh3b3JrL3Jlc3QgY3ljbGVzKQotICoqTWV0cm9ub21lKio6IDIwLTMwMCBCUE0sIGNvbmZpZ3VyYWJsZSBiZWF0cyBwZXIgYmFyCi0gKipSYW5kb20gRGlyZWN0aW9uIFNpZ25hbHMqKjogV2l0aGluIGNvbmZpZ3VyYWJsZSBiZWF0IGludGVydmFscywgMi00IGRpcmVjdGlvbnMKLSAqKkR1YWwgU291bmQgVHlwZXMqKjogR2VuZXJpYyBhbGVydCB0b25lIC8gZGlyZWN0aW9uLXNwZWNpZmljIHRvbmVzICh2b2ljZS1saWtlKQotICoqUmFuZG9tIEJQTSBWYXJpYXRpb24qKjogQ29uZmlndXJhYmxlICUgcmFuZ2UsIGNoYW5nZXMgZXZlcnkgZmV3IGJhcnMKLSAqKkNvdW50LWluKio6IDMtMi0xLUdvIGF1ZGlvICsgYmVhdCBzZXF1ZW5jZQotICoqQ291bnRkb3duIFdhcm5pbmcqKjogMTBzIGJlZXAgKyByZWQgZmxhc2ggYW5pbWF0aW9uCi0gKipFbmQgQmVsbCoqOiA0LW5vdGUgY2hpbWUgd2hlbiB0cmFpbmluZyBjb21wbGV0ZXMKLSAqKlBhdXNlL1Jlc3VtZSoqOiBGdWxsIHBhdXNlIHN1cHBvcnQgd2l0aCBhdWRpby90aW1lciBtYW5hZ2VtZW50Ci0gKipTY3JlZW4gS2VlcC1PbioqOiBXYWtlbG9jayBwcmV2ZW50cyBzY3JlZW4gc2xlZXAgZHVyaW5nIGFjdGl2ZSB0cmFpbmluZyAoZGlzYWJsZXMgb24gcGF1c2Uvc3RvcCkKLSAqKkRhcmsgVGhlbWUqKjogYCMxQTFBMkVgIGJhY2tncm91bmQsIGAjRTkxRTYzYCBhY2NlbnQsIGAjMDBFNUZGYCBjeWFuIGhpZ2hsaWdodHMKCiMjIyBUZWNobmljYWwgRGVjaXNpb25zICYgVHJhZGVvZmZzCgotICoqVGFybyBvdmVyIHVuaS1hcHAqKjogQmV0dGVyIFJlYWN0IHN1cHBvcnQsIGNvbW11bml0eSwgYW5kIG1pbmkgcHJvZ3JhbSBjb21wYXRpYmlsaXR5Ci0gKipzZXRJbnRlcnZhbCBtZXRyb25vbWUqKjogTGVzcyBwcmVjaXNlIHRoYW4gRmx1dHRlcidzIHRpbWVyIEFQSSBidXQgd29ya2FibGUgZm9yIG1pbmkgcHJvZ3JhbXMKLSAqKkNTUyBhbmltYXRpb25zIG92ZXIgSlMqKjogQmVhdCByaW5nIHB1bHNlIGFuZCBkaXJlY3Rpb24gYXJyb3cgdXNlIENTUyBrZXlmcmFtZXMgaW5zdGVhZCBvZiBKUyBhbmltYXRpb24gbG9vcHMgKGJldHRlciBwZXJmb3JtYW5jZSBpbiBtaW5pIHByb2dyYW0gV2ViVmlldykKLSAqKldBViBnZW5lcmF0aW9uIG92ZXIgYXVkaW8gZmlsZXMqKjogUHVyZSBKUyBXQVYgc3ludGhlc2lzIG1lYW5zIG5vIGV4dGVybmFsIGF1ZGlvIGFzc2V0cyBuZWVkZWQsIGFsbCBzb3VuZHMgZ2VuZXJhdGVkIGZyb20gbWF0aAotICoqQ3VzdG9tIGJhc2U2NCBlbmNvZGVyKio6IFdlQ2hhdCBydW50aW1lIGRvZXNuJ3QgaGF2ZSBgYnRvYSgpYCwgc28gYSBtYW51YWwgYmFzZTY0IGltcGxlbWVudGF0aW9uIHdhcyBuZWVkZWQKLSAqKkdpdEh1YiBwdXNoIHZpYSBBUEkqKjogYGdpdGh1Yi5jb21gIGlzIGJsb2NrZWQgZnJvbSB0aGUgdXNlcidzIG5ldHdvcms7IGBhcGkuZ2l0aHViLmNvbWAgd29ya3MsIHNvIGNvbW1pdHMgYXJlIHB1c2hlZCB2aWEgR2l0IERhdGEgQVBJCi0gKipgdXNlTG9hZGAgbm90IGB1c2VEaWRTaG93YCoqOiBJbiBUYXJvIDQueCwgYHVzZUxvYWRgIGlzIHRoZSBjb3JyZWN0IGhvb2sgZm9yIHJlY2VpdmluZyBwYWdlIHJvdXRlIHBhcmFtcyBvbiBpbml0aWFsIGxvYWQK
+---
+name: Project Architecture
+description: Overall architecture of the agility-timer project including both Flutter (Android) and Taro (WeChat Mini Program) versions
+type: project
+originSessionId: de9e3a89-5ff8-4de8-ba30-422c1c9936ff
+---
+## Project: 敏捷训练计时器 (Agility Training Timer)
+
+A sports agility training timer app built for two platforms, sharing the same feature set and design language.
+
+**Why:** The user wanted to distribute to both Android users (APK) and WeChat users (mini program, no install required). The Flutter version targets Android. The Taro version targets WeChat Mini Program.
+
+**How to apply:** When making feature changes, both platforms should be updated. The engines (metronome, tone generator, training state machine) have the same logic but different implementations due to platform constraints.
+
+### GitHub Repo: https://github.com/ph4ble/agility-timer
+
+- **main** branch contains both versions
+- Root: Flutter Android app (V0.1, V0.2)
+- `wechat-mini-program/`: Taro mini program (V0.1-mini)
+
+### Flutter Android Version (Root directory)
+
+Path: `/Users/ywwl/Desktop/随机事件定时器项目/`
+
+| Component | Path | Role |
+|-----------|------|------|
+| Entry | `lib/main.dart` | App entry point |
+| Home Screen | `lib/screens/home_screen.dart` | Settings page, single screen no scroll |
+| Training Screen | `lib/screens/training_screen.dart` | Count-in, beat ring, direction arrow, pause/stop |
+| Config Model | `lib/models/training_config.dart` | Enums, TrainingConfig, defaults |
+| Training Engine | `lib/engines/training_engine.dart` | State machine: idle→countIn→running→rest→paused→finished |
+| Metronome Engine | `lib/engines/metronome_engine.dart` | Timer-based metronome |
+| Tone Generator | `lib/engines/tone_generator.dart` | WAV audio synthesis in Dart |
+| Audio Service | `lib/services/audio_service_mobile.dart` | audioplayers-based audio pool |
+| BPM Control | `lib/widgets/bpm_control.dart` | Compact BPM slider with +/- buttons |
+| Beat Ring | `lib/widgets/beat_ring.dart` | Animated pulsing ring |
+| Direction Overlay | `lib/widgets/direction_overlay.dart` | Arrow pop animation |
+| Android Build | `android/` | compileSdk=36, AGP 9.0.1, Gradle 9.1.0, Java 17 |
+| WakeLock | `wakelock_plus` | Keep screen on during training |
+
+### Taro Mini Program Version
+
+Path: `/Users/ywwl/Desktop/wechat-agility-timer/`
+Repo: `wechat-mini-program/`
+
+| Component | Path | Role |
+|-----------|------|------|
+| App Entry | `src/app.tsx` | Root component |
+| App Config | `src/app.config.ts` | Pages config (index, training) |
+| App Styles | `src/app.scss` | Dark theme CSS variables |
+| Home Page | `src/pages/index/index.tsx` | Settings: mode, BPM, direction, signal, volumes |
+| Training Page | `src/pages/training/index.tsx` | Timer, beat ring, direction arrow, controls |
+| Config Model | `src/models/config.ts` | Same enums/types as Flutter, ported to TS |
+| Training Engine | `src/engines/trainingEngine.ts` | Same state machine, setInterval-based |
+| Metronome | `src/engines/metronome.ts` | setInterval-driven metronome |
+| Tone Generator | `src/engines/toneGenerator.ts` | Pure JS WAV synthesis (same algorithms as Dart) |
+| Audio Manager | `src/engines/audioManager.ts` | Taro.createInnerAudioContext pool, custom base64 encoder |
+| BPM Control | `src/components/BpmControl/index.tsx` | Taro Slider + +/- quick buttons |
+| Beat Ring | `src/components/BeatRing/index.tsx` | CSS @keyframes pulse animation |
+| Direction Arrow | `src/components/DirectionArrow/index.tsx` | CSS pop/fade animation |
+| Build Config | `config/index.ts` | Taro 4.2, webpack5, designWidth 375 |
+| Build Output | `dist/` | WeChat mini program compiled output |
+
+### Core Feature Set (Both Platforms)
+
+- **4 Training Modes**: Free, Timed, Progressive (BPM ramp), Interval (work/rest cycles)
+- **Metronome**: 20-300 BPM, configurable beats per bar
+- **Random Direction Signals**: Within configurable beat intervals, 2-4 directions
+- **Dual Sound Types**: Generic alert tone / direction-specific tones (voice-like)
+- **Random BPM Variation**: Configurable % range, changes every few bars
+- **Count-in**: 3-2-1-Go audio + beat sequence
+- **Countdown Warning**: 10s beep + red flash animation
+- **End Bell**: 4-note chime when training completes
+- **Pause/Resume**: Full pause support with audio/timer management
+- **Screen Keep-On**: Wakelock prevents screen sleep during active training (disables on pause/stop)
+- **Dark Theme**: `#1A1A2E` background, `#E91E63` accent, `#00E5FF` cyan highlights
+
+### Technical Decisions & Tradeoffs
+
+- **Taro over uni-app**: Better React support, community, and mini program compatibility
+- **setInterval metronome**: Less precise than Flutter's timer API but workable for mini programs
+- **CSS animations over JS**: Beat ring pulse and direction arrow use CSS keyframes instead of JS animation loops (better performance in mini program WebView)
+- **WAV generation over audio files**: Pure JS WAV synthesis means no external audio assets needed, all sounds generated from math
+- **Custom base64 encoder**: WeChat runtime doesn't have `btoa()`, so a manual base64 implementation was needed
+- **GitHub push via API**: `github.com` is blocked from the user's network; `api.github.com` works, so commits are pushed via Git Data API
+- **`useLoad` not `useDidShow`**: In Taro 4.x, `useLoad` is the correct hook for receiving page route params on initial load
+- **Sharing via Taro hooks**: `useShareAppMessage` (转发好友) + `useShareTimeline` (朋友圈) registered on both pages; sharing is opt-in per page in WeChat, and 朋友圈 only appears on Android WeChat
+- **`setKeepScreenOn` for wakelock**: Mini program equivalent of Flutter's `wakelock_plus`; enabled on active training phases, disabled on pause/finish/unmount

@@ -1,1 +1,42 @@
-PG1hbmlmZXN0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIHBhY2thZ2U9ImNvbS5leGFtcGxlLmFnaWxpdHlfdGltZXIiPgoKICAgIDx1c2VzLXBlcm1pc3Npb24gYW5kcm9pZDpuYW1lPSJhbmRyb2lkLnBlcm1pc3Npb24uV0FLRV9MT0NLIi8+CiAgICA8dXNlcy1wZXJtaXNzaW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5wZXJtaXNzaW9uLlZJQlJBVEUiLz4KCiAgICA8YXBwbGljYXRpb24KICAgICAgICBhbmRyb2lkOmxhYmVsPSLmlY/mjbforq3nu4PorqHml7blmagiCiAgICAgICAgYW5kcm9pZDpuYW1lPSIke2FwcGxpY2F0aW9uTmFtZX0iCiAgICAgICAgYW5kcm9pZDppY29uPSJAbWlwbWFwL2ljX2xhdW5jaGVyIgogICAgICAgIGFuZHJvaWQ6YWxsb3dCYWNrdXA9InRydWUiCiAgICAgICAgYW5kcm9pZDp0aGVtZT0iQHN0eWxlL0xhdW5jaFRoZW1lIj4KCiAgICAgICAgPGFjdGl2aXR5CiAgICAgICAgICAgIGFuZHJvaWQ6bmFtZT0iLk1haW5BY3Rpdml0eSIKICAgICAgICAgICAgYW5kcm9pZDpleHBvcnRlZD0idHJ1ZSIKICAgICAgICAgICAgYW5kcm9pZDpsYXVuY2hNb2RlPSJzaW5nbGVUb3AiCiAgICAgICAgICAgIGFuZHJvaWQ6dGhlbWU9IkBzdHlsZS9MYXVuY2hUaGVtZSIKICAgICAgICAgICAgYW5kcm9pZDpjb25maWdDaGFuZ2VzPSJvcmllbnRhdGlvbnxrZXlib2FyZEhpZGRlbnxrZXlib2FyZHxzY3JlZW5TaXplfHNtYWxsZXN0U2NyZWVuU2l6ZXxsb2NhbGV8bGF5b3V0RGlyZWN0aW9ufGZvbnRTY2FsZXxzY3JlZW5MYXlvdXR8ZGVuc2l0eXx1aU1vZGUiCiAgICAgICAgICAgIGFuZHJvaWQ6aGFyZHdhcmVBY2NlbGVyYXRlZD0idHJ1ZSIKICAgICAgICAgICAgYW5kcm9pZDp3aW5kb3dTb2Z0SW5wdXRNb2RlPSJhZGp1c3RSZXNpemUiPgogICAgICAgICAgICA8bWV0YS1kYXRhCiAgICAgICAgICAgICAgICBhbmRyb2lkOm5hbWU9ImlvLmZsdXR0ZXIuZW1iZWRkaW5nLmFuZHJvaWQuTm9ybWFsVGhlbWUiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnJlc291cmNlPSJAc3R5bGUvTm9ybWFsVGhlbWUiLz4KICAgICAgICAgICAgPGludGVudC1maWx0ZXI+CiAgICAgICAgICAgICAgICA8YWN0aW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLk1BSU4iLz4KICAgICAgICAgICAgICAgIDxjYXRlZ29yeSBhbmRyb2lkOm5hbWU9ImFuZHJvaWQuaW50ZW50LmNhdGVnb3J5LkxBVU5DSEVSIi8+CiAgICAgICAgICAgIDwvaW50ZW50LWZpbHRlcj4KICAgICAgICA8L2FjdGl2aXR5PgoKICAgICAgICA8bWV0YS1kYXRhCiAgICAgICAgICAgIGFuZHJvaWQ6bmFtZT0iZmx1dHRlckVtYmVkZGluZyIKICAgICAgICAgICAgYW5kcm9pZDp2YWx1ZT0iMiIvPgogICAgPC9hcHBsaWNhdGlvbj4KCiAgICA8cXVlcmllcz4KICAgICAgICA8aW50ZW50PgogICAgICAgICAgICA8YWN0aW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlBST0NFU1NfVEVYVCIvPgogICAgICAgICAgICA8ZGF0YSBhbmRyb2lkOm1pbWVUeXBlPSJ0ZXh0L3BsYWluIi8+CiAgICAgICAgPC9pbnRlbnQ+CiAgICA8L3F1ZXJpZXM+CjwvbWFuaWZlc3Q+Cg==
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.agility_timer">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:label="敏捷训练计时器"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true"
+        android:theme="@style/LaunchTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2"/>
+    </application>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+    </queries>
+</manifest>

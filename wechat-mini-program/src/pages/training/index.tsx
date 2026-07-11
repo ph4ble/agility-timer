@@ -1,1 +1,238 @@
-aW1wb3J0IHsgdXNlU3RhdGUsIHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VDYWxsYmFjayB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IFRhcm8sIHsgdXNlTG9hZCwgdXNlRGlkU2hvdywgdXNlRGlkSGlkZSB9IGZyb20gJ0B0YXJvanMvdGFybyc7CmltcG9ydCB7IFZpZXcsIFRleHQgfSBmcm9tICdAdGFyb2pzL2NvbXBvbmVudHMnOwppbXBvcnQgQmVhdFJpbmcgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9CZWF0UmluZyc7CmltcG9ydCBEaXJlY3Rpb25BcnJvdyBmcm9tICcuLi8uLi9jb21wb25lbnRzL0RpcmVjdGlvbkFycm93JzsKaW1wb3J0IHsgVHJhaW5pbmdFbmdpbmUsIFRyYWluaW5nU3RhdGUsIFNpZ25hbEV2ZW50IH0gZnJvbSAnLi4vLi4vZW5naW5lcy90cmFpbmluZ0VuZ2luZSc7CmltcG9ydCB7IGF1ZGlvTWFuYWdlciB9IGZyb20gJy4uLy4uL2VuZ2luZXMvYXVkaW9NYW5hZ2VyJzsKaW1wb3J0IHsgQmVhdEV2ZW50IH0gZnJvbSAnLi4vLi4vZW5naW5lcy9tZXRyb25vbWUnOwppbXBvcnQgewogIFRyYWluaW5nQ29uZmlnLAogIFRyYWluaW5nTW9kZSwKICBUcmFpbmluZ1BoYXNlLAogIERFRkFVTFRfQ09ORklHLAp9IGZyb20gJy4uLy4uL21vZGVscy9jb25maWcnOwppbXBvcnQgJy4vaW5kZXguc2Nzcyc7CgpmdW5jdGlvbiBmb3JtYXRUaW1lKHRvdGFsU2Vjb25kczogbnVtYmVyKTogc3RyaW5nIHsKICBjb25zdCBtaW5zID0gTWF0aC5mbG9vcih0b3RhbFNlY29uZHMgLyA2MCk7CiAgY29uc3Qgc2VjcyA9IHRvdGFsU2Vjb25kcyAlIDYwOwogIHJldHVybiBgJHtTdHJpbmcobWlucykucGFkU3RhcnQoMiwgJzAnKX06JHtTdHJpbmcoc2VjcykucGFkU3RhcnQoMiwgJzAnKX1gOwp9CgpmdW5jdGlvbiBnZXREaXNwbGF5U2Vjb25kcyhzdGF0ZTogVHJhaW5pbmdTdGF0ZSwgY29uZmlnOiBUcmFpbmluZ0NvbmZpZyk6IG51bWJlciB7CiAgaWYgKGNvbmZpZy5tb2RlID09PSBUcmFpbmluZ01vZGUudGltZWQpIHsKICAgIHJldHVybiBNYXRoLm1heCgwLCBzdGF0ZS50b3RhbFNlY29uZHMgLSBzdGF0ZS5lbGFwc2VkU2Vjb25kcyk7CiAgfQogIGlmIChjb25maWcubW9kZSA9PT0gVHJhaW5pbmdNb2RlLmludGVydmFsKSB7CiAgICBpZiAoc3RhdGUucGhhc2UgPT09IFRyYWluaW5nUGhhc2UucmVzdCkgewogICAgICByZXR1cm4gY29uZmlnLmludGVydmFsUmVzdFNlY29uZHMgLSBzdGF0ZS5lbGFwc2VkU2Vjb25kczsKICAgIH0KICAgIHJldHVybiBjb25maWcuaW50ZXJ2YWxXb3JrU2Vjb25kcyAtIHN0YXRlLmVsYXBzZWRTZWNvbmRzOwogIH0KICByZXR1cm4gc3RhdGUuZWxhcHNlZFNlY29uZHM7Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFRyYWluaW5nUGFnZSgpIHsKICBjb25zdCBbc3RhdGUsIHNldFN0YXRlXSA9IHVzZVN0YXRlPFRyYWluaW5nU3RhdGUgfCBudWxsPihudWxsKTsKICBjb25zdCBbY29uZmlnLCBzZXRDb25maWddID0gdXNlU3RhdGU8VHJhaW5pbmdDb25maWc+KERFRkFVTFRfQ09ORklHKTsKICBjb25zdCBbc2lnbmFsRXZlbnQsIHNldFNpZ25hbEV2ZW50XSA9IHVzZVN0YXRlPFNpZ25hbEV2ZW50IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2JlYXRFdmVudCwgc2V0QmVhdEV2ZW50XSA9IHVzZVN0YXRlPEJlYXRFdmVudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtpc0NvdW50ZG93biwgc2V0SXNDb3VudGRvd25dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IGVuZ2luZVJlZiA9IHVzZVJlZjxUcmFpbmluZ0VuZ2luZSB8IG51bGw+KG51bGwpOwogIGNvbnN0IGNmZ1JlZiA9IHVzZVJlZjxUcmFpbmluZ0NvbmZpZz4oREVGQVVMVF9DT05GSUcpOwoKICB1c2VMb2FkKChvcHRpb25zKSA9PiB7CiAgICBjb25zdCByYXcgPSBvcHRpb25zPy5jb25maWc7CiAgICBsZXQgY2ZnID0gREVGQVVMVF9DT05GSUc7CiAgICBpZiAocmF3KSB7CiAgICAgIHRyeSB7CiAgICAgICAgY2ZnID0geyAuLi5ERUZBVUxUX0NPTkZJRywgLi4uSlNPTi5wYXJzZShkZWNvZGVVUklDb21wb25lbnQocmF3KSkgfTsKICAgICAgfSBjYXRjaCB7IC8qIHVzZSBkZWZhdWx0ICovIH0KICAgIH0KICAgIGNmZ1JlZi5jdXJyZW50ID0gY2ZnOwogICAgc2V0Q29uZmlnKGNmZyk7CgogICAgYXVkaW9NYW5hZ2VyLmluaXQoKTsKICAgIGNvbnN0IGVuZ2luZSA9IG5ldyBUcmFpbmluZ0VuZ2luZShjZmcpOwogICAgZW5naW5lUmVmLmN1cnJlbnQgPSBlbmdpbmU7CgogICAgZW5naW5lLm9uKHsKICAgICAgc3RhdGU6IChzKSA9PiBzZXRTdGF0ZSh7IC4uLnMgfSksCiAgICAgIHNpZ25hbDogKGUpID0+IHNldFNpZ25hbEV2ZW50KHsgLi4uZSB9KSwKICAgICAgYmVhdDogKGUpID0+IHsKICAgICAgICBzZXRCZWF0RXZlbnQoeyAuLi5lIH0pOwogICAgICAgIGlmICghZS5pc0NvdW50SW4pIHsKICAgICAgICAgIGF1ZGlvTWFuYWdlci5wbGF5VGljayhjZmdSZWYuY3VycmVudC5yZWd1bGFyVm9sdW1lKTsKICAgICAgICB9CiAgICAgICAgdHJ5IHsgVGFyby52aWJyYXRlU2hvcnQoeyB0eXBlOiAnbGlnaHQnIH0pOyB9IGNhdGNoIHsgLyogb2sgKi8gfQogICAgICB9LAogICAgICB0aWNrOiAoKSA9PiB7fSwKICAgICAgY291bnRkb3duOiAoKSA9PiB7CiAgICAgICAgc2V0SXNDb3VudGRvd24odHJ1ZSk7CiAgICAgICAgYXVkaW9NYW5hZ2VyLnBsYXlDb3VudGRvd25XYXJuaW5nKGNmZ1JlZi5jdXJyZW50LnNpZ25hbFZvbHVtZSk7CiAgICAgIH0sCiAgICAgIGVuZEJlbGw6ICgpID0+IHsKICAgICAgICBhdWRpb01hbmFnZXIucGxheUVuZEJlbGwoY2ZnUmVmLmN1cnJlbnQuc2lnbmFsVm9sdW1lKTsKICAgICAgICB0cnkgeyBUYXJvLnZpYnJhdGVTaG9ydCh7IHR5cGU6ICdoZWF2eScgfSk7IH0gY2F0Y2ggeyAvKiBvayAqLyB9CiAgICAgIH0sCiAgICB9KTsKCiAgICBlbmdpbmUuc3RhcnQoKTsKICB9KTsKCiAgdXNlRGlkU2hvdygoKSA9PiB7CiAgICBjb25zdCBlbmdpbmUgPSBlbmdpbmVSZWYuY3VycmVudDsKICAgIGlmIChlbmdpbmUgJiYgZW5naW5lLmlzUGF1c2VkKSB7CiAgICAgIGVuZ2luZS5yZXN1bWUoKTsKICAgIH0KICB9KTsKCiAgdXNlRGlkSGlkZSgoKSA9PiB7CiAgICBjb25zdCBlbmdpbmUgPSBlbmdpbmVSZWYuY3VycmVudDsKICAgIGlmIChlbmdpbmUgJiYgIWVuZ2luZS5pc1BhdXNlZCAmJiBlbmdpbmUuY3VycmVudFBoYXNlICE9PSBUcmFpbmluZ1BoYXNlLmlkbGUgJiYgZW5naW5lLmN1cnJlbnRQaGFzZSAhPT0gVHJhaW5pbmdQaGFzZS5maW5pc2hlZCkgewogICAgICBlbmdpbmUucGF1c2UoKTsKICAgIH0KICB9KTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGVuZ2luZVJlZi5jdXJyZW50Py5kaXNwb3NlKCk7CiAgICAgIGF1ZGlvTWFuYWdlci5kZXN0cm95KCk7CiAgICB9OwogIH0sIFtdKTsKCiAgLy8gUGxheSBjb3VudC1pbiBhdWRpbwogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIWJlYXRFdmVudD8uaXNDb3VudEluKSByZXR1cm47CiAgICBpZiAoYmVhdEV2ZW50LmJlYXROdW1iZXIgPT09IDApIHsKICAgICAgYXVkaW9NYW5hZ2VyLnBsYXlDb3VudEluQmVlcCgwLCBjZmdSZWYuY3VycmVudC5zaWduYWxWb2x1bWUpOwogICAgfSBlbHNlIHsKICAgICAgYXVkaW9NYW5hZ2VyLnBsYXlDb3VudEluQmVlcChiZWF0RXZlbnQuYmVhdE51bWJlciwgY2ZnUmVmLmN1cnJlbnQucmVndWxhclZvbHVtZSk7CiAgICB9CiAgfSwgW2JlYXRFdmVudF0pOwoKICAvLyBQbGF5IHNpZ25hbCBhdWRpbwogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIXNpZ25hbEV2ZW50KSByZXR1cm47CiAgICBhdWRpb01hbmFnZXIucGxheVNpZ25hbChzaWduYWxFdmVudC5zaWduYWxUeXBlLCBjZmdSZWYuY3VycmVudC5zaWduYWxWb2x1bWUpOwogIH0sIFtzaWduYWxFdmVudF0pOwoKICBjb25zdCBoYW5kbGVQYXVzZVJlc3VtZSA9IHVzZUNhbGxiYWNrKCgpID0+IHsKICAgIGNvbnN0IGVuZ2luZSA9IGVuZ2luZVJlZi5jdXJyZW50OwogICAgaWYgKCFlbmdpbmUpIHJldHVybjsKICAgIGlmIChlbmdpbmUuaXNQYXVzZWQpIHsKICAgICAgZW5naW5lLnJlc3VtZSgpOwogICAgfSBlbHNlIHsKICAgICAgZW5naW5lLnBhdXNlKCk7CiAgICB9CiAgfSwgW10pOwoKICBjb25zdCBoYW5kbGVTdG9wID0gdXNlQ2FsbGJhY2soKCkgPT4gewogICAgZW5naW5lUmVmLmN1cnJlbnQ/LnN0b3AoKTsKICAgIFRhcm8ubmF2aWdhdGVCYWNrKCk7CiAgfSwgW10pOwoKICBjb25zdCBnZXRQaGFzZUxhYmVsID0gKCk6IHN0cmluZyA9PiB7CiAgICBpZiAoIXN0YXRlKSByZXR1cm4gJyc7CiAgICBzd2l0Y2ggKHN0YXRlLnBoYXNlKSB7CiAgICAgIGNhc2UgVHJhaW5pbmdQaGFzZS5jb3VudEluOiByZXR1cm4gJ+WHhuWkhyc7CiAgICAgIGNhc2UgVHJhaW5pbmdQaGFzZS5ydW5uaW5nOiByZXR1cm4gY29uZmlnLm1vZGUgPT09IFRyYWluaW5nTW9kZS5pbnRlcnZhbCA/IGDorq3nu4MgJHtzdGF0ZS5yb3VuZE51bWJlcn0vJHtzdGF0ZS50b3RhbFJvdW5kc31gIDogJ+iuree7g+S4rSc7CiAgICAgIGNhc2UgVHJhaW5pbmdQaGFzZS5yZXN0OiByZXR1cm4gYOS8keaBryAke3N0YXRlLnJvdW5kTnVtYmVyfS8ke3N0YXRlLnRvdGFsUm91bmRzfWA7CiAgICAgIGNhc2UgVHJhaW5pbmdQaGFzZS5wYXVzZWQ6IHJldHVybiAn5bey5pqC5YGcJzsKICAgICAgY2FzZSBUcmFpbmluZ1BoYXNlLmZpbmlzaGVkOiByZXR1cm4gJ+WujOaIkCc7CiAgICAgIGRlZmF1bHQ6IHJldHVybiAnJzsKICAgIH0KICB9OwoKICBpZiAoIXN0YXRlKSB7CiAgICByZXR1cm4gKAogICAgICA8VmlldyBjbGFzc05hbWU9J3RyYWluaW5nLXBhZ2UnPgogICAgICAgIDxUZXh0IGNsYXNzTmFtZT0ndHJhaW5pbmctbG9hZGluZyc+5Yqg6L295LitLi4uPC9UZXh0PgogICAgICA8L1ZpZXc+CiAgICApOwogIH0KCiAgY29uc3QgZGlzcGxheVNlY29uZHMgPSBnZXREaXNwbGF5U2Vjb25kcyhzdGF0ZSwgY29uZmlnKTsKICBjb25zdCBwaGFzZUxhYmVsID0gZ2V0UGhhc2VMYWJlbCgpOwogIGNvbnN0IGlzRmluaXNoZWQgPSBzdGF0ZS5waGFzZSA9PT0gVHJhaW5pbmdQaGFzZS5maW5pc2hlZDsKICBjb25zdCBpc1BhdXNlZCA9IHN0YXRlLnBoYXNlID09PSBUcmFpbmluZ1BoYXNlLnBhdXNlZDsKCiAgcmV0dXJuICgKICAgIDxWaWV3IGNsYXNzTmFtZT0ndHJhaW5pbmctcGFnZSc+CiAgICAgIHsvKiBUaW1lciAqL30KICAgICAgPFZpZXcgY2xhc3NOYW1lPXtgdGltZXItc2VjdGlvbiAke2lzQ291bnRkb3duID8gJ3RpbWVyLXNlY3Rpb24tLWNvdW50ZG93bicgOiAnJ31gfT4KICAgICAgICA8VGV4dCBjbGFzc05hbWU9J3BoYXNlLWxhYmVsJz57cGhhc2VMYWJlbH08L1RleHQ+CiAgICAgICAgPFRleHQgY2xhc3NOYW1lPXtgdGltZXItdmFsdWUgJHtpc0NvdW50ZG93biA/ICd0aW1lci12YWx1ZS0td2FybmluZycgOiAnJ31gfT4KICAgICAgICAgIHtmb3JtYXRUaW1lKGRpc3BsYXlTZWNvbmRzKX0KICAgICAgICA8L1RleHQ+CiAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdicG0tc3ViJz7kv6Hlj7forqHmlbA6IHtzdGF0ZS5zaWduYWxDb3VudH08L1RleHQ+CiAgICAgIDwvVmlldz4KCiAgICAgIHsvKiBDZW50ZXIgYXJlYTogQmVhdCBSaW5nIG9yIERpcmVjdGlvbiBBcnJvdyAqL30KICAgICAgPFZpZXcgY2xhc3NOYW1lPSdjZW50ZXItYXJlYSc+CiAgICAgICAge3NpZ25hbEV2ZW50ID8gKAogICAgICAgICAgPERpcmVjdGlvbkFycm93CiAgICAgICAgICAgIGRpcmVjdGlvbj17c2lnbmFsRXZlbnQuZGlyZWN0aW9ufQogICAgICAgICAgICBzaWduYWxUeXBlPXtzaWduYWxFdmVudC5zaWduYWxUeXBlfQogICAgICAgICAgLz4KICAgICAgICApIDogKAogICAgICAgICAgPEJlYXRSaW5nCiAgICAgICAgICAgIGJlYXROdW1iZXI9e2JlYXRFdmVudD8uYmVhdE51bWJlciA/PyAwfQogICAgICAgICAgICBiZWF0c1BlckJhcj17Y29uZmlnLmJlYXRzUGVyQmFyfQogICAgICAgICAgICBwdWxzZT17ISFiZWF0RXZlbnQgJiYgIWJlYXRFdmVudC5pc0NvdW50SW59CiAgICAgICAgICAgIGN1cnJlbnRCcG09e3N0YXRlLmN1cnJlbnRCcG19CiAgICAgICAgICAvPgogICAgICAgICl9CiAgICAgIDwvVmlldz4KCiAgICAgIHsvKiBDb250cm9scyAqL30KICAgICAgeyFpc0ZpbmlzaGVkICYmICgKICAgICAgICA8VmlldyBjbGFzc05hbWU9J3RyYWluaW5nLWNvbnRyb2xzJz4KICAgICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nY29udHJvbC1idG4gY29udHJvbC1idG4tLXN0b3AnIG9uQ2xpY2s9e2hhbmRsZVN0b3B9PgogICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J2NvbnRyb2wtYnRuLXRleHQnPuWBnOatojwvVGV4dD4KICAgICAgICAgIDwvVmlldz4KICAgICAgICAgIDxWaWV3CiAgICAgICAgICAgIGNsYXNzTmFtZT17YGNvbnRyb2wtYnRuICR7aXNQYXVzZWQgPyAnY29udHJvbC1idG4tLXJlc3VtZScgOiAnY29udHJvbC1idG4tLXBhdXNlJ31gfQogICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVQYXVzZVJlc3VtZX0KICAgICAgICAgID4KICAgICAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdjb250cm9sLWJ0bi10ZXh0Jz57aXNQYXVzZWQgPyAn57un57utJyA6ICfmmoLlgZwnfTwvVGV4dD4KICAgICAgICAgIDwvVmlldz4KICAgICAgICA8L1ZpZXc+CiAgICAgICl9CgogICAgICB7aXNGaW5pc2hlZCAmJiAoCiAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdmaW5pc2hlZC1zZWN0aW9uJz4KICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nZmluaXNoZWQtdGV4dCc+6K6t57uD5a6M5oiQITwvVGV4dD4KICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nZmluaXNoZWQtc3RhdHMnPuWFsSB7c3RhdGUuc2lnbmFsQ291bnR9IOasoeWPmOWQkTwvVGV4dD4KICAgICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nY29udHJvbC1idG4gY29udHJvbC1idG4tLWJhY2snIG9uQ2xpY2s9e2hhbmRsZVN0b3B9PgogICAgICAgICAgICA8VGV4dCBjbGFzc05hbWU9J2NvbnRyb2wtYnRuLXRleHQnPui/lOWbnummlumhtTwvVGV4dD4KICAgICAgICAgIDwvVmlldz4KICAgICAgICA8L1ZpZXc+CiAgICAgICl9CiAgICA8L1ZpZXc+CiAgKTsKfQo=
+import { useState, useEffect, useRef, useCallback } from 'react';
+import Taro, { useLoad, useDidShow, useDidHide, useShareAppMessage, useShareTimeline } from '@tarojs/taro';
+import { View, Text } from '@tarojs/components';
+import BeatRing from '../../components/BeatRing';
+import DirectionArrow from '../../components/DirectionArrow';
+import { TrainingEngine, TrainingState, SignalEvent } from '../../engines/trainingEngine';
+import { audioManager } from '../../engines/audioManager';
+import { BeatEvent } from '../../engines/metronome';
+import {
+  TrainingConfig,
+  TrainingMode,
+  TrainingPhase,
+  DEFAULT_CONFIG,
+} from '../../models/config';
+import './index.scss';
+
+function formatTime(totalSeconds: number): string {
+  const mins = Math.floor(totalSeconds / 60);
+  const secs = totalSeconds % 60;
+  return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+}
+
+function getDisplaySeconds(state: TrainingState, config: TrainingConfig): number {
+  if (config.mode === TrainingMode.timed) {
+    return Math.max(0, state.totalSeconds - state.elapsedSeconds);
+  }
+  if (config.mode === TrainingMode.interval) {
+    if (state.phase === TrainingPhase.rest) {
+      return config.intervalRestSeconds - state.elapsedSeconds;
+    }
+    return config.intervalWorkSeconds - state.elapsedSeconds;
+  }
+  return state.elapsedSeconds;
+}
+
+export default function TrainingPage() {
+  const [state, setState] = useState<TrainingState | null>(null);
+  const [config, setConfig] = useState<TrainingConfig>(DEFAULT_CONFIG);
+  const [signalEvent, setSignalEvent] = useState<SignalEvent | null>(null);
+  const [beatEvent, setBeatEvent] = useState<BeatEvent | null>(null);
+  const [isCountdown, setIsCountdown] = useState(false);
+  const engineRef = useRef<TrainingEngine | null>(null);
+  const cfgRef = useRef<TrainingConfig>(DEFAULT_CONFIG);
+
+  useLoad((options) => {
+    const raw = options?.config;
+    let cfg = DEFAULT_CONFIG;
+    if (raw) {
+      try {
+        cfg = { ...DEFAULT_CONFIG, ...JSON.parse(decodeURIComponent(raw)) };
+      } catch { /* use default */ }
+    }
+    cfgRef.current = cfg;
+    setConfig(cfg);
+
+    audioManager.init();
+    const engine = new TrainingEngine(cfg);
+    engineRef.current = engine;
+
+    engine.on({
+      state: (s) => setState({ ...s }),
+      signal: (e) => setSignalEvent({ ...e }),
+      beat: (e) => {
+        setBeatEvent({ ...e });
+        if (!e.isCountIn) {
+          audioManager.playTick(cfgRef.current.regularVolume);
+        }
+        try { Taro.vibrateShort({ type: 'light' }); } catch { /* ok */ }
+      },
+      tick: () => {},
+      countdown: () => {
+        setIsCountdown(true);
+        audioManager.playCountdownWarning(cfgRef.current.signalVolume);
+      },
+      endBell: () => {
+        audioManager.playEndBell(cfgRef.current.signalVolume);
+        try { Taro.vibrateShort({ type: 'heavy' }); } catch { /* ok */ }
+      },
+    });
+
+    engine.start();
+  });
+
+  useDidShow(() => {
+    const engine = engineRef.current;
+    if (engine && engine.isPaused) {
+      engine.resume();
+    }
+  });
+
+  useDidHide(() => {
+    const engine = engineRef.current;
+    if (engine && !engine.isPaused && engine.currentPhase !== TrainingPhase.idle && engine.currentPhase !== TrainingPhase.finished) {
+      engine.pause();
+    }
+  });
+
+  useEffect(() => {
+    return () => {
+      engineRef.current?.dispose();
+      audioManager.destroy();
+      // 离开页面时恢复系统自动熄屏
+      Taro.setKeepScreenOn({ keepScreenOn: false }).catch(() => { /* ok */ });
+    };
+  }, []);
+
+  // 屏幕常亮：训练进行中保持亮屏，暂停/完成时恢复自动熄屏
+  useEffect(() => {
+    const phase = state?.phase;
+    const active =
+      phase === TrainingPhase.countIn ||
+      phase === TrainingPhase.running ||
+      phase === TrainingPhase.rest;
+    Taro.setKeepScreenOn({ keepScreenOn: !!active }).catch(() => { /* ok */ });
+  }, [state?.phase]);
+
+  // 转发给好友
+  useShareAppMessage(() => ({
+    title: '我在用敏捷训练计时器练变向反应，一起来！',
+    path: '/pages/index/index',
+  }));
+
+  // 分享到朋友圈（仅安卓微信显示）
+  useShareTimeline(() => ({
+    title: '敏捷训练计时器 — 变向反应训练神器',
+  }));
+
+  // Play count-in audio
+  useEffect(() => {
+    if (!beatEvent?.isCountIn) return;
+    if (beatEvent.beatNumber === 0) {
+      audioManager.playCountInBeep(0, cfgRef.current.signalVolume);
+    } else {
+      audioManager.playCountInBeep(beatEvent.beatNumber, cfgRef.current.regularVolume);
+    }
+  }, [beatEvent]);
+
+  // Play signal audio
+  useEffect(() => {
+    if (!signalEvent) return;
+    audioManager.playSignal(signalEvent.signalType, cfgRef.current.signalVolume);
+  }, [signalEvent]);
+
+  const handlePauseResume = useCallback(() => {
+    const engine = engineRef.current;
+    if (!engine) return;
+    if (engine.isPaused) {
+      engine.resume();
+    } else {
+      engine.pause();
+    }
+  }, []);
+
+  const handleStop = useCallback(() => {
+    engineRef.current?.stop();
+    Taro.navigateBack();
+  }, []);
+
+  const getPhaseLabel = (): string => {
+    if (!state) return '';
+    switch (state.phase) {
+      case TrainingPhase.countIn: return '准备';
+      case TrainingPhase.running: return config.mode === TrainingMode.interval ? `训练 ${state.roundNumber}/${state.totalRounds}` : '训练中';
+      case TrainingPhase.rest: return `休息 ${state.roundNumber}/${state.totalRounds}`;
+      case TrainingPhase.paused: return '已暂停';
+      case TrainingPhase.finished: return '完成';
+      default: return '';
+    }
+  };
+
+  if (!state) {
+    return (
+      <View className='training-page'>
+        <Text className='training-loading'>加载中...</Text>
+      </View>
+    );
+  }
+
+  const displaySeconds = getDisplaySeconds(state, config);
+  const phaseLabel = getPhaseLabel();
+  const isFinished = state.phase === TrainingPhase.finished;
+  const isPaused = state.phase === TrainingPhase.paused;
+
+  return (
+    <View className='training-page'>
+      {/* Timer */}
+      <View className={`timer-section ${isCountdown ? 'timer-section--countdown' : ''}`}>
+        <Text className='phase-label'>{phaseLabel}</Text>
+        <Text className={`timer-value ${isCountdown ? 'timer-value--warning' : ''}`}>
+          {formatTime(displaySeconds)}
+        </Text>
+        <Text className='bpm-sub'>信号计数: {state.signalCount}</Text>
+      </View>
+
+      {/* Center area: Beat Ring or Direction Arrow */}
+      <View className='center-area'>
+        {signalEvent ? (
+          <DirectionArrow
+            direction={signalEvent.direction}
+            signalType={signalEvent.signalType}
+          />
+        ) : (
+          <BeatRing
+            beatNumber={beatEvent?.beatNumber ?? 0}
+            beatsPerBar={config.beatsPerBar}
+            pulse={!!beatEvent && !beatEvent.isCountIn}
+            currentBpm={state.currentBpm}
+          />
+        )}
+      </View>
+
+      {/* Controls */}
+      {!isFinished && (
+        <View className='training-controls'>
+          <View className='control-btn control-btn--stop' onClick={handleStop}>
+            <Text className='control-btn-text'>停止</Text>
+          </View>
+          <View
+            className={`control-btn ${isPaused ? 'control-btn--resume' : 'control-btn--pause'}`}
+            onClick={handlePauseResume}
+          >
+            <Text className='control-btn-text'>{isPaused ? '继续' : '暂停'}</Text>
+          </View>
+        </View>
+      )}
+
+      {isFinished && (
+        <View className='finished-section'>
+          <Text className='finished-text'>训练完成!</Text>
+          <Text className='finished-stats'>共 {state.signalCount} 次变向</Text>
+          <View className='control-btn control-btn--back' onClick={handleStop}>
+            <Text className='control-btn-text'>返回首页</Text>
+          </View>
+        </View>
+      )}
+    </View>
+  );
+}

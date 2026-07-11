@@ -1,1 +1,12 @@
-ZXhwb3J0IGRlZmF1bHQgewogIHBhZ2VzOiBbCiAgICAncGFnZXMvaW5kZXgvaW5kZXgnLAogICAgJ3BhZ2VzL3RyYWluaW5nL2luZGV4JywKICBdLAogIHdpbmRvdzogewogICAgbmF2aWdhdGlvbkJhckJhY2tncm91bmRDb2xvcjogJyMxQTFBMkUnLAogICAgbmF2aWdhdGlvbkJhclRpdGxlVGV4dDogJ+aVj+aNt+iuree7g+iuoeaXtuWZqCcsCiAgICBuYXZpZ2F0aW9uQmFyVGV4dFN0eWxlOiAnd2hpdGUnLAogICAgYmFja2dyb3VuZENvbG9yOiAnIzFBMUEyRScsCiAgfSwKfQo=
+export default {
+  pages: [
+    'pages/index/index',
+    'pages/training/index',
+  ],
+  window: {
+    navigationBarBackgroundColor: '#1A1A2E',
+    navigationBarTitleText: '敏捷训练计时器',
+    navigationBarTextStyle: 'white',
+    backgroundColor: '#1A1A2E',
+  },
+}

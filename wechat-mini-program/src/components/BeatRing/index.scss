@@ -1,1 +1,70 @@
-LmJlYXQtcmluZy1jb250YWluZXIgewogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogMjBweDsKfQoKLmJlYXQtcmluZyB7CiAgd2lkdGg6IDIwMHB4OwogIGhlaWdodDogMjAwcHg7CiAgYm9yZGVyLXJhZGl1czogNTAlOwogIGJvcmRlcjogNHB4IHNvbGlkIHZhcigtLWNvbG9yLWFjY2VudCk7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGp1c3RpZnktY29udGVudDogY2VudGVyOwogIGJhY2tncm91bmQ6IHJnYmEoMjMzLCAzMCwgOTksIDAuMDgpOwp9CgouYmVhdC1yaW5nLS1wdWxzZSB7CiAgYW5pbWF0aW9uOiByaW5nUHVsc2UgMC4xNXMgZWFzZS1vdXQ7CiAgYmFja2dyb3VuZDogcmdiYSgyMzMsIDMwLCA5OSwgMC4yKTsKfQoKQGtleWZyYW1lcyByaW5nUHVsc2UgewogIDAlIHsgdHJhbnNmb3JtOiBzY2FsZSgxKTsgYm9yZGVyLWNvbG9yOiB2YXIoLS1jb2xvci1jeWFuKTsgfQogIDUwJSB7IHRyYW5zZm9ybTogc2NhbGUoMS4wNik7IH0KICAxMDAlIHsgdHJhbnNmb3JtOiBzY2FsZSgxKTsgYm9yZGVyLWNvbG9yOiB2YXIoLS1jb2xvci1hY2NlbnQpOyB9Cn0KCi5iZWF0LXJpbmctaW5uZXIgewogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBhbGlnbi1pdGVtczogY2VudGVyOwp9CgouYmVhdC1yaW5nLWJwbSB7CiAgZm9udC1zaXplOiA0MnB4OwogIGZvbnQtd2VpZ2h0OiA3MDA7CiAgY29sb3I6IHZhcigtLWNvbG9yLXRleHQpOwogIGxpbmUtaGVpZ2h0OiAxOwp9CgouYmVhdC1yaW5nLWxhYmVsIHsKICBmb250LXNpemU6IDEzcHg7CiAgY29sb3I6IHZhcigtLWNvbG9yLXRleHQtZGltKTsKICBsZXR0ZXItc3BhY2luZzogM3B4OwogIG1hcmdpbi10b3A6IDRweDsKfQoKLmJlYXQtZG90cy1yb3cgewogIGRpc3BsYXk6IGZsZXg7CiAgZ2FwOiAxMHB4Owp9CgouYmVhdC1kb3QgewogIHdpZHRoOiAxMnB4OwogIGhlaWdodDogMTJweDsKICBib3JkZXItcmFkaXVzOiA1MCU7CiAgYmFja2dyb3VuZDogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjE1KTsKICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kIDAuMTVzIGVhc2U7Cn0KCi5iZWF0LWRvdC0tYWN0aXZlIHsKICBiYWNrZ3JvdW5kOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMyk7Cn0KCi5iZWF0LWRvdC0tY3VycmVudCB7CiAgYmFja2dyb3VuZDogdmFyKC0tY29sb3ItYWNjZW50KTsKICBib3gtc2hhZG93OiAwIDAgOHB4IHJnYmEoMjMzLCAzMCwgOTksIDAuNSk7Cn0K
+.beat-ring-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.beat-ring {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(233, 30, 99, 0.08);
+}
+
+.beat-ring--pulse {
+  animation: ringPulse 0.15s ease-out;
+  background: rgba(233, 30, 99, 0.2);
+}
+
+@keyframes ringPulse {
+  0% { transform: scale(1); border-color: var(--color-cyan); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(1); border-color: var(--color-accent); }
+}
+
+.beat-ring-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beat-ring-bpm {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1;
+}
+
+.beat-ring-label {
+  font-size: 13px;
+  color: var(--color-text-dim);
+  letter-spacing: 3px;
+  margin-top: 4px;
+}
+
+.beat-dots-row {
+  display: flex;
+  gap: 10px;
+}
+
+.beat-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  transition: background 0.15s ease;
+}
+
+.beat-dot--active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.beat-dot--current {
+  background: var(--color-accent);
+  box-shadow: 0 0 8px rgba(233, 30, 99, 0.5);
+}

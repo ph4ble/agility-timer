@@ -1,1 +1,93 @@
-IyDmlY/mjbforq3nu4PorqHml7blmagg4oCUIOS6p+WTgeaWh+ahowoKIyMg5Lqn5ZOB5a6a5L2NCgrkuIDmrL7pnaLlkJHov5DliqjlkZjlkozlgaXouqvniLHlpb3ogIXnmoTmlY/mjbfmgKforq3nu4PovoXliqnlt6XlhbfvvIzpgJrov4foioLmi43lmaggKyDpmo/mnLrmlrnlkJHkv6Hlj7fluK7liqnnlKjmiLfmj5DljYflj43lupTpgJ/luqbjgIHohJrmraXnp7vliqjlkozmlrnlkJHovazmjaLog73lipvjgIIKCioq5LiA5Y+l6K+d5LuL57uNKirvvJrpq5jnsr7luqboioLmi43lmaggKyDpmo/mnLrmlrnlkJHmj5DnpLrvvIzkuJPkuJrov5Dliqjlj43lupTorq3nu4Plt6XlhbfjgIIKCiMjIOaguOW/g+S7t+WAvAoKLSAqKuWPjOW5s+WPsOWIhuWPkSoq77yaQW5kcm9pZCBBUEsg55u05o6l5a6J6KOFICsg5b6u5L+h5bCP56iL5bqP5pCc57Si5Y2z55So77yM6KaG55uW5LiN5ZCM55So5oi35Lmg5oOvCi0gKirpm7bpl6jmp5sqKu+8muWwj+eoi+W6j+aXoOmcgOS4i+i9veWuieijhe+8jOaJk+W8gOW+ruS/oeWwseiDveiuree7gwotICoq5LiT5Lia57qnKirvvJroioLmi43lmaggKyDpmo/mnLrkv6Hlj7fns7vnu5/vvIzljLrliKvkuo7mma7pgJrnp5Looagv6K6h5pWw5ZmoCi0gKirlpJrlnLrmma8qKu+8muagvOaWl+OAgeeQg+exu+OAgeeUsOW+hOOAgeW6t+WkjeWbm+Wkp+exu+WcuuaZr+mDvemAgueUqAotICoq5a6M5YWo5YWN6LS5KirvvJrml6Dlub/lkYrjgIHml6Dku5jotLnlopnjgIHlvIDmupDvvIhNSVTvvIkKCiMjIOebruagh+eUqOaItwoKfCDnlKjmiLfnvqQgfCDkvb/nlKjmlrnlvI8gfCDlhbjlnosgQlBNIHwKfC0tLS0tLS0tfC0tLS0tLS0tLS18LS0tLS0tLS0tLXwKfCDnkIPnsbvov5DliqjlkZggfCDohJrmraXliIfmjaLjgIHpmLLlrojmu5HmraXjgIHlj5jlkJHorq3nu4MgfCAxMDAtMTYwIHwKfCDmoLzmlpforq3nu4PogIUgfCDmraXms5XoioLlpY/jgIHpl6rpgb/lj43lupQgfCAxMjAtMTgwIHwKfCDnlLDlvoTniLHlpb3ogIUgfCDmipjov5Tot5HjgIHmlY/mjbfmoq8gfCA4MC0xNDAgfAp8IOW6t+WkjeS6uue+pCB8IOS9juW8uuW6puatpeaAgeaBouWkjeOAgeWFs+iKguiuree7gyB8IDQwLTgwIHwKfCDmma7pgJrlgaXouqvogIUgfCDln7rnoYDmlY/mjbfmgKfnu7TmjIEgfCA4MC0xMjAgfAoKIyMg5Yqf6IO95YiX6KGoCgojIyMg5qC45b+D5Yqf6IO9CgotICoq6IqC5ouN5ZmoKirvvJoyMC0zMDAgQlBNIOi/nue7reWPr+iwg++8jCsxLy0xLysxMC8tMTAg5b+r5o235b6u6LCDCi0gKirpmo/mnLrmlrnlkJHkv6Hlj7cqKu+8muWcqCBOfk0g5ouN5LmL6Ze06ZqP5py66Kem5Y+R77yM5pSv5oyBIDIvMy80IOS4quaWueWQkQotICoq5Zub56eN6K6t57uD5qih5byPKirvvJroh6rnlLHvvIjkuI3pmZDml7bvvIkvIOiuoeaXtu+8iOWumuaXtue7k+adn++8iS8g5riQ6L+b77yIQlBNIOmAkuWinu+8iS8g6Ze05q2H77yI6K6t57uD5LyR5oGv5Lqk5pu/77yJCi0gKirlj4zmj5DnpLrpn7Pns7vnu58qKu+8muagh+WHhuaPkOekuumfsyAvIOaWueWQkeWMuuWIhumfs+iwgwotICoq6ZqP5py65Y+Y6YCfKirvvJpCUE0g5Zyo6K6+5a6a55m+5YiG5q+U5YaF5rOi5Yqo77yM6YG/5YWN6IqC5aWP6YCC5bqUCgojIyMg5L2T6aqM5Yqf6IO9CgotICoqMy0yLTEt5byA5aeLKiog5YCS6K6h5pe25YWl5Zy6Ci0gKirnu5PmnZ/liY0gMTAg56eSKiog5YCS6K6h5pe26K2m5ZGK6Z+zICsg57qi6Imy6Zeq54OBCi0gKirnu5PmnZ/pk4MqKiDlm5vpn7PpmLbmj5DnpLrorq3nu4PlrozmiJAKLSAqKuaaguWBnC/mgaLlpI0qKiDpmo/ml7bkuK3mlq3nu6fnu60KLSAqKuiuree7g+e7n+iuoSoqIOS/oeWPt+iuoeaVsOOAgeeUqOaXtuOAgUJQTSDlrp7ml7bmmL7npLoKLSAqKuWxj+W5leW4uOS6rioqIOiuree7g+S4remYsuatoumUgeWxjwotICoq5rex6Imy5Li76aKYKiog5oqk55y86K6+6K6hCgojIyDniYjmnKzljoblj7IKCnwg54mI5pysIHwg5pel5pyfIHwg5bmz5Y+wIHwg5pu05paw5YaF5a65IHwKfC0tLS0tLXwtLS0tLS18LS0tLS0tfC0tLS0tLS0tLS18CnwgVjAuMSB8IDIwMjYtMDYgfCBBbmRyb2lkIHwg5Yid5aeL54mI5pys77yM5qC45b+D5Yqf6IO95a6M5pW0IHwKfCBWMC4yIHwgMjAyNi0wNiB8IEFuZHJvaWQgfCDorq3nu4PpobXph43mnoTvvIzlgJLorqHml7borablkYrvvIzmmoLlgZzvvIwzLTItMSDlgJLorqHml7YgfAp8IFYwLjMgfCAyMDI2LTA3IHwgQW5kcm9pZCB8IOWxj+W5leW4uOS6ru+8jOmhueebruaWh+aho+WujOWWhCB8CnwgVjAuMS1taW5pIHwgMjAyNi0wNyB8IOW+ruS/oeWwj+eoi+W6jyB8IOWwj+eoi+W6j+mmluWPke+8jOWKn+iDveWvuem9kCBWMC4yIHwKCiMjIOWPkeW4g+a4oOmBkwoKfCDmuKDpgZMgfCDlnLDlnYAv5pa55byPIHwg54q25oCBIHwKfC0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS18CnwgR2l0SHViIFJlbGVhc2UgfCBodHRwczovL2dpdGh1Yi5jb20vcGg0YmxlL2FnaWxpdHktdGltZXIvcmVsZWFzZXMgfCDlt7Llj5HluIMgfAp8IOW+ruS/oeWwj+eoi+W6jyB8IOW+ruS/oeaQnOe0ouOAjOaVj+aNt+iuree7g+iuoeaXtuWZqOOAjSB8IOW3suS4iue6vyB8CnwgR29vZ2xlIFBsYXkgfCDlvoXlrpogfCDorqHliJLkuK0gfAoKIyMg5oqA5pyv5qCICgp8IOW5s+WPsCB8IOaKgOacryB8CnwtLS0tLS18LS0tLS0tfAp8IEFuZHJvaWQgfCBGbHV0dGVyIDMueCAvIERhcnQgfAp8IOW+ruS/oeWwj+eoi+W6jyB8IFRhcm8gNC54ICsgUmVhY3QgKyBUeXBlU2NyaXB0IHwKfCDpn7PpopEgfCBXQVYg5pWw5a2m5ZCI5oiQ77yI5peg5aSW6YOo6Z+z6aKR5paH5Lu277yJIHwKCiMjIOacquadpeiuoeWIkgoKLSBbIF0g6K6t57uD5Y6G5Y+y6K6w5b2VICYg5pWw5o2u57uf6K6hCi0gWyBdIOiHquWumuS5ieaWueWQkeS/oeWPt+mfs+aViOS4iuS8oAotIFsgXSDlpJror63oqIDmlK/mjIHvvIjoi7HmlofjgIHml6XmlofvvIkKLSBbIF0gQXBwbGUgV2F0Y2gg56uv77yI6Kem5oSf6IqC5ouN77yJCi0gWyBdIEdvb2dsZSBQbGF5IOS4iuaetgotIFsgXSDlpJrorr7lpIflkIzmraXorq3nu4MKCiMjIOernuWTgeWIhuaekAoKfCDnq57lk4EgfCDkvJjlir8gfCDliqPlir8gfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18Cnwg6YCa55So6IqC5ouN5ZmoIEFwcCB8IOeUqOaIt+WfuuaVsOWkpyB8IOaXoOaWueWQkeS/oeWPt+OAgeaXoOiuree7g+aooeW8jyB8Cnwg5LiT5Lia5pWP5o236K6t57uD6K6+5aSHIHwg56Gs5Lu257K+5YeGIHwg5Lu35qC86auY44CB5LiN5L6/5pC6IHwKfCDmlY/mjbforq3nu4PorqHml7blmajvvIjmiJHku6zvvIkgfCDlj4zlubPlj7DjgIHlhY3otLnjgIHkuJPkuJrlip/og70gfCDlk4HniYznn6XlkI3luqbkvY4gfAoKIyMg55So5oi35Y+N6aaI5rig6YGTCgotIEdpdEh1YiBJc3N1ZXM6IGh0dHBzOi8vZ2l0aHViLmNvbS9waDRibGUvYWdpbGl0eS10aW1lci9pc3N1ZXMKLSDlvq7kv6HlsI/nqIvluo/lhoXjgIzmhI/op4Hlj43ppojjgI0K
+# 敏捷训练计时器 — 产品文档
+
+## 产品定位
+
+一款面向运动员和健身爱好者的敏捷性训练辅助工具，通过节拍器 + 随机方向信号帮助用户提升反应速度、脚步移动和方向转换能力。
+
+**一句话介绍**：高精度节拍器 + 随机方向提示，专业运动反应训练工具。
+
+## 核心价值
+
+- **双平台分发**：Android APK 直接安装 + 微信小程序搜索即用，覆盖不同用户习惯
+- **零门槛**：小程序无需下载安装，打开微信就能训练
+- **专业级**：节拍器 + 随机信号系统，区别于普通秒表/计数器
+- **多场景**：格斗、球类、田径、康复四大类场景都适用
+- **完全免费**：无广告、无付费墙、开源（MIT）
+
+## 目标用户
+
+| 用户群 | 使用方式 | 典型 BPM |
+|--------|----------|----------|
+| 球类运动员 | 脚步切换、防守滑步、变向训练 | 100-160 |
+| 格斗训练者 | 步法节奏、闪避反应 | 120-180 |
+| 田径爱好者 | 折返跑、敏捷梯 | 80-140 |
+| 康复人群 | 低强度步态恢复、关节训练 | 40-80 |
+| 普通健身者 | 基础敏捷性维持 | 80-120 |
+
+## 功能列表
+
+### 核心功能
+
+- **节拍器**：20-300 BPM 连续可调，+1/-1/+10/-10 快捷微调
+- **随机方向信号**：在 N~M 拍之间随机触发，支持 2/3/4 个方向
+- **四种训练模式**：自由（不限时）/ 计时（定时结束）/ 渐进（BPM 递增）/ 间歇（训练休息交替）
+- **双提示音系统**：标准提示音 / 方向区分音调
+- **随机变速**：BPM 在设定百分比内波动，避免节奏适应
+
+### 体验功能
+
+- **3-2-1-开始** 倒计时入场
+- **结束前 10 秒** 倒计时警告音 + 红色闪烁
+- **结束铃** 四音阶提示训练完成
+- **暂停/恢复** 随时中断继续
+- **训练统计** 信号计数、用时、BPM 实时显示
+- **屏幕常亮** 训练中防止锁屏
+- **深色主题** 护眼设计
+
+## 版本历史
+
+| 版本 | 日期 | 平台 | 更新内容 |
+|------|------|------|----------|
+| V0.1 | 2026-06 | Android | 初始版本，核心功能完整 |
+| V0.2 | 2026-06 | Android | 训练页重构，倒计时警告，暂停，3-2-1 倒计时 |
+| V0.3 | 2026-07 | Android | 屏幕常亮，项目文档完善 |
+| V0.1-mini | 2026-07 | 微信小程序 | 小程序首发，功能对齐 V0.2 |
+| V0.2-mini | 2026-07 | 微信小程序 | 转发给好友 + 分享到朋友圈，训练中屏幕常亮 |
+
+## 发布渠道
+
+| 渠道 | 地址/方式 | 状态 |
+|------|-----------|------|
+| GitHub Release | https://github.com/ph4ble/agility-timer/releases | 已发布 |
+| 微信小程序 | 微信搜索「敏捷训练计时器」 | 已上线 |
+| Google Play | 待定 | 计划中 |
+
+## 技术栈
+
+| 平台 | 技术 |
+|------|------|
+| Android | Flutter 3.x / Dart |
+| 微信小程序 | Taro 4.x + React + TypeScript |
+| 音频 | WAV 数学合成（无外部音频文件） |
+
+## 未来计划
+
+- [ ] 训练历史记录 & 数据统计
+- [ ] 自定义方向信号音效上传
+- [ ] 多语言支持（英文、日文）
+- [ ] Apple Watch 端（触感节拍）
+- [ ] Google Play 上架
+- [ ] 多设备同步训练
+
+## 竞品分析
+
+| 竞品 | 优势 | 劣势 |
+|------|------|------|
+| 通用节拍器 App | 用户基数大 | 无方向信号、无训练模式 |
+| 专业敏捷训练设备 | 硬件精准 | 价格高、不便携 |
+| 敏捷训练计时器（我们） | 双平台、免费、专业功能 | 品牌知名度低 |
+
+## 用户反馈渠道
+
+- GitHub Issues: https://github.com/ph4ble/agility-timer/issues
+- 微信小程序内「意见反馈」

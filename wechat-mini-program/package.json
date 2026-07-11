@@ -1,1 +1,36 @@
-ewogICJuYW1lIjogIndlY2hhdC1hZ2lsaXR5LXRpbWVyIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgInByaXZhdGUiOiB0cnVlLAogICJkZXNjcmlwdGlvbiI6ICLmlY/mjbforq3nu4PorqHml7blmaggLSDlvq7kv6HlsI/nqIvluo/niYgiLAogICJ0ZW1wbGF0ZUluZm8iOiB7CiAgICAibmFtZSI6ICJkZWZhdWx0IiwKICAgICJ0eXBlc2NyaXB0IjogdHJ1ZSwKICAgICJjc3MiOiAic2FzcyIKICB9LAogICJzY3JpcHRzIjogewogICAgImJ1aWxkOndlYXBwIjogInRhcm8gYnVpbGQgLS10eXBlIHdlYXBwIiwKICAgICJkZXY6d2VhcHAiOiAibnBtIHJ1biBidWlsZDp3ZWFwcCAtLSAtLXdhdGNoIgogIH0sCiAgImRlcGVuZGVuY2llcyI6IHsKICAgICJAdGFyb2pzL2NvbXBvbmVudHMiOiAiNC4yLjAiLAogICAgIkB0YXJvanMvaGVscGVyIjogIjQuMi4wIiwKICAgICJAdGFyb2pzL3BsdWdpbi1mcmFtZXdvcmstcmVhY3QiOiAiXjQuMi4wIiwKICAgICJAdGFyb2pzL3BsdWdpbi1wbGF0Zm9ybS13ZWFwcCI6ICI0LjIuMCIsCiAgICAiQHRhcm9qcy9yZWFjdCI6ICI0LjIuMCIsCiAgICAiQHRhcm9qcy9ydW50aW1lIjogIjQuMi4wIiwKICAgICJAdGFyb2pzL3NoYXJlZCI6ICI0LjIuMCIsCiAgICAiQHRhcm9qcy90YXJvIjogIjQuMi4wIiwKICAgICJAdGFyb2pzL3dlYnBhY2s1LXJ1bm5lciI6ICJeNC4yLjAiLAogICAgInJlYWN0IjogIl4xOC4zLjEiLAogICAgInJlYWN0LWRvbSI6ICJeMTguMy4xIgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAYmFiZWwvY29yZSI6ICJeNy4yNC4wIiwKICAgICJAYmFiZWwvcHJlc2V0LXJlYWN0IjogIl43LjI0LjAiLAogICAgIkB0YXJvanMvY2xpIjogIjQuMi4wIiwKICAgICJAdHlwZXMvcmVhY3QiOiAiXjE4LjMuMCIsCiAgICAiYmFiZWwtcHJlc2V0LXRhcm8iOiAiXjQuMi4wIiwKICAgICJ0eXBlc2NyaXB0IjogIl41LjMuMCIKICB9Cn0K
+{
+  "name": "wechat-agility-timer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "敏捷训练计时器 - 微信小程序版",
+  "templateInfo": {
+    "name": "default",
+    "typescript": true,
+    "css": "sass"
+  },
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "dev:weapp": "npm run build:weapp -- --watch"
+  },
+  "dependencies": {
+    "@tarojs/components": "4.2.0",
+    "@tarojs/helper": "4.2.0",
+    "@tarojs/plugin-framework-react": "^4.2.0",
+    "@tarojs/plugin-platform-weapp": "4.2.0",
+    "@tarojs/react": "4.2.0",
+    "@tarojs/runtime": "4.2.0",
+    "@tarojs/shared": "4.2.0",
+    "@tarojs/taro": "4.2.0",
+    "@tarojs/webpack5-runner": "^4.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-react": "^7.24.0",
+    "@tarojs/cli": "4.2.0",
+    "@types/react": "^18.3.0",
+    "babel-preset-taro": "^4.2.0",
+    "typescript": "^5.3.0"
+  }
+}

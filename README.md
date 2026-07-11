@@ -1,1 +1,110 @@
-IyDmlY/mjbforq3nu4PorqHml7blmaggKEFnaWxpdHkgVGltZXIpCgrkuIDmrL7kuJPkuJrnuqfkvZPogrLmlY/mjbfmgKforq3nu4PorqHml7blmaggQXBw77yM57uT5ZCI6auY57K+5bqm6IqC5ouN5Zmo5LiO6ZqP5py65Y+Y5ZCR5L+h5Y+357O757uf77yM5biu5Yqp6L+Q5Yqo5ZGY5YWo6Z2i5o+Q5Y2H5Y+N5bqU6YCf5bqm44CB6ISa5q2l56e75Yqo5ZKM5pa55ZCR6L2s5o2i6IO95Yqb44CCCgojIyDpgILnlKjov5DliqgKCiMjIyDmoLzmlpfnsbsKCi0gKirmi7Plh7sqKiDigJQg6IqC5aWP5q2l5rOV6K6t57uD77yM6ZqP5py65pa55ZCR5L+h5Y+35qih5ouf5a+55omL56e75Yqo77yM5o+Q5Y2H6Zeq6YG/5ZKM6L+b5pS75Y+N5bqUCi0gKirot4bmi7PpgZMqKiDigJQg5q2l5rOV5YiH5o2iICsg6Lii5Ye76IqC5aWP77yM6ZqP5py65Y+Y5ZCR5qih5ouf5a6e5oiY5Lit55qE5pS76Ziy6L2s5o2iCi0gKirnu7zlkIjmoLzmlpcgKE1NQSkqKiDigJQg5aSa5pa55ZCR56e75YqoICsg54iG5Y+R5Yqb6Ze05q2H77yM6YWN5ZCI5YWr6KeS56y86ISa5q2l6K6t57uDCgojIyMg55CD57G7CgotICoq57695q+b55CDKiog4oCUIOWJjeWQjuWcuuenu+WKqOiuree7g++8jOmaj+acuuaWueWQkeWvueW6lOaOpeadgOOAgeS4iue9keOAgeWQjumAgOmrmOi/nOeQgwotICoq572R55CDKiog4oCUIOW6lee6v+W3puWPs+enu+WKqCArIOe9keWJjeaIquWHu+WPmOWQke+8jOiKguaLjeWZqOaOp+WItuatpeS8kOmikeeOhwotICoq5LmS5LmT55CDKiog4oCUIOW/q+mAn+W3puWPs+aRhumAn+iuree7g++8jOefrei3neemu+mrmOmikeWPmOWQkQotICoq56+u55CDKiog4oCUIOmYsuWuiOa7keatpSArIOi/m+aUu+WPmOWQkeeqgeegtO+8jOmXtOath+aooeW8j+aooeaLn+avlOi1m+iKguWljwotICoq6Laz55CDKiog4oCUIOaVj+aNt+airyArIOaWueWQkeWPjeW6lOiuree7g++8jOaPkOWNh+iEmuS4i+mikeeOh+WSjOWPmOWQkeeIhuWPkeWKmwoKIyMjIOeUsOW+hCAmIOS9k+iDvQoKLSAqKuefrei3kSoqIOKAlCDotbfot5Hlj43lupTorq3nu4PvvIzpmo/mnLrkv6Hlj7fop6blj5HlhrLliLoKLSAqKuaVj+aNt+airy/nu7Pmoq8qKiDigJQg6YWN5ZCI6IqC5ouN6L+b6KGM6auY6aKR6ISa5q2l6K6t57uDCi0gKirmipjov5Tot5EqKiDigJQg6ZqP5py65pa55ZCR5L+h5Y+35o6n5Yi25oqY6L+U5pe25py6CgojIyMg5bq35aSNICYg5pWP5o235oCn5oGi5aSNCgotICoq5pyv5ZCO5q2l5oCB5oGi5aSNKiog4oCUIOS9jiBCUE0g6IqC5ouN5byV5a+85q2l6KGM6IqC5aWP77yM6YCQ5q2l6YeN5bu66L+Q5Yqo5qih5byPCi0gKirliY3kuqTlj4npn6fluKYgKEFDTCkg5bq35aSNKiog4oCUIOaWueWQkeS/oeWPt+mFjeWQiOS+p+WQkeenu+WKqOiuree7g++8jOaBouWkjeiGneWFs+iKgueos+WumuaApwotICoq6Lid5YWz6IqC5bq35aSNKiog4oCUIOa4kOi/m+W8j+WPmOWQkeiuree7g++8jOmHjeW7uuacrOS9k+aEn+inieWSjOWKqOaAgeW5s+ihoQotICoq6ISR6ZyH6I2h5ZCO5oGi5aSNKiog4oCUIOS9juW8uuW6puWPjeW6lOiuree7g++8jOmAkOatpeaBouWkjeelnue7j+iCjOiCieWNj+iwgwotICoq6ICB5bm06Ziy6LeM5YCS6K6t57uDKiog4oCUIOi9u+mHj+e6p+maj+acuuaWueWQkei4j+atpe+8jOe7tOaMgeaVj+aNt+aAp+WSjOW5s+ihoeiDveWKmwoKIyMg5qC45b+D5Yqf6IO9CgotICoq6IqC5ouN5ZmoKirvvJo0MC01MDAgQlBNIOWPr+iwg++8jCsxLysxMC8tMS8tMTAg5b+r5o235b6u6LCD77yM5ruh6Laz5LuO5oWi6YCf5bq35aSN5Yiw5p6B6ZmQ54iG5Y+R55qE5LiA5YiH6ZyA5rGCCi0gKirpmo/mnLrlj5jlkJHkv6Hlj7cqKu+8muWcqOiuvuWumuaLjeaVsOiMg+WbtOWGhemaj+acuuWPkeWHuuaWueWQkeaMh+S7pO+8iOWJjS/lkI4v5bemL+WPs++8ie+8jOa2iOmZpOmihOWIpO+8jOecn+ato+iuree7g+WPjeW6lOmAn+W6pgotICoq5Zub56eN6K6t57uD5qih5byPKirvvJoKICAtIOiHqueUseaooeW8jyDigJQg5LiN6ZmQ5pe25oyB57ut6K6t57uD77yM6YCC5ZCI5pel5bi457uD5LmgCiAgLSDlrprml7bmqKHlvI8g4oCUIOmihOiuvuaXtumVv+iHquWKqOe7k+adn++8jOmAguWQiOagh+WHhuWMlua1i+ivlQogIC0g6YCS5aKe5qih5byPIOKAlCBCUE0g6YCQ5riQ5Yqg5b+r77yM6YCC5ZCI5riQ6L+b6LSf6I236K6t57uDCiAgLSDpl7TmrYfmqKHlvI8g4oCUIOiuree7gy/kvJHmga/kuqTmm7/ov5vooYzvvIzlj6/mjInnu4TmlbDlvqrnjq/vvIzmqKHmi5/mr5TotZvoioLlpY8KLSAqKumaj+acuuWPmOmAnyoq77yaQlBNIOWcqOiuvuWumueZvuWIhuavlOWGhemaj+acuuazouWKqO+8jOmBv+WFjeiKguWlj+mAguW6lO+8jOabtOi0tOi/keWunuaImAotICoq5Y+M5o+Q56S66Z+z57O757ufKirvvJrmoIflh4bmj5DnpLrpn7MgLyDmlrnlkJHljLrliIbpn7PosIPvvIzml6DpnIDkvY7lpLTnnIvlsY/luZXljbPlj6/ovqjliKvmlrnlkJEKLSAqKuiuree7g+e7n+iuoSoq77ya5q+P5qyh6K6t57uD57uT5p2f5ZCO5pi+56S655So5pe244CB5Y+Y5ZCR5qyh5pWw44CB5bmz5Z2HIEJQTQoKIyMg55WM6Z2i6aKE6KeICgotIOmmlumhteS4gOWxj+WxleekuuaJgOacieiuvue9ru+8jOaXoOmcgOa7muWKqOWNs+WPr+W8gOWni+iuree7gwotIOiuree7g+mhtemdouWxheS4reaYvuekuuiKguaLjeeOryArIOaWueWQkeeureWktO+8jOWBnOatouaMiemSruinpuaJi+WPr+WPigotIOa3seiJsuS4u+mimO+8jOaKpOecvOS4lOmAguWQiOmVv+aXtumXtOiuree7gwoKIyMg5a6J6KOFCgrku44gW1JlbGVhc2VzXSguLi8uLi9yZWxlYXNlcykg6aG16Z2i5LiL6L295pyA5pawIEFQSyDnm7TmjqXlronoo4XjgIIKCuaIluiHquihjOaehOW7uu+8mgoKYGBgYmFzaApnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL3BoNGJsZS9hZ2lsaXR5LXRpbWVyLmdpdApjZCBhZ2lsaXR5LXRpbWVyCmZsdXR0ZXIgcHViIGdldApmbHV0dGVyIGJ1aWxkIGFwayAtLXJlbGVhc2UKYGBgCgojIyDmioDmnK/moIgKCnwg57G75YirIHwg5oqA5pyvIHwKfC0tLS0tLXwtLS0tLS18Cnwg5qGG5p62IHwgRmx1dHRlciAzLnggLyBEYXJ0IHwKfCDpn7PpopHlvJXmk44gfCBhdWRpb3BsYXllcnMgfAp8IOacrOWcsOWtmOWCqCB8IHNxZmxpdGUgfAp8IOaUr+aMgeW5s+WPsCB8IEFuZHJvaWQgfAoKIyMg6K6t57uD5bu66K6uCgp8IOebruaghyB8IEJQTSDojIPlm7QgfCDmqKHlvI/lu7rorq4gfAp8LS0tLS0tfC0tLS0tLS0tLS18LS0tLS0tLS0tLXwKfCDlurflpI0v5oGi5aSNIHwgNDAtODAgfCDoh6rnlLHmqKHlvI/vvIzkvY7lvLrluqYgfAp8IOWfuuehgOaVj+aNtyB8IDgwLTEyMCB8IOWumuaXtuaooeW8j++8jDEwLTE1IOWIhumSnyB8Cnwg5q+U6LWb6IqC5aWPIHwgMTIwLTE4MCB8IOmXtOath+aooeW8j++8jDMwcy8xNXMgfAp8IOaegemZkOeIhuWPkSB8IDE4MC0zMDArIHwg6YCS5aKe5qih5byP77yM6YCQ5q2l5oyR5oiYIHwKCiMjIOeJiOacrAoKfCDniYjmnKwgfCDlubPlj7AgfCDor7TmmI4gfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18CnwgKipWMC4zKiogfCBBbmRyb2lkIChBUEspIHwg5bGP5bmV5bi45Lqu77yM6aG555uu5paH5qGj5a6M5ZaEIHwKfCAqKlYwLjIqKiB8IEFuZHJvaWQgKEFQSykgfCDorq3nu4PpobXpnaLph43mnoTvvIzlgJLorqHml7borablkYrvvIzmmoLlgZzlip/og73vvIwzLTItMSDlgJLorqHml7YgfAp8ICoqVjAuMSoqIHwgQW5kcm9pZCAoQVBLKSB8IOWIneWni+eJiOacrO+8jOWMheWQq+WFqOmDqOaguOW/g+WKn+iDvSB8CnwgKipWMC4xLW1pbmkqKiB8IOW+ruS/oeWwj+eoi+W6jyB8IOWwj+eoi+W6j+eJiOacrO+8jOS4jiBGbHV0dGVyIOeJiOWKn+iDveWvuem9kCB8CgojIyMg5b6u5L+h5bCP56iL5bqP54mICgrml6DpnIDlronoo4XvvIzlnKjlvq7kv6HkuK3nm7TmjqXmiavnoIHkvb/nlKjjgILpgILlkIjlv6vpgJ/kvZPpqozlkozliIbkuqvnu5nmnIvlj4vjgIIKCua6kOeggeS9jeS6jiBgd2VjaGF0LW1pbmktcHJvZ3JhbS9gIOebruW9le+8jOWfuuS6jiBUYXJvIDQueCArIFJlYWN0ICsgVHlwZVNjcmlwdCDmnoTlu7rjgIIKCmBgYGJhc2gKY2Qgd2VjaGF0LW1pbmktcHJvZ3JhbQpucG0gaW5zdGFsbApucG0gcnVuIGJ1aWxkOndlYXBwCiMg55So5b6u5L+h5byA5Y+R6ICF5bel5YW35omT5byAIGRpc3QvIOebruW9lQpgYGAKCiMjIOiuuOWPrwoKTUlUIExpY2Vuc2Ug4oCUIOasoui/jui0oeeMruOAgUZvcmsg5ZKM6Ieq55Sx5L2/55So44CCCg==
+# 敏捷训练计时器 (Agility Timer)
+
+一款专业级体育敏捷性训练计时器 App，结合高精度节拍器与随机变向信号系统，帮助运动员全面提升反应速度、脚步移动和方向转换能力。
+
+## 适用运动
+
+### 格斗类
+
+- **拳击** — 节奏步法训练，随机方向信号模拟对手移动，提升闪避和进攻反应
+- **跆拳道** — 步法切换 + 踢击节奏，随机变向模拟实战中的攻防转换
+- **综合格斗 (MMA)** — 多方向移动 + 爆发力间歇，配合八角笼脚步训练
+
+### 球类
+
+- **羽毛球** — 前后场移动训练，随机方向对应接杀、上网、后退高远球
+- **网球** — 底线左右移动 + 网前截击变向，节拍器控制步伐频率
+- **乒乓球** — 快速左右摆速训练，短距离高频变向
+- **篮球** — 防守滑步 + 进攻变向突破，间歇模式模拟比赛节奏
+- **足球** — 敏捷梯 + 方向反应训练，提升脚下频率和变向爆发力
+
+### 田径 & 体能
+
+- **短跑** — 起跑反应训练，随机信号触发冲刺
+- **敏捷梯/绳梯** — 配合节拍进行高频脚步训练
+- **折返跑** — 随机方向信号控制折返时机
+
+### 康复 & 敏捷性恢复
+
+- **术后步态恢复** — 低 BPM 节拍引导步行节奏，逐步重建运动模式
+- **前交叉韧带 (ACL) 康复** — 方向信号配合侧向移动训练，恢复膝关节稳定性
+- **踝关节康复** — 渐进式变向训练，重建本体感觉和动态平衡
+- **脑震荡后恢复** — 低强度反应训练，逐步恢复神经肌肉协调
+- **老年防跌倒训练** — 轻量级随机方向踏步，维持敏捷性和平衡能力
+
+## 核心功能
+
+- **节拍器**：40-500 BPM 可调，+1/+10/-1/-10 快捷微调，满足从慢速康复到极限爆发的一切需求
+- **随机变向信号**：在设定拍数范围内随机发出方向指令（前/后/左/右），消除预判，真正训练反应速度
+- **四种训练模式**：
+  - 自由模式 — 不限时持续训练，适合日常练习
+  - 定时模式 — 预设时长自动结束，适合标准化测试
+  - 递增模式 — BPM 逐渐加快，适合渐进负荷训练
+  - 间歇模式 — 训练/休息交替进行，可按组数循环，模拟比赛节奏
+- **随机变速**：BPM 在设定百分比内随机波动，避免节奏适应，更贴近实战
+- **双提示音系统**：标准提示音 / 方向区分音调，无需低头看屏幕即可辨别方向
+- **训练统计**：每次训练结束后显示用时、变向次数、平均 BPM
+
+## 界面预览
+
+- 首页一屏展示所有设置，无需滚动即可开始训练
+- 训练页面居中显示节拍环 + 方向箭头，停止按钮触手可及
+- 深色主题，护眼且适合长时间训练
+
+## 安装
+
+从 [Releases](../../releases) 页面下载最新 APK 直接安装。
+
+或自行构建：
+
+```bash
+git clone https://github.com/ph4ble/agility-timer.git
+cd agility-timer
+flutter pub get
+flutter build apk --release
+```
+
+## 技术栈
+
+| 类别 | 技术 |
+|------|------|
+| 框架 | Flutter 3.x / Dart |
+| 音频引擎 | audioplayers |
+| 本地存储 | sqflite |
+| 支持平台 | Android |
+
+## 训练建议
+
+| 目标 | BPM 范围 | 模式建议 |
+|------|----------|----------|
+| 康复/恢复 | 40-80 | 自由模式，低强度 |
+| 基础敏捷 | 80-120 | 定时模式，10-15 分钟 |
+| 比赛节奏 | 120-180 | 间歇模式，30s/15s |
+| 极限爆发 | 180-300+ | 递增模式，逐步挑战 |
+
+## 版本
+
+| 版本 | 平台 | 说明 |
+|------|------|------|
+| **V0.3** | Android (APK) | 屏幕常亮，项目文档完善 |
+| **V0.2** | Android (APK) | 训练页面重构，倒计时警告，暂停功能，3-2-1 倒计时 |
+| **V0.1** | Android (APK) | 初始版本，包含全部核心功能 |
+| **V0.2-mini** | 微信小程序 | 支持转发好友/分享朋友圈，训练中屏幕常亮 |
+| **V0.1-mini** | 微信小程序 | 小程序版本，与 Flutter 版功能对齐 |
+
+### 微信小程序版
+
+无需安装，在微信中直接扫码使用。适合快速体验和分享给朋友。支持转发给好友、分享到朋友圈（朋友圈仅安卓微信显示，为微信平台限制），训练过程中屏幕保持常亮。
+
+源码位于 `wechat-mini-program/` 目录，基于 Taro 4.x + React + TypeScript 构建。
+
+```bash
+cd wechat-mini-program
+npm install
+npm run build:weapp
+# 用微信开发者工具打开 dist/ 目录
+```
+
+## 许可
+
+MIT License — 欢迎贡献、Fork 和自由使用。

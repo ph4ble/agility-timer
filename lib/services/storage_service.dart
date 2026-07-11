@@ -1,1 +1,59 @@
-aW1wb3J0ICdwYWNrYWdlOnNxZmxpdGUvc3FmbGl0ZS5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOnBhdGgvcGF0aC5kYXJ0JzsKaW1wb3J0ICcuLi9tb2RlbHMvdHJhaW5pbmdfcmVjb3JkLmRhcnQnOwoKY2xhc3MgU3RvcmFnZVNlcnZpY2UgewogIHN0YXRpYyBEYXRhYmFzZT8gX2RiOwoKICBGdXR1cmU8RGF0YWJhc2U+IGdldCBkYXRhYmFzZSBhc3luYyB7CiAgICBfZGIgPz89IGF3YWl0IF9pbml0RGIoKTsKICAgIHJldHVybiBfZGIhOwogIH0KCiAgRnV0dXJlPERhdGFiYXNlPiBfaW5pdERiKCkgYXN5bmMgewogICAgZmluYWwgZGJQYXRoID0gYXdhaXQgZ2V0RGF0YWJhc2VzUGF0aCgpOwogICAgcmV0dXJuIG9wZW5EYXRhYmFzZSgKICAgICAgam9pbihkYlBhdGgsICd0cmFpbmluZ19yZWNvcmRzLmRiJyksCiAgICAgIHZlcnNpb246IDEsCiAgICAgIG9uQ3JlYXRlOiAoZGIsIHZlcnNpb24pIGFzeW5jIHsKICAgICAgICBhd2FpdCBkYi5leGVjdXRlKCcnJwogICAgICAgICAgQ1JFQVRFIFRBQkxFIHRyYWluaW5nX3JlY29yZHMgKAogICAgICAgICAgICBpZCBJTlRFR0VSIFBSSU1BUlkgS0VZIEFVVE9JTkNSRU1FTlQsCiAgICAgICAgICAgIGRhdGUgVEVYVCBOT1QgTlVMTCwKICAgICAgICAgICAgZHVyYXRpb25fc2Vjb25kcyBJTlRFR0VSIE5PVCBOVUxMLAogICAgICAgICAgICBicG0gSU5URUdFUiBOT1QgTlVMTCwKICAgICAgICAgICAgc2lnbmFsX2NvdW50IElOVEVHRVIgTk9UIE5VTEwsCiAgICAgICAgICAgIG1vZGUgSU5URUdFUiBOT1QgTlVMTAogICAgICAgICAgKQogICAgICAgICcnJyk7CiAgICAgIH0sCiAgICApOwogIH0KCiAgRnV0dXJlPGludD4gaW5zZXJ0KFRyYWluaW5nUmVjb3JkIHJlY29yZCkgYXN5bmMgewogICAgZmluYWwgZGIgPSBhd2FpdCBkYXRhYmFzZTsKICAgIHJldHVybiBkYi5pbnNlcnQoJ3RyYWluaW5nX3JlY29yZHMnLCByZWNvcmQudG9NYXAoKSk7CiAgfQoKICBGdXR1cmU8TGlzdDxUcmFpbmluZ1JlY29yZD4+IGdldEFsbCgpIGFzeW5jIHsKICAgIGZpbmFsIGRiID0gYXdhaXQgZGF0YWJhc2U7CiAgICBmaW5hbCByb3dzID0gYXdhaXQgZGIucXVlcnkoJ3RyYWluaW5nX3JlY29yZHMnLCBvcmRlckJ5OiAnZGF0ZSBERVNDJywgbGltaXQ6IDEwMCk7CiAgICByZXR1cm4gcm93cy5tYXAoKHIpID0+IFRyYWluaW5nUmVjb3JkLmZyb21NYXAocikpLnRvTGlzdCgpOwogIH0KCiAgRnV0dXJlPExpc3Q8VHJhaW5pbmdSZWNvcmQ+PiBnZXRCeURhdGVSYW5nZShEYXRlVGltZSBzdGFydCwgRGF0ZVRpbWUgZW5kKSBhc3luYyB7CiAgICBmaW5hbCBkYiA9IGF3YWl0IGRhdGFiYXNlOwogICAgZmluYWwgcm93cyA9IGF3YWl0IGRiLnF1ZXJ5KAogICAgICAndHJhaW5pbmdfcmVjb3JkcycsCiAgICAgIHdoZXJlOiAnZGF0ZSA+PSA/IEFORCBkYXRlIDw9ID8nLAogICAgICB3aGVyZUFyZ3M6IFtzdGFydC50b0lzbzg2MDFTdHJpbmcoKSwgZW5kLnRvSXNvODYwMVN0cmluZygpXSwKICAgICAgb3JkZXJCeTogJ2RhdGUgREVTQycsCiAgICApOwogICAgcmV0dXJuIHJvd3MubWFwKChyKSA9PiBUcmFpbmluZ1JlY29yZC5mcm9tTWFwKHIpKS50b0xpc3QoKTsKICB9CgogIEZ1dHVyZTxpbnQ+IGRlbGV0ZShpbnQgaWQpIGFzeW5jIHsKICAgIGZpbmFsIGRiID0gYXdhaXQgZGF0YWJhc2U7CiAgICByZXR1cm4gZGIuZGVsZXRlKCd0cmFpbmluZ19yZWNvcmRzJywgd2hlcmU6ICdpZCA9ID8nLCB3aGVyZUFyZ3M6IFtpZF0pOwogIH0KfQo=
+import 'package:sqflite/sqflite.dart';
+import 'package:path/path.dart';
+import '../models/training_record.dart';
+
+class StorageService {
+  static Database? _db;
+
+  Future<Database> get database async {
+    _db ??= await _initDb();
+    return _db!;
+  }
+
+  Future<Database> _initDb() async {
+    final dbPath = await getDatabasesPath();
+    return openDatabase(
+      join(dbPath, 'training_records.db'),
+      version: 1,
+      onCreate: (db, version) async {
+        await db.execute('''
+          CREATE TABLE training_records (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            date TEXT NOT NULL,
+            duration_seconds INTEGER NOT NULL,
+            bpm INTEGER NOT NULL,
+            signal_count INTEGER NOT NULL,
+            mode INTEGER NOT NULL
+          )
+        ''');
+      },
+    );
+  }
+
+  Future<int> insert(TrainingRecord record) async {
+    final db = await database;
+    return db.insert('training_records', record.toMap());
+  }
+
+  Future<List<TrainingRecord>> getAll() async {
+    final db = await database;
+    final rows = await db.query('training_records', orderBy: 'date DESC', limit: 100);
+    return rows.map((r) => TrainingRecord.fromMap(r)).toList();
+  }
+
+  Future<List<TrainingRecord>> getByDateRange(DateTime start, DateTime end) async {
+    final db = await database;
+    final rows = await db.query(
+      'training_records',
+      where: 'date >= ? AND date <= ?',
+      whereArgs: [start.toIso8601String(), end.toIso8601String()],
+      orderBy: 'date DESC',
+    );
+    return rows.map((r) => TrainingRecord.fromMap(r)).toList();
+  }
+
+  Future<int> delete(int id) async {
+    final db = await database;
+    return db.delete('training_records', where: 'id = ?', whereArgs: [id]);
+  }
+}

@@ -1,1 +1,124 @@
-aW1wb3J0IFRhcm8gZnJvbSAnQHRhcm9qcy90YXJvJzsKaW1wb3J0IHsgRGlyZWN0aW9uU2lnbmFsVHlwZSB9IGZyb20gJy4uL21vZGVscy9jb25maWcnOwppbXBvcnQgKiBhcyBUb25lIGZyb20gJy4vdG9uZUdlbmVyYXRvcic7Cgpjb25zdCBCQVNFNjRfQ0hBUlMgPSAnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLyc7CgpmdW5jdGlvbiB0b0Jhc2U2NChieXRlczogVWludDhBcnJheSk6IHN0cmluZyB7CiAgY29uc3QgbGVuID0gYnl0ZXMubGVuZ3RoOwogIGxldCByZXN1bHQgPSAnJzsKICBmb3IgKGxldCBpID0gMDsgaSA8IGxlbjsgaSArPSAzKSB7CiAgICBjb25zdCBhID0gYnl0ZXNbaV07CiAgICBjb25zdCBiID0gaSArIDEgPCBsZW4gPyBieXRlc1tpICsgMV0gOiAwOwogICAgY29uc3QgYyA9IGkgKyAyIDwgbGVuID8gYnl0ZXNbaSArIDJdIDogMDsKICAgIHJlc3VsdCArPSBCQVNFNjRfQ0hBUlNbYSA+PiAyXTsKICAgIHJlc3VsdCArPSBCQVNFNjRfQ0hBUlNbKChhICYgMykgPDwgNCkgfCAoYiA+PiA0KV07CiAgICByZXN1bHQgKz0gaSArIDEgPCBsZW4gPyBCQVNFNjRfQ0hBUlNbKChiICYgMTUpIDw8IDIpIHwgKGMgPj4gNildIDogJz0nOwogICAgcmVzdWx0ICs9IGkgKyAyIDwgbGVuID8gQkFTRTY0X0NIQVJTW2MgJiA2M10gOiAnPSc7CiAgfQogIHJldHVybiByZXN1bHQ7Cn0KCmZ1bmN0aW9uIGFycmF5QnVmZmVyVG9CYXNlNjQoYnVmZmVyOiBBcnJheUJ1ZmZlcik6IHN0cmluZyB7CiAgcmV0dXJuICdkYXRhOmF1ZGlvL3dhdjtiYXNlNjQsJyArIHRvQmFzZTY0KG5ldyBVaW50OEFycmF5KGJ1ZmZlcikpOwp9CgpjbGFzcyBBdWRpb01hbmFnZXIgewogIHByaXZhdGUgcG9vbDogVGFyby5Jbm5lckF1ZGlvQ29udGV4dFtdID0gW107CiAgcHJpdmF0ZSBwb29sSW5kZXggPSAwOwogIHByaXZhdGUgdGlja0RhdGFVcmkgPSAnJzsKICBwcml2YXRlIHNpZ25hbFVyaXM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7fTsKICBwcml2YXRlIGNvdW50SW5VcmlzOiBSZWNvcmQ8bnVtYmVyLCBzdHJpbmc+ID0ge307CiAgcHJpdmF0ZSBjb3VudEluU3RhcnRVcmkgPSAnJzsKICBwcml2YXRlIGNvdW50ZG93bldhcm5pbmdVcmkgPSAnJzsKICBwcml2YXRlIGVuZEJlbGxVcmkgPSAnJzsKICBwcml2YXRlIGluaXRpYWxpemVkID0gZmFsc2U7CgogIGluaXQoKTogdm9pZCB7CiAgICBpZiAodGhpcy5pbml0aWFsaXplZCkgcmV0dXJuOwogICAgdGhpcy5pbml0aWFsaXplZCA9IHRydWU7CgogICAgdGhpcy50aWNrRGF0YVVyaSA9IGFycmF5QnVmZmVyVG9CYXNlNjQoVG9uZS50aWNrV2F2KCkpOwogICAgdGhpcy5jb3VudEluVXJpc1szXSA9IGFycmF5QnVmZmVyVG9CYXNlNjQoVG9uZS5jb3VudEluM1dhdigpKTsKICAgIHRoaXMuY291bnRJblVyaXNbMl0gPSBhcnJheUJ1ZmZlclRvQmFzZTY0KFRvbmUuY291bnRJbjJXYXYoKSk7CiAgICB0aGlzLmNvdW50SW5VcmlzWzFdID0gYXJyYXlCdWZmZXJUb0Jhc2U2NChUb25lLmNvdW50SW4xV2F2KCkpOwogICAgdGhpcy5jb3VudEluU3RhcnRVcmkgPSBhcnJheUJ1ZmZlclRvQmFzZTY0KFRvbmUuY291bnRJblN0YXJ0V2F2KCkpOwogICAgdGhpcy5jb3VudGRvd25XYXJuaW5nVXJpID0gYXJyYXlCdWZmZXJUb0Jhc2U2NChUb25lLmNvdW50ZG93bldhcm5pbmdXYXYoKSk7CiAgICB0aGlzLmVuZEJlbGxVcmkgPSBhcnJheUJ1ZmZlclRvQmFzZTY0KFRvbmUuZW5kQmVsbFdhdigpKTsKCiAgICBjb25zdCBzaWduYWxUeXBlcyA9IE9iamVjdC52YWx1ZXMoRGlyZWN0aW9uU2lnbmFsVHlwZSk7CiAgICBmb3IgKGNvbnN0IHR5cGUgb2Ygc2lnbmFsVHlwZXMpIHsKICAgICAgdGhpcy5zaWduYWxVcmlzW3R5cGVdID0gYXJyYXlCdWZmZXJUb0Jhc2U2NChUb25lLnNpZ25hbFdhdih0eXBlIGFzIERpcmVjdGlvblNpZ25hbFR5cGUpKTsKICAgIH0KCiAgICAvLyBQcmUtY3JlYXRlIGF1ZGlvIGNvbnRleHQgcG9vbAogICAgZm9yIChsZXQgaSA9IDA7IGkgPCA2OyBpKyspIHsKICAgICAgY29uc3QgY3R4ID0gVGFyby5jcmVhdGVJbm5lckF1ZGlvQ29udGV4dCgpOwogICAgICB0aGlzLnBvb2wucHVzaChjdHgpOwogICAgfQogIH0KCiAgcHJpdmF0ZSBnZXROZXh0UGxheWVyKCk6IFRhcm8uSW5uZXJBdWRpb0NvbnRleHQgewogICAgdGhpcy5wb29sSW5kZXggPSAodGhpcy5wb29sSW5kZXggKyAxKSAlIHRoaXMucG9vbC5sZW5ndGg7CiAgICByZXR1cm4gdGhpcy5wb29sW3RoaXMucG9vbEluZGV4XTsKICB9CgogIHBsYXlUaWNrKHZvbHVtZTogbnVtYmVyKTogdm9pZCB7CiAgICBpZiAoIXRoaXMuaW5pdGlhbGl6ZWQpIHJldHVybjsKICAgIGNvbnN0IHBsYXllciA9IHRoaXMuZ2V0TmV4dFBsYXllcigpOwogICAgcGxheWVyLnN0b3AoKTsKICAgIHBsYXllci5zcmMgPSB0aGlzLnRpY2tEYXRhVXJpOwogICAgcGxheWVyLnZvbHVtZSA9IHZvbHVtZTsKICAgIHBsYXllci5wbGF5KCk7CiAgfQoKICBwbGF5U2lnbmFsKHR5cGU6IERpcmVjdGlvblNpZ25hbFR5cGUsIHZvbHVtZTogbnVtYmVyKTogdm9pZCB7CiAgICBpZiAoIXRoaXMuaW5pdGlhbGl6ZWQpIHJldHVybjsKICAgIGNvbnN0IHVyaSA9IHRoaXMuc2lnbmFsVXJpc1t0eXBlXTsKICAgIGlmICghdXJpKSByZXR1cm47CiAgICBjb25zdCBwbGF5ZXIgPSB0aGlzLnBvb2xbdGhpcy5wb29sLmxlbmd0aCAtIDFdOwogICAgcGxheWVyLnN0b3AoKTsKICAgIHBsYXllci5zcmMgPSB1cmk7CiAgICBwbGF5ZXIudm9sdW1lID0gdm9sdW1lOwogICAgcGxheWVyLnBsYXkoKTsKICB9CgogIHBsYXlDb3VudEluQmVlcChudW06IG51bWJlciwgdm9sdW1lOiBudW1iZXIpOiB2b2lkIHsKICAgIGlmICghdGhpcy5pbml0aWFsaXplZCkgcmV0dXJuOwogICAgY29uc3QgdXJpID0gbnVtID4gMCA/IHRoaXMuY291bnRJblVyaXNbbnVtXSA6IHRoaXMuY291bnRJblN0YXJ0VXJpOwogICAgaWYgKCF1cmkpIHJldHVybjsKICAgIGNvbnN0IHBsYXllciA9IHRoaXMucG9vbFt0aGlzLnBvb2wubGVuZ3RoIC0gMV07CiAgICBwbGF5ZXIuc3RvcCgpOwogICAgcGxheWVyLnNyYyA9IHVyaTsKICAgIHBsYXllci52b2x1bWUgPSB2b2x1bWU7CiAgICBwbGF5ZXIucGxheSgpOwogIH0KCiAgcGxheUNvdW50ZG93bldhcm5pbmcodm9sdW1lOiBudW1iZXIpOiB2b2lkIHsKICAgIGlmICghdGhpcy5pbml0aWFsaXplZCkgcmV0dXJuOwogICAgY29uc3QgcGxheWVyID0gdGhpcy5wb29sW3RoaXMucG9vbC5sZW5ndGggLSAxXTsKICAgIHBsYXllci5zdG9wKCk7CiAgICBwbGF5ZXIuc3JjID0gdGhpcy5jb3VudGRvd25XYXJuaW5nVXJpOwogICAgcGxheWVyLnZvbHVtZSA9IHZvbHVtZTsKICAgIHBsYXllci5wbGF5KCk7CiAgfQoKICBwbGF5RW5kQmVsbCh2b2x1bWU6IG51bWJlcik6IHZvaWQgewogICAgaWYgKCF0aGlzLmluaXRpYWxpemVkKSByZXR1cm47CiAgICBjb25zdCBwbGF5ZXIgPSB0aGlzLnBvb2xbdGhpcy5wb29sLmxlbmd0aCAtIDFdOwogICAgcGxheWVyLnN0b3AoKTsKICAgIHBsYXllci5zcmMgPSB0aGlzLmVuZEJlbGxVcmk7CiAgICBwbGF5ZXIudm9sdW1lID0gdm9sdW1lOwogICAgcGxheWVyLnBsYXkoKTsKICB9CgogIGRlc3Ryb3koKTogdm9pZCB7CiAgICBmb3IgKGNvbnN0IHAgb2YgdGhpcy5wb29sKSB7CiAgICAgIHAuZGVzdHJveSgpOwogICAgfQogICAgdGhpcy5wb29sID0gW107CiAgICB0aGlzLmluaXRpYWxpemVkID0gZmFsc2U7CiAgfQp9CgpleHBvcnQgY29uc3QgYXVkaW9NYW5hZ2VyID0gbmV3IEF1ZGlvTWFuYWdlcigpOwo=
+import Taro from '@tarojs/taro';
+import { DirectionSignalType } from '../models/config';
+import * as Tone from './toneGenerator';
+
+const BASE64_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+
+function toBase64(bytes: Uint8Array): string {
+  const len = bytes.length;
+  let result = '';
+  for (let i = 0; i < len; i += 3) {
+    const a = bytes[i];
+    const b = i + 1 < len ? bytes[i + 1] : 0;
+    const c = i + 2 < len ? bytes[i + 2] : 0;
+    result += BASE64_CHARS[a >> 2];
+    result += BASE64_CHARS[((a & 3) << 4) | (b >> 4)];
+    result += i + 1 < len ? BASE64_CHARS[((b & 15) << 2) | (c >> 6)] : '=';
+    result += i + 2 < len ? BASE64_CHARS[c & 63] : '=';
+  }
+  return result;
+}
+
+function arrayBufferToBase64(buffer: ArrayBuffer): string {
+  return 'data:audio/wav;base64,' + toBase64(new Uint8Array(buffer));
+}
+
+class AudioManager {
+  private pool: Taro.InnerAudioContext[] = [];
+  private poolIndex = 0;
+  private tickDataUri = '';
+  private signalUris: Record<string, string> = {};
+  private countInUris: Record<number, string> = {};
+  private countInStartUri = '';
+  private countdownWarningUri = '';
+  private endBellUri = '';
+  private initialized = false;
+
+  init(): void {
+    if (this.initialized) return;
+    this.initialized = true;
+
+    this.tickDataUri = arrayBufferToBase64(Tone.tickWav());
+    this.countInUris[3] = arrayBufferToBase64(Tone.countIn3Wav());
+    this.countInUris[2] = arrayBufferToBase64(Tone.countIn2Wav());
+    this.countInUris[1] = arrayBufferToBase64(Tone.countIn1Wav());
+    this.countInStartUri = arrayBufferToBase64(Tone.countInStartWav());
+    this.countdownWarningUri = arrayBufferToBase64(Tone.countdownWarningWav());
+    this.endBellUri = arrayBufferToBase64(Tone.endBellWav());
+
+    const signalTypes = Object.values(DirectionSignalType);
+    for (const type of signalTypes) {
+      this.signalUris[type] = arrayBufferToBase64(Tone.signalWav(type as DirectionSignalType));
+    }
+
+    // Pre-create audio context pool
+    for (let i = 0; i < 6; i++) {
+      const ctx = Taro.createInnerAudioContext();
+      this.pool.push(ctx);
+    }
+  }
+
+  private getNextPlayer(): Taro.InnerAudioContext {
+    this.poolIndex = (this.poolIndex + 1) % this.pool.length;
+    return this.pool[this.poolIndex];
+  }
+
+  playTick(volume: number): void {
+    if (!this.initialized) return;
+    const player = this.getNextPlayer();
+    player.stop();
+    player.src = this.tickDataUri;
+    player.volume = volume;
+    player.play();
+  }
+
+  playSignal(type: DirectionSignalType, volume: number): void {
+    if (!this.initialized) return;
+    const uri = this.signalUris[type];
+    if (!uri) return;
+    const player = this.pool[this.pool.length - 1];
+    player.stop();
+    player.src = uri;
+    player.volume = volume;
+    player.play();
+  }
+
+  playCountInBeep(num: number, volume: number): void {
+    if (!this.initialized) return;
+    const uri = num > 0 ? this.countInUris[num] : this.countInStartUri;
+    if (!uri) return;
+    const player = this.pool[this.pool.length - 1];
+    player.stop();
+    player.src = uri;
+    player.volume = volume;
+    player.play();
+  }
+
+  playCountdownWarning(volume: number): void {
+    if (!this.initialized) return;
+    const player = this.pool[this.pool.length - 1];
+    player.stop();
+    player.src = this.countdownWarningUri;
+    player.volume = volume;
+    player.play();
+  }
+
+  playEndBell(volume: number): void {
+    if (!this.initialized) return;
+    const player = this.pool[this.pool.length - 1];
+    player.stop();
+    player.src = this.endBellUri;
+    player.volume = volume;
+    player.play();
+  }
+
+  destroy(): void {
+    for (const p of this.pool) {
+      p.destroy();
+    }
+    this.pool = [];
+    this.initialized = false;
+  }
+}
+
+export const audioManager = new AudioManager();

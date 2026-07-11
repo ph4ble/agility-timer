@@ -1,1 +1,336 @@
-aW1wb3J0IHsKICBUcmFpbmluZ0NvbmZpZywKICBUcmFpbmluZ01vZGUsCiAgVHJhaW5pbmdQaGFzZSwKICBEaXJlY3Rpb24sCiAgRGlyZWN0aW9uU2lnbmFsVHlwZSwKICBTaWduYWxTb3VuZFR5cGUsCiAgZ2V0QWN0aXZlRGlyZWN0aW9ucywKfSBmcm9tICcuLi9tb2RlbHMvY29uZmlnJzsKaW1wb3J0IHsgTWV0cm9ub21lLCBCZWF0RXZlbnQgfSBmcm9tICcuL21ldHJvbm9tZSc7CgpleHBvcnQgaW50ZXJmYWNlIFRyYWluaW5nU3RhdGUgewogIHBoYXNlOiBUcmFpbmluZ1BoYXNlOwogIGVsYXBzZWRTZWNvbmRzOiBudW1iZXI7CiAgdG90YWxTZWNvbmRzOiBudW1iZXI7CiAgYmVhdENvdW50OiBudW1iZXI7CiAgc2lnbmFsQ291bnQ6IG51bWJlcjsKICBjdXJyZW50QnBtOiBudW1iZXI7CiAgcm91bmROdW1iZXI6IG51bWJlcjsKICB0b3RhbFJvdW5kczogbnVtYmVyOwogIGxhc3REaXJlY3Rpb246IERpcmVjdGlvbiB8IG51bGw7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgU2lnbmFsRXZlbnQgewogIGRpcmVjdGlvbjogRGlyZWN0aW9uOwogIHNpZ25hbFR5cGU6IERpcmVjdGlvblNpZ25hbFR5cGU7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQ291bnRkb3duRXZlbnQgewogIHJlbWFpbmluZ1NlY29uZHM6IG51bWJlcjsKfQoKdHlwZSBFdmVudEhhbmRsZXIgPSB7CiAgc3RhdGU/OiAoczogVHJhaW5pbmdTdGF0ZSkgPT4gdm9pZDsKICBzaWduYWw/OiAoZTogU2lnbmFsRXZlbnQpID0+IHZvaWQ7CiAgYmVhdD86IChlOiBCZWF0RXZlbnQpID0+IHZvaWQ7CiAgdGljaz86ICgpID0+IHZvaWQ7CiAgY291bnRkb3duPzogKGU6IENvdW50ZG93bkV2ZW50KSA9PiB2b2lkOwogIGVuZEJlbGw/OiAoKSA9PiB2b2lkOwp9OwoKZXhwb3J0IGNsYXNzIFRyYWluaW5nRW5naW5lIHsKICBwcml2YXRlIGNvbmZpZzogVHJhaW5pbmdDb25maWc7CiAgcHJpdmF0ZSBtZXRyb25vbWU6IE1ldHJvbm9tZSA9IG5ldyBNZXRyb25vbWUoKTsKICBwcml2YXRlIGhhbmRsZXI6IEV2ZW50SGFuZGxlciA9IHt9OwoKICBwcml2YXRlIHNpZ25hbENvdW50ID0gMDsKICBwcml2YXRlIGJlYXRzU2luY2VMYXN0U2lnbmFsID0gMDsKICBwcml2YXRlIGVsYXBzZWRTZWNvbmRzID0gMDsKICBwcml2YXRlIHJvdW5kTnVtYmVyID0gMTsKICBwcml2YXRlIGN1cnJlbnRCcG06IG51bWJlcjsKICBwcml2YXRlIGJhc2VCcG06IG51bWJlcjsKICBwcml2YXRlIGxhc3REaXJlY3Rpb246IERpcmVjdGlvbiB8IG51bGwgPSBudWxsOwogIHByaXZhdGUgcGhhc2U6IFRyYWluaW5nUGhhc2UgPSBUcmFpbmluZ1BoYXNlLmlkbGU7CiAgcHJpdmF0ZSBjb3VudGRvd24xMEZpcmVkID0gZmFsc2U7CiAgcHJpdmF0ZSBjb3VudGRvd241RmlyZWQgPSBmYWxzZTsKCiAgcHJpdmF0ZSBkdXJhdGlvblRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRJbnRlcnZhbD4gfCBudWxsID0gbnVsbDsKICBwcml2YXRlIGJwbVRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRJbnRlcnZhbD4gfCBudWxsID0gbnVsbDsKICBwcml2YXRlIGJvdW5kT25CZWF0OiAoZTogQmVhdEV2ZW50KSA9PiB2b2lkOwoKICBjb25zdHJ1Y3Rvcihjb25maWc6IFRyYWluaW5nQ29uZmlnKSB7CiAgICB0aGlzLmNvbmZpZyA9IGNvbmZpZzsKICAgIHRoaXMuY3VycmVudEJwbSA9IGNvbmZpZy5icG07CiAgICB0aGlzLmJhc2VCcG0gPSBjb25maWcuYnBtOwogICAgdGhpcy5ib3VuZE9uQmVhdCA9IHRoaXMub25CZWF0LmJpbmQodGhpcyk7CiAgfQoKICBvbihoYW5kbGVyOiBFdmVudEhhbmRsZXIpOiB2b2lkIHsKICAgIHRoaXMuaGFuZGxlciA9IGhhbmRsZXI7CiAgfQoKICBnZXQgaXNQYXVzZWQoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdGhpcy5waGFzZSA9PT0gVHJhaW5pbmdQaGFzZS5wYXVzZWQ7CiAgfQoKICBnZXQgY3VycmVudFBoYXNlKCk6IFRyYWluaW5nUGhhc2UgewogICAgcmV0dXJuIHRoaXMucGhhc2U7CiAgfQoKICBnZXRDdXJyZW50QnBtKCk6IG51bWJlciB7CiAgICByZXR1cm4gdGhpcy5jdXJyZW50QnBtOwogIH0KCiAgZ2V0RWxhcHNlZFNlY29uZHMoKTogbnVtYmVyIHsKICAgIHJldHVybiB0aGlzLmVsYXBzZWRTZWNvbmRzOwogIH0KCiAgZ2V0U2lnbmFsQ291bnQoKTogbnVtYmVyIHsKICAgIHJldHVybiB0aGlzLnNpZ25hbENvdW50OwogIH0KCiAgYXN5bmMgc3RhcnQoKTogUHJvbWlzZTx2b2lkPiB7CiAgICB0aGlzLnNpZ25hbENvdW50ID0gMDsKICAgIHRoaXMuYmVhdHNTaW5jZUxhc3RTaWduYWwgPSAwOwogICAgdGhpcy5lbGFwc2VkU2Vjb25kcyA9IDA7CiAgICB0aGlzLnJvdW5kTnVtYmVyID0gMTsKICAgIHRoaXMubGFzdERpcmVjdGlvbiA9IG51bGw7CiAgICB0aGlzLmN1cnJlbnRCcG0gPSB0aGlzLmNvbmZpZy5icG07CiAgICB0aGlzLmJhc2VCcG0gPSB0aGlzLmNvbmZpZy5icG07CiAgICB0aGlzLmNvdW50ZG93bjEwRmlyZWQgPSBmYWxzZTsKICAgIHRoaXMuY291bnRkb3duNUZpcmVkID0gZmFsc2U7CgogICAgY29uc3QgaW50ZXJ2YWxNcyA9IHRoaXMuYmVhdEludGVydmFsTXMoKTsKICAgIHRoaXMubWV0cm9ub21lLmNvbmZpZ3VyZShpbnRlcnZhbE1zLCB0aGlzLmNvbmZpZy5iZWF0c1BlckJhcik7CiAgICB0aGlzLm1ldHJvbm9tZS5vbkJlYXQodGhpcy5ib3VuZE9uQmVhdCk7CgogICAgdGhpcy5waGFzZSA9IFRyYWluaW5nUGhhc2UuY291bnRJbjsKICAgIHRoaXMuZW1pdFN0YXRlKCk7CgogICAgLy8gMy0yLTEt5byA5aeLIGNvdW50LWluCiAgICBmb3IgKGxldCBpID0gMzsgaSA+PSAwOyBpLS0pIHsKICAgICAgY29uc3QgZXZlbnQ6IEJlYXRFdmVudCA9IHsKICAgICAgICBiZWF0TnVtYmVyOiBpID09PSAwID8gMCA6IGksCiAgICAgICAgaXNGaXJzdEJlYXQ6IGkgPT09IDAsCiAgICAgICAgaXNDb3VudEluOiB0cnVlLAogICAgICB9OwogICAgICB0aGlzLmhhbmRsZXIuYmVhdD8uKGV2ZW50KTsKICAgICAgdGhpcy5oYW5kbGVyLnRpY2s/LigpOwogICAgICBhd2FpdCB0aGlzLmRlbGF5KGludGVydmFsTXMpOwogICAgfQoKICAgIHRoaXMucGhhc2UgPSBUcmFpbmluZ1BoYXNlLnJ1bm5pbmc7CiAgICB0aGlzLmVtaXRTdGF0ZSgpOwogICAgdGhpcy5tZXRyb25vbWUuc3RhcnQoKTsKICAgIHRoaXMuc3RhcnREdXJhdGlvblRyYWNraW5nKCk7CiAgICB0aGlzLnN0YXJ0UmFuZG9tQnBtVmFyaWF0aW9uKCk7CiAgfQoKICBwYXVzZSgpOiB2b2lkIHsKICAgIGlmICh0aGlzLnBoYXNlICE9PSBUcmFpbmluZ1BoYXNlLnJ1bm5pbmcgJiYgdGhpcy5waGFzZSAhPT0gVHJhaW5pbmdQaGFzZS5yZXN0KSByZXR1cm47CiAgICB0aGlzLnBoYXNlID0gVHJhaW5pbmdQaGFzZS5wYXVzZWQ7CiAgICB0aGlzLm1ldHJvbm9tZS5zdG9wKCk7CiAgICB0aGlzLmNsZWFyVGltZXJzKCk7CiAgICB0aGlzLmVtaXRTdGF0ZSgpOwogIH0KCiAgcmVzdW1lKCk6IHZvaWQgewogICAgaWYgKHRoaXMucGhhc2UgIT09IFRyYWluaW5nUGhhc2UucGF1c2VkKSByZXR1cm47CiAgICB0aGlzLnBoYXNlID0gVHJhaW5pbmdQaGFzZS5ydW5uaW5nOwogICAgdGhpcy5tZXRyb25vbWUuc3RhcnQoKTsKICAgIHRoaXMuc3RhcnREdXJhdGlvblRyYWNraW5nKCk7CiAgICB0aGlzLnN0YXJ0UmFuZG9tQnBtVmFyaWF0aW9uKCk7CiAgICB0aGlzLmVtaXRTdGF0ZSgpOwogIH0KCiAgc3RvcCgpOiB2b2lkIHsKICAgIHRoaXMucGhhc2UgPSBUcmFpbmluZ1BoYXNlLmZpbmlzaGVkOwogICAgdGhpcy5lbWl0U3RhdGUoKTsKICAgIHRoaXMubWV0cm9ub21lLnN0b3AoKTsKICAgIHRoaXMubWV0cm9ub21lLnJlbW92ZUxpc3RlbmVyKHRoaXMuYm91bmRPbkJlYXQpOwogICAgdGhpcy5jbGVhclRpbWVycygpOwogIH0KCiAgZGlzcG9zZSgpOiB2b2lkIHsKICAgIHRoaXMuc3RvcCgpOwogICAgdGhpcy5tZXRyb25vbWUucmVtb3ZlTGlzdGVuZXIodGhpcy5ib3VuZE9uQmVhdCk7CiAgfQoKICBwcml2YXRlIGNsZWFyVGltZXJzKCk6IHZvaWQgewogICAgaWYgKHRoaXMuZHVyYXRpb25UaW1lciAhPT0gbnVsbCkgeyBjbGVhckludGVydmFsKHRoaXMuZHVyYXRpb25UaW1lcik7IHRoaXMuZHVyYXRpb25UaW1lciA9IG51bGw7IH0KICAgIGlmICh0aGlzLmJwbVRpbWVyICE9PSBudWxsKSB7IGNsZWFySW50ZXJ2YWwodGhpcy5icG1UaW1lcik7IHRoaXMuYnBtVGltZXIgPSBudWxsOyB9CiAgfQoKICBwcml2YXRlIGRlbGF5KG1zOiBudW1iZXIpOiBQcm9taXNlPHZvaWQ+IHsKICAgIHJldHVybiBuZXcgUHJvbWlzZShyZXNvbHZlID0+IHNldFRpbWVvdXQocmVzb2x2ZSwgbXMpKTsKICB9CgogIHByaXZhdGUgYmVhdEludGVydmFsTXMoKTogbnVtYmVyIHsKICAgIHJldHVybiA2MDAwMCAvIHRoaXMuY3VycmVudEJwbSAvIHRoaXMuY29uZmlnLmJlYXRTdWJkaXZpc2lvbjsKICB9CgogIHByaXZhdGUgb25CZWF0KGJlYXQ6IEJlYXRFdmVudCk6IHZvaWQgewogICAgdGhpcy5iZWF0c1NpbmNlTGFzdFNpZ25hbCsrOwogICAgdGhpcy5oYW5kbGVyLmJlYXQ/LihiZWF0KTsKICAgIHRoaXMuaGFuZGxlci50aWNrPy4oKTsKCiAgICBpZiAodGhpcy5iZWF0c1NpbmNlTGFzdFNpZ25hbCA+PSB0aGlzLmNvbmZpZy5taW5CZWF0c1RvQ2hhbmdlKSB7CiAgICAgIGNvbnN0IG1heEJlYXRzID0gdGhpcy5jb25maWcubWF4QmVhdHNUb0NoYW5nZTsKICAgICAgY29uc3QgY2hhbmNlID0gdGhpcy5iZWF0c1NpbmNlTGFzdFNpZ25hbCA+PSBtYXhCZWF0cwogICAgICAgID8gMQogICAgICAgIDogMSAvIChtYXhCZWF0cyAtIHRoaXMuYmVhdHNTaW5jZUxhc3RTaWduYWwgKyAxKTsKICAgICAgaWYgKE1hdGgucmFuZG9tKCkgPCBjaGFuY2UpIHsKICAgICAgICB0aGlzLmZpcmVTaWduYWwoKTsKICAgICAgfQogICAgfQogIH0KCiAgcHJpdmF0ZSBmaXJlU2lnbmFsKCk6IHZvaWQgewogICAgdGhpcy5iZWF0c1NpbmNlTGFzdFNpZ25hbCA9IDA7CiAgICB0aGlzLnNpZ25hbENvdW50Kys7CgogICAgY29uc3QgZGlyZWN0aW9ucyA9IGdldEFjdGl2ZURpcmVjdGlvbnModGhpcy5jb25maWcuZGlyZWN0aW9uQ291bnQpOwogICAgbGV0IGRpcjogRGlyZWN0aW9uOwogICAgaWYgKGRpcmVjdGlvbnMubGVuZ3RoID4gMSAmJiB0aGlzLmxhc3REaXJlY3Rpb24gIT09IG51bGwpIHsKICAgICAgY29uc3Qgb3RoZXJzID0gZGlyZWN0aW9ucy5maWx0ZXIoZCA9PiBkICE9PSB0aGlzLmxhc3REaXJlY3Rpb24pOwogICAgICBkaXIgPSBvdGhlcnNbTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogb3RoZXJzLmxlbmd0aCldOwogICAgfSBlbHNlIHsKICAgICAgZGlyID0gZGlyZWN0aW9uc1tNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBkaXJlY3Rpb25zLmxlbmd0aCldOwogICAgfQogICAgdGhpcy5sYXN0RGlyZWN0aW9uID0gZGlyOwoKICAgIGNvbnN0IHNpZ25hbFR5cGUgPSB0aGlzLnBpY2tTaWduYWxUeXBlKGRpcik7CiAgICB0aGlzLmhhbmRsZXIuc2lnbmFsPy4oeyBkaXJlY3Rpb246IGRpciwgc2lnbmFsVHlwZSB9KTsKICB9CgogIHByaXZhdGUgcGlja1NpZ25hbFR5cGUoZGlyOiBEaXJlY3Rpb24pOiBEaXJlY3Rpb25TaWduYWxUeXBlIHsKICAgIGlmICh0aGlzLmNvbmZpZy5zaWduYWxTb3VuZFR5cGUgPT09IFNpZ25hbFNvdW5kVHlwZS52b2ljZURpcmVjdGlvbikgewogICAgICBzd2l0Y2ggKGRpcikgewogICAgICAgIGNhc2UgRGlyZWN0aW9uLmZvcndhcmQ6IHJldHVybiBEaXJlY3Rpb25TaWduYWxUeXBlLmRpckZvcndhcmQ7CiAgICAgICAgY2FzZSBEaXJlY3Rpb24uYmFja3dhcmQ6IHJldHVybiBEaXJlY3Rpb25TaWduYWxUeXBlLmRpckJhY2t3YXJkOwogICAgICAgIGNhc2UgRGlyZWN0aW9uLmxlZnQ6IHJldHVybiBEaXJlY3Rpb25TaWduYWxUeXBlLmRpckxlZnQ7CiAgICAgICAgY2FzZSBEaXJlY3Rpb24ucmlnaHQ6IHJldHVybiBEaXJlY3Rpb25TaWduYWxUeXBlLmRpclJpZ2h0OwogICAgICB9CiAgICB9CiAgICByZXR1cm4gRGlyZWN0aW9uU2lnbmFsVHlwZS5hbGVydDsKICB9CgogIHByaXZhdGUgc3RhcnRSYW5kb21CcG1WYXJpYXRpb24oKTogdm9pZCB7CiAgICBpZiAoIXRoaXMuY29uZmlnLmVuYWJsZVJhbmRvbUJwbSkgcmV0dXJuOwogICAgdGhpcy5icG1UaW1lciA9IHNldEludGVydmFsKCgpID0+IHsKICAgICAgaWYgKHRoaXMucGhhc2UgIT09IFRyYWluaW5nUGhhc2UucnVubmluZykgcmV0dXJuOwogICAgICBjb25zdCByYW5nZSA9IE1hdGgucm91bmQodGhpcy5jb25maWcuYnBtICogdGhpcy5jb25maWcucmFuZG9tQnBtUGVyY2VudCAvIDEwMCk7CiAgICAgIGNvbnN0IG1pbkJwbSA9IE1hdGgubWF4KDQwLCB0aGlzLmNvbmZpZy5icG0gLSByYW5nZSk7CiAgICAgIGNvbnN0IG1heEJwbSA9IE1hdGgubWluKDUwMCwgdGhpcy5jb25maWcuYnBtICsgcmFuZ2UpOwogICAgICB0aGlzLmN1cnJlbnRCcG0gPSBtaW5CcG0gKyBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBNYXRoLm1heChtYXhCcG0gLSBtaW5CcG0sIDEpKTsKICAgICAgdGhpcy5tZXRyb25vbWUuY29uZmlndXJlKHRoaXMuYmVhdEludGVydmFsTXMoKSwgdGhpcy5jb25maWcuYmVhdHNQZXJCYXIpOwogICAgICB0aGlzLmVtaXRTdGF0ZSgpOwogICAgfSwgdGhpcy5iZWF0SW50ZXJ2YWxNcygpICogdGhpcy5jb25maWcuYmVhdHNQZXJCYXIgKiAyKTsKICB9CgogIHByaXZhdGUgc3RhcnREdXJhdGlvblRyYWNraW5nKCk6IHZvaWQgewogICAgdGhpcy5jbGVhclRpbWVycygpOwoKICAgIGlmICh0aGlzLmNvbmZpZy5tb2RlID09PSBUcmFpbmluZ01vZGUuZnJlZSkgewogICAgICB0aGlzLmR1cmF0aW9uVGltZXIgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgICAgdGhpcy5lbGFwc2VkU2Vjb25kcysrOwogICAgICAgIHRoaXMuZW1pdFN0YXRlKCk7CiAgICAgIH0sIDEwMDApOwogICAgfSBlbHNlIGlmICh0aGlzLmNvbmZpZy5tb2RlID09PSBUcmFpbmluZ01vZGUudGltZWQpIHsKICAgICAgY29uc3QgdG90YWxTZWNzID0gdGhpcy5jb25maWcudHJhaW5pbmdEdXJhdGlvbiAqIDYwOwogICAgICB0aGlzLmR1cmF0aW9uVGltZXIgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgICAgdGhpcy5lbGFwc2VkU2Vjb25kcysrOwogICAgICAgIHRoaXMuZW1pdFN0YXRlKCk7CiAgICAgICAgdGhpcy5jaGVja0NvdW50ZG93bih0b3RhbFNlY3MpOwogICAgICAgIGlmICh0aGlzLmVsYXBzZWRTZWNvbmRzID49IHRvdGFsU2VjcykgewogICAgICAgICAgdGhpcy5oYW5kbGVyLmVuZEJlbGw/LigpOwogICAgICAgICAgdGhpcy5zdG9wKCk7CiAgICAgICAgfQogICAgICB9LCAxMDAwKTsKICAgIH0gZWxzZSBpZiAodGhpcy5jb25maWcubW9kZSA9PT0gVHJhaW5pbmdNb2RlLnByb2dyZXNzaXZlKSB7CiAgICAgIHRoaXMuZHVyYXRpb25UaW1lciA9IHNldEludGVydmFsKCgpID0+IHsKICAgICAgICB0aGlzLmVsYXBzZWRTZWNvbmRzKys7CiAgICAgICAgdGhpcy5lbWl0U3RhdGUoKTsKICAgICAgfSwgMTAwMCk7CiAgICAgIHNldEludGVydmFsKCgpID0+IHsKICAgICAgICBpZiAodGhpcy5waGFzZSA9PT0gVHJhaW5pbmdQaGFzZS5ydW5uaW5nICYmIHRoaXMuY3VycmVudEJwbSA8IDUwMCkgewogICAgICAgICAgdGhpcy5iYXNlQnBtID0gTWF0aC5taW4oNTAwLCB0aGlzLmJhc2VCcG0gKyA1KTsKICAgICAgICAgIHRoaXMuY3VycmVudEJwbSA9IHRoaXMuYmFzZUJwbTsKICAgICAgICAgIHRoaXMubWV0cm9ub21lLmNvbmZpZ3VyZSh0aGlzLmJlYXRJbnRlcnZhbE1zKCksIHRoaXMuY29uZmlnLmJlYXRzUGVyQmFyKTsKICAgICAgICAgIHRoaXMuZW1pdFN0YXRlKCk7CiAgICAgICAgfQogICAgICB9LCAyMDAwMCk7CiAgICB9IGVsc2UgaWYgKHRoaXMuY29uZmlnLm1vZGUgPT09IFRyYWluaW5nTW9kZS5pbnRlcnZhbCkgewogICAgICB0aGlzLnN0YXJ0SW50ZXJ2YWxXb3JrUGhhc2UoKTsKICAgIH0KICB9CgogIHByaXZhdGUgY2hlY2tDb3VudGRvd24odG90YWxTZWNzOiBudW1iZXIpOiB2b2lkIHsKICAgIGNvbnN0IHJlbWFpbmluZyA9IHRvdGFsU2VjcyAtIHRoaXMuZWxhcHNlZFNlY29uZHM7CiAgICBpZiAocmVtYWluaW5nIDw9IDEwICYmIHJlbWFpbmluZyA+IDUgJiYgIXRoaXMuY291bnRkb3duMTBGaXJlZCkgewogICAgICB0aGlzLmNvdW50ZG93bjEwRmlyZWQgPSB0cnVlOwogICAgICB0aGlzLmhhbmRsZXIuY291bnRkb3duPy4oeyByZW1haW5pbmdTZWNvbmRzOiByZW1haW5pbmcgfSk7CiAgICB9IGVsc2UgaWYgKHJlbWFpbmluZyA8PSA1ICYmIHJlbWFpbmluZyA+IDAgJiYgIXRoaXMuY291bnRkb3duNUZpcmVkKSB7CiAgICAgIHRoaXMuY291bnRkb3duNUZpcmVkID0gdHJ1ZTsKICAgICAgdGhpcy5oYW5kbGVyLmNvdW50ZG93bj8uKHsgcmVtYWluaW5nU2Vjb25kczogcmVtYWluaW5nIH0pOwogICAgfQogIH0KCiAgcHJpdmF0ZSBzdGFydEludGVydmFsV29ya1BoYXNlKCk6IHZvaWQgewogICAgdGhpcy5waGFzZSA9IFRyYWluaW5nUGhhc2UucnVubmluZzsKICAgIHRoaXMuZW1pdFN0YXRlKCk7CiAgICB0aGlzLmVsYXBzZWRTZWNvbmRzID0gMDsKICAgIHRoaXMuY291bnRkb3duMTBGaXJlZCA9IGZhbHNlOwogICAgdGhpcy5jb3VudGRvd241RmlyZWQgPSBmYWxzZTsKCiAgICB0aGlzLmR1cmF0aW9uVGltZXIgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgIHRoaXMuZWxhcHNlZFNlY29uZHMrKzsKICAgICAgdGhpcy5lbWl0U3RhdGUoKTsKICAgICAgdGhpcy5jaGVja0NvdW50ZG93bih0aGlzLmNvbmZpZy5pbnRlcnZhbFdvcmtTZWNvbmRzKTsKICAgICAgaWYgKHRoaXMuZWxhcHNlZFNlY29uZHMgPj0gdGhpcy5jb25maWcuaW50ZXJ2YWxXb3JrU2Vjb25kcykgewogICAgICAgIGlmICh0aGlzLnJvdW5kTnVtYmVyID49IHRoaXMuY29uZmlnLmludGVydmFsUm91bmRzKSB7CiAgICAgICAgICB0aGlzLmhhbmRsZXIuZW5kQmVsbD8uKCk7CiAgICAgICAgICB0aGlzLnN0b3AoKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgdGhpcy5zdGFydFJlc3RQaGFzZSgpOwogICAgICAgIH0KICAgICAgfQogICAgfSwgMTAwMCk7CiAgfQoKICBwcml2YXRlIHN0YXJ0UmVzdFBoYXNlKCk6IHZvaWQgewogICAgdGhpcy5waGFzZSA9IFRyYWluaW5nUGhhc2UucmVzdDsKICAgIHRoaXMuZW1pdFN0YXRlKCk7CiAgICB0aGlzLmVsYXBzZWRTZWNvbmRzID0gMDsKICAgIHRoaXMuY291bnRkb3duMTBGaXJlZCA9IGZhbHNlOwogICAgdGhpcy5jb3VudGRvd241RmlyZWQgPSBmYWxzZTsKCiAgICB0aGlzLmR1cmF0aW9uVGltZXIgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgIHRoaXMuZWxhcHNlZFNlY29uZHMrKzsKICAgICAgdGhpcy5lbWl0U3RhdGUoKTsKICAgICAgaWYgKHRoaXMuZWxhcHNlZFNlY29uZHMgPj0gdGhpcy5jb25maWcuaW50ZXJ2YWxSZXN0U2Vjb25kcykgewogICAgICAgIHRoaXMucm91bmROdW1iZXIrKzsKICAgICAgICB0aGlzLnN0YXJ0SW50ZXJ2YWxXb3JrUGhhc2UoKTsKICAgICAgfQogICAgfSwgMTAwMCk7CiAgfQoKICBwcml2YXRlIGVtaXRTdGF0ZSgpOiB2b2lkIHsKICAgIGxldCB0b3RhbFNlY3MgPSAwOwogICAgaWYgKHRoaXMuY29uZmlnLm1vZGUgPT09IFRyYWluaW5nTW9kZS50aW1lZCkgewogICAgICB0b3RhbFNlY3MgPSB0aGlzLmNvbmZpZy50cmFpbmluZ0R1cmF0aW9uICogNjA7CiAgICB9CiAgICB0aGlzLmhhbmRsZXIuc3RhdGU/Lih7CiAgICAgIHBoYXNlOiB0aGlzLnBoYXNlLAogICAgICBlbGFwc2VkU2Vjb25kczogdGhpcy5lbGFwc2VkU2Vjb25kcywKICAgICAgdG90YWxTZWNvbmRzOiB0b3RhbFNlY3MsCiAgICAgIGJlYXRDb3VudDogMCwKICAgICAgc2lnbmFsQ291bnQ6IHRoaXMuc2lnbmFsQ291bnQsCiAgICAgIGN1cnJlbnRCcG06IHRoaXMuY3VycmVudEJwbSwKICAgICAgcm91bmROdW1iZXI6IHRoaXMucm91bmROdW1iZXIsCiAgICAgIHRvdGFsUm91bmRzOiB0aGlzLmNvbmZpZy5tb2RlID09PSBUcmFpbmluZ01vZGUuaW50ZXJ2YWwgPyB0aGlzLmNvbmZpZy5pbnRlcnZhbFJvdW5kcyA6IDEsCiAgICAgIGxhc3REaXJlY3Rpb246IHRoaXMubGFzdERpcmVjdGlvbiwKICAgIH0pOwogIH0KfQo=
+import {
+  TrainingConfig,
+  TrainingMode,
+  TrainingPhase,
+  Direction,
+  DirectionSignalType,
+  SignalSoundType,
+  getActiveDirections,
+} from '../models/config';
+import { Metronome, BeatEvent } from './metronome';
+
+export interface TrainingState {
+  phase: TrainingPhase;
+  elapsedSeconds: number;
+  totalSeconds: number;
+  beatCount: number;
+  signalCount: number;
+  currentBpm: number;
+  roundNumber: number;
+  totalRounds: number;
+  lastDirection: Direction | null;
+}
+
+export interface SignalEvent {
+  direction: Direction;
+  signalType: DirectionSignalType;
+}
+
+export interface CountdownEvent {
+  remainingSeconds: number;
+}
+
+type EventHandler = {
+  state?: (s: TrainingState) => void;
+  signal?: (e: SignalEvent) => void;
+  beat?: (e: BeatEvent) => void;
+  tick?: () => void;
+  countdown?: (e: CountdownEvent) => void;
+  endBell?: () => void;
+};
+
+export class TrainingEngine {
+  private config: TrainingConfig;
+  private metronome: Metronome = new Metronome();
+  private handler: EventHandler = {};
+
+  private signalCount = 0;
+  private beatsSinceLastSignal = 0;
+  private elapsedSeconds = 0;
+  private roundNumber = 1;
+  private currentBpm: number;
+  private baseBpm: number;
+  private lastDirection: Direction | null = null;
+  private phase: TrainingPhase = TrainingPhase.idle;
+  private countdown10Fired = false;
+  private countdown5Fired = false;
+
+  private durationTimer: ReturnType<typeof setInterval> | null = null;
+  private bpmTimer: ReturnType<typeof setInterval> | null = null;
+  private boundOnBeat: (e: BeatEvent) => void;
+
+  constructor(config: TrainingConfig) {
+    this.config = config;
+    this.currentBpm = config.bpm;
+    this.baseBpm = config.bpm;
+    this.boundOnBeat = this.onBeat.bind(this);
+  }
+
+  on(handler: EventHandler): void {
+    this.handler = handler;
+  }
+
+  get isPaused(): boolean {
+    return this.phase === TrainingPhase.paused;
+  }
+
+  get currentPhase(): TrainingPhase {
+    return this.phase;
+  }
+
+  getCurrentBpm(): number {
+    return this.currentBpm;
+  }
+
+  getElapsedSeconds(): number {
+    return this.elapsedSeconds;
+  }
+
+  getSignalCount(): number {
+    return this.signalCount;
+  }
+
+  async start(): Promise<void> {
+    this.signalCount = 0;
+    this.beatsSinceLastSignal = 0;
+    this.elapsedSeconds = 0;
+    this.roundNumber = 1;
+    this.lastDirection = null;
+    this.currentBpm = this.config.bpm;
+    this.baseBpm = this.config.bpm;
+    this.countdown10Fired = false;
+    this.countdown5Fired = false;
+
+    const intervalMs = this.beatIntervalMs();
+    this.metronome.configure(intervalMs, this.config.beatsPerBar);
+    this.metronome.onBeat(this.boundOnBeat);
+
+    this.phase = TrainingPhase.countIn;
+    this.emitState();
+
+    // 3-2-1-开始 count-in
+    for (let i = 3; i >= 0; i--) {
+      const event: BeatEvent = {
+        beatNumber: i === 0 ? 0 : i,
+        isFirstBeat: i === 0,
+        isCountIn: true,
+      };
+      this.handler.beat?.(event);
+      this.handler.tick?.();
+      await this.delay(intervalMs);
+    }
+
+    this.phase = TrainingPhase.running;
+    this.emitState();
+    this.metronome.start();
+    this.startDurationTracking();
+    this.startRandomBpmVariation();
+  }
+
+  pause(): void {
+    if (this.phase !== TrainingPhase.running && this.phase !== TrainingPhase.rest) return;
+    this.phase = TrainingPhase.paused;
+    this.metronome.stop();
+    this.clearTimers();
+    this.emitState();
+  }
+
+  resume(): void {
+    if (this.phase !== TrainingPhase.paused) return;
+    this.phase = TrainingPhase.running;
+    this.metronome.start();
+    this.startDurationTracking();
+    this.startRandomBpmVariation();
+    this.emitState();
+  }
+
+  stop(): void {
+    this.phase = TrainingPhase.finished;
+    this.emitState();
+    this.metronome.stop();
+    this.metronome.removeListener(this.boundOnBeat);
+    this.clearTimers();
+  }
+
+  dispose(): void {
+    this.stop();
+    this.metronome.removeListener(this.boundOnBeat);
+  }
+
+  private clearTimers(): void {
+    if (this.durationTimer !== null) { clearInterval(this.durationTimer); this.durationTimer = null; }
+    if (this.bpmTimer !== null) { clearInterval(this.bpmTimer); this.bpmTimer = null; }
+  }
+
+  private delay(ms: number): Promise<void> {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  private beatIntervalMs(): number {
+    return 60000 / this.currentBpm / this.config.beatSubdivision;
+  }
+
+  private onBeat(beat: BeatEvent): void {
+    this.beatsSinceLastSignal++;
+    this.handler.beat?.(beat);
+    this.handler.tick?.();
+
+    if (this.beatsSinceLastSignal >= this.config.minBeatsToChange) {
+      const maxBeats = this.config.maxBeatsToChange;
+      const chance = this.beatsSinceLastSignal >= maxBeats
+        ? 1
+        : 1 / (maxBeats - this.beatsSinceLastSignal + 1);
+      if (Math.random() < chance) {
+        this.fireSignal();
+      }
+    }
+  }
+
+  private fireSignal(): void {
+    this.beatsSinceLastSignal = 0;
+    this.signalCount++;
+
+    const directions = getActiveDirections(this.config.directionCount);
+    let dir: Direction;
+    if (directions.length > 1 && this.lastDirection !== null) {
+      const others = directions.filter(d => d !== this.lastDirection);
+      dir = others[Math.floor(Math.random() * others.length)];
+    } else {
+      dir = directions[Math.floor(Math.random() * directions.length)];
+    }
+    this.lastDirection = dir;
+
+    const signalType = this.pickSignalType(dir);
+    this.handler.signal?.({ direction: dir, signalType });
+  }
+
+  private pickSignalType(dir: Direction): DirectionSignalType {
+    if (this.config.signalSoundType === SignalSoundType.voiceDirection) {
+      switch (dir) {
+        case Direction.forward: return DirectionSignalType.dirForward;
+        case Direction.backward: return DirectionSignalType.dirBackward;
+        case Direction.left: return DirectionSignalType.dirLeft;
+        case Direction.right: return DirectionSignalType.dirRight;
+      }
+    }
+    return DirectionSignalType.alert;
+  }
+
+  private startRandomBpmVariation(): void {
+    if (!this.config.enableRandomBpm) return;
+    this.bpmTimer = setInterval(() => {
+      if (this.phase !== TrainingPhase.running) return;
+      const range = Math.round(this.config.bpm * this.config.randomBpmPercent / 100);
+      const minBpm = Math.max(40, this.config.bpm - range);
+      const maxBpm = Math.min(500, this.config.bpm + range);
+      this.currentBpm = minBpm + Math.floor(Math.random() * Math.max(maxBpm - minBpm, 1));
+      this.metronome.configure(this.beatIntervalMs(), this.config.beatsPerBar);
+      this.emitState();
+    }, this.beatIntervalMs() * this.config.beatsPerBar * 2);
+  }
+
+  private startDurationTracking(): void {
+    this.clearTimers();
+
+    if (this.config.mode === TrainingMode.free) {
+      this.durationTimer = setInterval(() => {
+        this.elapsedSeconds++;
+        this.emitState();
+      }, 1000);
+    } else if (this.config.mode === TrainingMode.timed) {
+      const totalSecs = this.config.trainingDuration * 60;
+      this.durationTimer = setInterval(() => {
+        this.elapsedSeconds++;
+        this.emitState();
+        this.checkCountdown(totalSecs);
+        if (this.elapsedSeconds >= totalSecs) {
+          this.handler.endBell?.();
+          this.stop();
+        }
+      }, 1000);
+    } else if (this.config.mode === TrainingMode.progressive) {
+      this.durationTimer = setInterval(() => {
+        this.elapsedSeconds++;
+        this.emitState();
+      }, 1000);
+      setInterval(() => {
+        if (this.phase === TrainingPhase.running && this.currentBpm < 500) {
+          this.baseBpm = Math.min(500, this.baseBpm + 5);
+          this.currentBpm = this.baseBpm;
+          this.metronome.configure(this.beatIntervalMs(), this.config.beatsPerBar);
+          this.emitState();
+        }
+      }, 20000);
+    } else if (this.config.mode === TrainingMode.interval) {
+      this.startIntervalWorkPhase();
+    }
+  }
+
+  private checkCountdown(totalSecs: number): void {
+    const remaining = totalSecs - this.elapsedSeconds;
+    if (remaining <= 10 && remaining > 5 && !this.countdown10Fired) {
+      this.countdown10Fired = true;
+      this.handler.countdown?.({ remainingSeconds: remaining });
+    } else if (remaining <= 5 && remaining > 0 && !this.countdown5Fired) {
+      this.countdown5Fired = true;
+      this.handler.countdown?.({ remainingSeconds: remaining });
+    }
+  }
+
+  private startIntervalWorkPhase(): void {
+    this.phase = TrainingPhase.running;
+    this.emitState();
+    this.elapsedSeconds = 0;
+    this.countdown10Fired = false;
+    this.countdown5Fired = false;
+
+    this.durationTimer = setInterval(() => {
+      this.elapsedSeconds++;
+      this.emitState();
+      this.checkCountdown(this.config.intervalWorkSeconds);
+      if (this.elapsedSeconds >= this.config.intervalWorkSeconds) {
+        if (this.roundNumber >= this.config.intervalRounds) {
+          this.handler.endBell?.();
+          this.stop();
+        } else {
+          this.startRestPhase();
+        }
+      }
+    }, 1000);
+  }
+
+  private startRestPhase(): void {
+    this.phase = TrainingPhase.rest;
+    this.emitState();
+    this.elapsedSeconds = 0;
+    this.countdown10Fired = false;
+    this.countdown5Fired = false;
+
+    this.durationTimer = setInterval(() => {
+      this.elapsedSeconds++;
+      this.emitState();
+      if (this.elapsedSeconds >= this.config.intervalRestSeconds) {
+        this.roundNumber++;
+        this.startIntervalWorkPhase();
+      }
+    }, 1000);
+  }
+
+  private emitState(): void {
+    let totalSecs = 0;
+    if (this.config.mode === TrainingMode.timed) {
+      totalSecs = this.config.trainingDuration * 60;
+    }
+    this.handler.state?.({
+      phase: this.phase,
+      elapsedSeconds: this.elapsedSeconds,
+      totalSeconds: totalSecs,
+      beatCount: 0,
+      signalCount: this.signalCount,
+      currentBpm: this.currentBpm,
+      roundNumber: this.roundNumber,
+      totalRounds: this.config.mode === TrainingMode.interval ? this.config.intervalRounds : 1,
+      lastDirection: this.lastDirection,
+    });
+  }
+}

@@ -1,1 +1,75 @@
-aW1wb3J0ICdkYXJ0OmFzeW5jJzsKCmNsYXNzIEJlYXRFdmVudCB7CiAgZmluYWwgaW50IGJlYXROdW1iZXI7CiAgZmluYWwgYm9vbCBpc0ZpcnN0QmVhdDsKICBmaW5hbCBib29sIGlzQ291bnRJbjsKICBmaW5hbCBEYXRlVGltZSB0aW1lc3RhbXA7CgogIEJlYXRFdmVudCh7CiAgICByZXF1aXJlZCB0aGlzLmJlYXROdW1iZXIsCiAgICB0aGlzLmlzRmlyc3RCZWF0ID0gZmFsc2UsCiAgICB0aGlzLmlzQ291bnRJbiA9IGZhbHNlLAogICAgRGF0ZVRpbWU/IHRpbWVzdGFtcCwKICB9KSA6IHRpbWVzdGFtcCA9IHRpbWVzdGFtcCA/PyBEYXRlVGltZS5ub3coKTsKfQoKY2xhc3MgTWV0cm9ub21lRW5naW5lIHsKICBmaW5hbCBfYmVhdENvbnRyb2xsZXIgPSBTdHJlYW1Db250cm9sbGVyPEJlYXRFdmVudD4uYnJvYWRjYXN0KCk7CiAgVGltZXI/IF90aW1lcjsKICBpbnQgX2JlYXRDb3VudCA9IDA7CiAgaW50IF9iZWF0c1BlckJhciA9IDQ7CiAgZG91YmxlIF9pbnRlcnZhbE1zID0gNTAwOwoKICBTdHJlYW08QmVhdEV2ZW50PiBnZXQgYmVhdFN0cmVhbSA9PiBfYmVhdENvbnRyb2xsZXIuc3RyZWFtOwogIGludCBnZXQgYmVhdENvdW50ID0+IF9iZWF0Q291bnQ7CiAgYm9vbCBnZXQgaXNSdW5uaW5nID0+IF90aW1lciAhPSBudWxsOwoKICB2b2lkIGNvbmZpZ3VyZSh7cmVxdWlyZWQgZG91YmxlIGJlYXRJbnRlcnZhbE1zLCBpbnQgYmVhdHNQZXJCYXIgPSA0fSkgewogICAgX2ludGVydmFsTXMgPSBiZWF0SW50ZXJ2YWxNczsKICAgIF9iZWF0c1BlckJhciA9IGJlYXRzUGVyQmFyOwogIH0KCiAgRnV0dXJlPHZvaWQ+IGNvdW50SW4oaW50IGNvdW50LCB7ZG91YmxlIGludGVydmFsTXMgPSAwfSkgYXN5bmMgewogICAgZmluYWwgaW50ZXJ2YWwgPSBpbnRlcnZhbE1zID4gMCA/IGludGVydmFsTXMgOiBfaW50ZXJ2YWxNczsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY291bnQ7IGkrKykgewogICAgICBmaW5hbCBpc0xhc3QgPSBpID09IGNvdW50IC0gMTsKICAgICAgX2JlYXRDb250cm9sbGVyLmFkZChCZWF0RXZlbnQoCiAgICAgICAgYmVhdE51bWJlcjogaSArIDEsCiAgICAgICAgaXNDb3VudEluOiB0cnVlLAogICAgICAgIGlzRmlyc3RCZWF0OiBpc0xhc3QsCiAgICAgICkpOwogICAgICBhd2FpdCBGdXR1cmUuZGVsYXllZChEdXJhdGlvbihtaWxsaXNlY29uZHM6IGludGVydmFsLnJvdW5kKCkpKTsKICAgIH0KICB9CgogIHZvaWQgc3RhcnQoKSB7CiAgICBfYmVhdENvdW50ID0gMDsKICAgIF90aW1lcj8uY2FuY2VsKCk7CiAgICBfdGltZXIgPSBUaW1lci5wZXJpb2RpYygKICAgICAgRHVyYXRpb24obWlsbGlzZWNvbmRzOiBfaW50ZXJ2YWxNcy5yb3VuZCgpKSwKICAgICAgX29uVGljaywKICAgICk7CiAgICAvLyBGaXJlIGZpcnN0IGJlYXQgaW1tZWRpYXRlbHkKICAgIF9vblRpY2sobnVsbCk7CiAgfQoKICB2b2lkIF9vblRpY2soVGltZXI/IHQpIHsKICAgIF9iZWF0Q291bnQrKzsKICAgIGZpbmFsIGlzRmlyc3QgPSAoX2JlYXRDb3VudCAtIDEpICUgX2JlYXRzUGVyQmFyID09IDA7CiAgICBfYmVhdENvbnRyb2xsZXIuYWRkKEJlYXRFdmVudCgKICAgICAgYmVhdE51bWJlcjogX2JlYXRDb3VudCwKICAgICAgaXNGaXJzdEJlYXQ6IGlzRmlyc3QsCiAgICApKTsKICB9CgogIHZvaWQgc3RvcCgpIHsKICAgIF90aW1lcj8uY2FuY2VsKCk7CiAgICBfdGltZXIgPSBudWxsOwogIH0KCiAgdm9pZCBkaXNwb3NlKCkgewogICAgc3RvcCgpOwogICAgX2JlYXRDb250cm9sbGVyLmNsb3NlKCk7CiAgfQp9Cg==
+import 'dart:async';
+
+class BeatEvent {
+  final int beatNumber;
+  final bool isFirstBeat;
+  final bool isCountIn;
+  final DateTime timestamp;
+
+  BeatEvent({
+    required this.beatNumber,
+    this.isFirstBeat = false,
+    this.isCountIn = false,
+    DateTime? timestamp,
+  }) : timestamp = timestamp ?? DateTime.now();
+}
+
+class MetronomeEngine {
+  final _beatController = StreamController<BeatEvent>.broadcast();
+  Timer? _timer;
+  int _beatCount = 0;
+  int _beatsPerBar = 4;
+  double _intervalMs = 500;
+
+  Stream<BeatEvent> get beatStream => _beatController.stream;
+  int get beatCount => _beatCount;
+  bool get isRunning => _timer != null;
+
+  void configure({required double beatIntervalMs, int beatsPerBar = 4}) {
+    _intervalMs = beatIntervalMs;
+    _beatsPerBar = beatsPerBar;
+  }
+
+  Future<void> countIn(int count, {double intervalMs = 0}) async {
+    final interval = intervalMs > 0 ? intervalMs : _intervalMs;
+    for (int i = 0; i < count; i++) {
+      final isLast = i == count - 1;
+      _beatController.add(BeatEvent(
+        beatNumber: i + 1,
+        isCountIn: true,
+        isFirstBeat: isLast,
+      ));
+      await Future.delayed(Duration(milliseconds: interval.round()));
+    }
+  }
+
+  void start() {
+    _beatCount = 0;
+    _timer?.cancel();
+    _timer = Timer.periodic(
+      Duration(milliseconds: _intervalMs.round()),
+      _onTick,
+    );
+    // Fire first beat immediately
+    _onTick(null);
+  }
+
+  void _onTick(Timer? t) {
+    _beatCount++;
+    final isFirst = (_beatCount - 1) % _beatsPerBar == 0;
+    _beatController.add(BeatEvent(
+      beatNumber: _beatCount,
+      isFirstBeat: isFirst,
+    ));
+  }
+
+  void stop() {
+    _timer?.cancel();
+    _timer = null;
+  }
+
+  void dispose() {
+    stop();
+    _beatController.close();
+  }
+}

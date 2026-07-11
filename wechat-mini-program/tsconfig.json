@@ -1,1 +1,28 @@
-ewogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAidGFyZ2V0IjogIkVTMjAxNyIsCiAgICAibW9kdWxlIjogIkNvbW1vbkpTIiwKICAgICJyZW1vdmVDb21tZW50cyI6IGZhbHNlLAogICAgInByZXNlcnZlQ29uc3RFbnVtcyI6IHRydWUsCiAgICAibW9kdWxlUmVzb2x1dGlvbiI6ICJub2RlIiwKICAgICJleHBlcmltZW50YWxEZWNvcmF0b3JzIjogdHJ1ZSwKICAgICJub0ltcGxpY2l0QW55IjogZmFsc2UsCiAgICAiYWxsb3dTeW50aGV0aWNEZWZhdWx0SW1wb3J0cyI6IHRydWUsCiAgICAib3V0RGlyIjogImxpYiIsCiAgICAibm9VbnVzZWRMb2NhbHMiOiB0cnVlLAogICAgIm5vVW51c2VkUGFyYW1ldGVycyI6IHRydWUsCiAgICAic3RyaWN0TnVsbENoZWNrcyI6IHRydWUsCiAgICAic291cmNlTWFwIjogdHJ1ZSwKICAgICJqc3giOiAicmVhY3QtanN4IiwKICAgICJqc3hJbXBvcnRTb3VyY2UiOiAicmVhY3QiLAogICAgImFsbG93SnMiOiB0cnVlLAogICAgInJlc29sdmVKc29uTW9kdWxlIjogdHJ1ZSwKICAgICJ0eXBlUm9vdHMiOiBbIm5vZGVfbW9kdWxlcy9AdHlwZXMiXSwKICAgICJiYXNlVXJsIjogIi4iLAogICAgInBhdGhzIjogewogICAgICAiQC8qIjogWyJzcmMvKiJdCiAgICB9CiAgfSwKICAiaW5jbHVkZSI6IFsic3JjLyoqLyoiXSwKICAiZXhjbHVkZSI6IFsibm9kZV9tb2R1bGVzIiwgImRpc3QiXQp9Cg==
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "CommonJS",
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "lib",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

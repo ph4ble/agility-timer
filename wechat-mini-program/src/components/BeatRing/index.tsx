@@ -1,1 +1,43 @@
-aW1wb3J0IHsgVmlldywgVGV4dCB9IGZyb20gJ0B0YXJvanMvY29tcG9uZW50cyc7CmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCAnLi9pbmRleC5zY3NzJzsKCmludGVyZmFjZSBCZWF0UmluZ1Byb3BzIHsKICBiZWF0TnVtYmVyOiBudW1iZXI7CiAgYmVhdHNQZXJCYXI6IG51bWJlcjsKICBwdWxzZTogYm9vbGVhbjsKICBjdXJyZW50QnBtOiBudW1iZXI7Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEJlYXRSaW5nKHsgYmVhdE51bWJlciwgYmVhdHNQZXJCYXIsIHB1bHNlLCBjdXJyZW50QnBtIH06IEJlYXRSaW5nUHJvcHMpIHsKICBjb25zdCBbYW5pbWF0aW5nLCBzZXRBbmltYXRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFwdWxzZSkgcmV0dXJuOwogICAgc2V0QW5pbWF0aW5nKHRydWUpOwogICAgY29uc3QgdGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHNldEFuaW1hdGluZyhmYWxzZSksIDE1MCk7CiAgICByZXR1cm4gKCkgPT4gY2xlYXJUaW1lb3V0KHRpbWVyKTsKICB9LCBbYmVhdE51bWJlciwgcHVsc2VdKTsKCiAgY29uc3QgZG90cyA9IEFycmF5LmZyb20oeyBsZW5ndGg6IGJlYXRzUGVyQmFyIH0sIChfLCBpKSA9PiB7CiAgICBjb25zdCBhY3RpdmUgPSBpIDwgYmVhdE51bWJlciAlIGJlYXRzUGVyQmFyIHx8IChiZWF0TnVtYmVyID4gMCAmJiBpID09PSAwICYmIGJlYXROdW1iZXIgJSBiZWF0c1BlckJhciA9PT0gMCk7CiAgICByZXR1cm4gKAogICAgICA8VmlldwogICAgICAgIGtleT17aX0KICAgICAgICBjbGFzc05hbWU9e2BiZWF0LWRvdCAke2kgPT09IChiZWF0TnVtYmVyIC0gMSkgJSBiZWF0c1BlckJhciAmJiBiZWF0TnVtYmVyID4gMCA/ICdiZWF0LWRvdC0tY3VycmVudCcgOiAnJ30gJHthY3RpdmUgPyAnYmVhdC1kb3QtLWFjdGl2ZScgOiAnJ31gfQogICAgICAvPgogICAgKTsKICB9KTsKCiAgcmV0dXJuICgKICAgIDxWaWV3IGNsYXNzTmFtZT0nYmVhdC1yaW5nLWNvbnRhaW5lcic+CiAgICAgIDxWaWV3IGNsYXNzTmFtZT17YGJlYXQtcmluZyAke2FuaW1hdGluZyA/ICdiZWF0LXJpbmctLXB1bHNlJyA6ICcnfWB9PgogICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nYmVhdC1yaW5nLWlubmVyJz4KICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nYmVhdC1yaW5nLWJwbSc+e2N1cnJlbnRCcG19PC9UZXh0PgogICAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdiZWF0LXJpbmctbGFiZWwnPkJQTTwvVGV4dD4KICAgICAgICA8L1ZpZXc+CiAgICAgIDwvVmlldz4KICAgICAgPFZpZXcgY2xhc3NOYW1lPSdiZWF0LWRvdHMtcm93Jz57ZG90c308L1ZpZXc+CiAgICA8L1ZpZXc+CiAgKTsKfQo=
+import { View, Text } from '@tarojs/components';
+import { useEffect, useState } from 'react';
+import './index.scss';
+
+interface BeatRingProps {
+  beatNumber: number;
+  beatsPerBar: number;
+  pulse: boolean;
+  currentBpm: number;
+}
+
+export default function BeatRing({ beatNumber, beatsPerBar, pulse, currentBpm }: BeatRingProps) {
+  const [animating, setAnimating] = useState(false);
+
+  useEffect(() => {
+    if (!pulse) return;
+    setAnimating(true);
+    const timer = setTimeout(() => setAnimating(false), 150);
+    return () => clearTimeout(timer);
+  }, [beatNumber, pulse]);
+
+  const dots = Array.from({ length: beatsPerBar }, (_, i) => {
+    const active = i < beatNumber % beatsPerBar || (beatNumber > 0 && i === 0 && beatNumber % beatsPerBar === 0);
+    return (
+      <View
+        key={i}
+        className={`beat-dot ${i === (beatNumber - 1) % beatsPerBar && beatNumber > 0 ? 'beat-dot--current' : ''} ${active ? 'beat-dot--active' : ''}`}
+      />
+    );
+  });
+
+  return (
+    <View className='beat-ring-container'>
+      <View className={`beat-ring ${animating ? 'beat-ring--pulse' : ''}`}>
+        <View className='beat-ring-inner'>
+          <Text className='beat-ring-bpm'>{currentBpm}</Text>
+          <Text className='beat-ring-label'>BPM</Text>
+        </View>
+      </View>
+      <View className='beat-dots-row'>{dots}</View>
+    </View>
+  );
+}

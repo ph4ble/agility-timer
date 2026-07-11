@@ -1,1 +1,15 @@
-ewogICJtaW5pcHJvZ3JhbVJvb3QiOiAiZGlzdC8iLAogICJwcm9qZWN0bmFtZSI6ICJ3ZWNoYXQtYWdpbGl0eS10aW1lciIsCiAgImRlc2NyaXB0aW9uIjogIuaVj+aNt+iuree7g+iuoeaXtuWZqCIsCiAgImFwcGlkIjogInRvdXJpc3RhcHBpZCIsCiAgInNldHRpbmciOiB7CiAgICAidXJsQ2hlY2siOiB0cnVlLAogICAgImVzNiI6IGZhbHNlLAogICAgImVuaGFuY2UiOiBmYWxzZSwKICAgICJjb21waWxlSG90UmVMb2FkIjogZmFsc2UsCiAgICAicG9zdGNzcyI6IHRydWUsCiAgICAibWluaWZpZWQiOiB0cnVlCiAgfSwKICAiY29tcGlsZVR5cGUiOiAibWluaXByb2dyYW0iCn0K
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "wechat-agility-timer",
+  "description": "敏捷训练计时器",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "miniprogram"
+}

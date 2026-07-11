@@ -1,1 +1,16 @@
-cGFnZSB7CiAgLS1jb2xvci1iZzogIzFBMUEyRTsKICAtLWNvbG9yLWNhcmQ6ICMxNjIxM0U7CiAgLS1jb2xvci1hY2NlbnQ6ICNFOTFFNjM7CiAgLS1jb2xvci1jeWFuOiAjMDBFNUZGOwogIC0tY29sb3Itb3JhbmdlOiAjRkY5ODAwOwogIC0tY29sb3ItcmVkOiAjRkY1MjUyOwogIC0tY29sb3ItdGV4dDogI0ZGRkZGRjsKICAtLWNvbG9yLXRleHQtZGltOiByZ2JhKDI1NSwyNTUsMjU1LDAuNTQpOwogIC0tY29sb3ItdGV4dC1oaW50OiByZ2JhKDI1NSwyNTUsMjU1LDAuMzgpOwogIC0tY29sb3ItYm9yZGVyOiByZ2JhKDI1NSwyNTUsMjU1LDAuMTIpOwogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWJnKTsKICBjb2xvcjogdmFyKC0tY29sb3ItdGV4dCk7CiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCBzYW5zLXNlcmlmOwogIG1pbi1oZWlnaHQ6IDEwMHZoOwp9Cg==
+page {
+  --color-bg: #1A1A2E;
+  --color-card: #16213E;
+  --color-accent: #E91E63;
+  --color-cyan: #00E5FF;
+  --color-orange: #FF9800;
+  --color-red: #FF5252;
+  --color-text: #FFFFFF;
+  --color-text-dim: rgba(255,255,255,0.54);
+  --color-text-hint: rgba(255,255,255,0.38);
+  --color-border: rgba(255,255,255,0.12);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+}

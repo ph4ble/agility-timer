@@ -1,1 +1,76 @@
-aW1wb3J0ICdkYXJ0OnR5cGVkX2RhdGEnOwoKaW1wb3J0ICdwYWNrYWdlOmF1ZGlvcGxheWVycy9hdWRpb3BsYXllcnMuZGFydCc7CgppbXBvcnQgJy4uL2VuZ2luZXMvdG9uZV9nZW5lcmF0b3IuZGFydCc7CmltcG9ydCAnYXVkaW9fc2VydmljZS5kYXJ0JzsKCkF1ZGlvU2VydmljZSBjcmVhdGVBdWRpb1NlcnZpY2UoKSA9PiBNb2JpbGVBdWRpb1NlcnZpY2UoKTsKCmNsYXNzIE1vYmlsZUF1ZGlvU2VydmljZSBpbXBsZW1lbnRzIEF1ZGlvU2VydmljZSB7CiAgZmluYWwgX3Bvb2wgPSA8QXVkaW9QbGF5ZXI+W107CiAgaW50IF9wb29sSW5kZXggPSAwOwoKICBAb3ZlcnJpZGUKICBGdXR1cmU8dm9pZD4gaW5pdCgpIGFzeW5jIHsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgNjsgaSsrKSB7CiAgICAgIGZpbmFsIHBsYXllciA9IEF1ZGlvUGxheWVyKCk7CiAgICAgIGF3YWl0IHBsYXllci5zZXRTb3VyY2UoQnl0ZXNTb3VyY2UoVG9uZUdlbmVyYXRvci50aWNrV2F2KCkpKTsKICAgICAgX3Bvb2wuYWRkKHBsYXllcik7CiAgICB9CiAgfQoKICBAb3ZlcnJpZGUKICBGdXR1cmU8dm9pZD4gcGxheVRpY2soZG91YmxlIHZvbHVtZSkgYXN5bmMgewogICAgaWYgKF9wb29sLmlzRW1wdHkpIHJldHVybjsKICAgIF9wb29sSW5kZXggPSAoX3Bvb2xJbmRleCArIDEpICUgX3Bvb2wubGVuZ3RoOwogICAgZmluYWwgcGxheWVyID0gX3Bvb2xbX3Bvb2xJbmRleF07CiAgICBhd2FpdCBwbGF5ZXIuc3RvcCgpOwogICAgYXdhaXQgcGxheWVyLnNldFNvdXJjZShCeXRlc1NvdXJjZShUb25lR2VuZXJhdG9yLnRpY2tXYXYoKSkpOwogICAgYXdhaXQgcGxheWVyLnNldFZvbHVtZSh2b2x1bWUpOwogICAgYXdhaXQgcGxheWVyLnJlc3VtZSgpOwogIH0KCiAgQG92ZXJyaWRlCiAgRnV0dXJlPHZvaWQ+IHBsYXlTaWduYWwoRGlyZWN0aW9uU2lnbmFsVHlwZSB0eXBlLCBkb3VibGUgdm9sdW1lKSBhc3luYyB7CiAgICBhd2FpdCBfcGxheU9uRGVkaWNhdGVkKFRvbmVHZW5lcmF0b3Iuc2lnbmFsV2F2KHR5cGUpLCB2b2x1bWUpOwogIH0KCiAgQG92ZXJyaWRlCiAgRnV0dXJlPHZvaWQ+IHBsYXlDb3VudEluQmVlcChpbnQgbnVtYmVyLCBkb3VibGUgdm9sdW1lKSBhc3luYyB7CiAgICBmaW5hbCB3YXYgPSBzd2l0Y2ggKG51bWJlcikgewogICAgICAzID0+IFRvbmVHZW5lcmF0b3IuY291bnRJbjNXYXYoKSwKICAgICAgMiA9PiBUb25lR2VuZXJhdG9yLmNvdW50SW4yV2F2KCksCiAgICAgIDEgPT4gVG9uZUdlbmVyYXRvci5jb3VudEluMVdhdigpLAogICAgICBfID0+IFRvbmVHZW5lcmF0b3IuY291bnRJblN0YXJ0V2F2KCksCiAgICB9OwogICAgYXdhaXQgX3BsYXlPbkRlZGljYXRlZCh3YXYsIHZvbHVtZSk7CiAgfQoKICBAb3ZlcnJpZGUKICBGdXR1cmU8dm9pZD4gcGxheUNvdW50ZG93bldhcm5pbmcoZG91YmxlIHZvbHVtZSkgYXN5bmMgewogICAgYXdhaXQgX3BsYXlPbkRlZGljYXRlZChUb25lR2VuZXJhdG9yLmNvdW50ZG93bldhcm5pbmdXYXYoKSwgdm9sdW1lKTsKICB9CgogIEBvdmVycmlkZQogIEZ1dHVyZTx2b2lkPiBwbGF5RW5kQmVsbChkb3VibGUgdm9sdW1lKSBhc3luYyB7CiAgICBhd2FpdCBfcGxheU9uRGVkaWNhdGVkKFRvbmVHZW5lcmF0b3IuZW5kQmVsbFdhdigpLCB2b2x1bWUpOwogIH0KCiAgRnV0dXJlPHZvaWQ+IF9wbGF5T25EZWRpY2F0ZWQoVWludDhMaXN0IHdhdiwgZG91YmxlIHZvbHVtZSkgYXN5bmMgewogICAgaWYgKF9wb29sLmlzRW1wdHkpIHJldHVybjsKICAgIGZpbmFsIHBsYXllciA9IF9wb29sLmxhc3Q7CiAgICBhd2FpdCBwbGF5ZXIuc3RvcCgpOwogICAgYXdhaXQgcGxheWVyLnNldFNvdXJjZShCeXRlc1NvdXJjZSh3YXYpKTsKICAgIGF3YWl0IHBsYXllci5zZXRWb2x1bWUodm9sdW1lKTsKICAgIGF3YWl0IHBsYXllci5yZXN1bWUoKTsKICB9CgogIEBvdmVycmlkZQogIEZ1dHVyZTx2b2lkPiBkaXNwb3NlKCkgYXN5bmMgewogICAgZm9yIChmaW5hbCBwIGluIF9wb29sKSB7CiAgICAgIHAuZGlzcG9zZSgpOwogICAgfQogICAgX3Bvb2wuY2xlYXIoKTsKICB9Cn0K
+import 'dart:typed_data';
+
+import 'package:audioplayers/audioplayers.dart';
+
+import '../engines/tone_generator.dart';
+import 'audio_service.dart';
+
+AudioService createAudioService() => MobileAudioService();
+
+class MobileAudioService implements AudioService {
+  final _pool = <AudioPlayer>[];
+  int _poolIndex = 0;
+
+  @override
+  Future<void> init() async {
+    for (int i = 0; i < 6; i++) {
+      final player = AudioPlayer();
+      await player.setSource(BytesSource(ToneGenerator.tickWav()));
+      _pool.add(player);
+    }
+  }
+
+  @override
+  Future<void> playTick(double volume) async {
+    if (_pool.isEmpty) return;
+    _poolIndex = (_poolIndex + 1) % _pool.length;
+    final player = _pool[_poolIndex];
+    await player.stop();
+    await player.setSource(BytesSource(ToneGenerator.tickWav()));
+    await player.setVolume(volume);
+    await player.resume();
+  }
+
+  @override
+  Future<void> playSignal(DirectionSignalType type, double volume) async {
+    await _playOnDedicated(ToneGenerator.signalWav(type), volume);
+  }
+
+  @override
+  Future<void> playCountInBeep(int number, double volume) async {
+    final wav = switch (number) {
+      3 => ToneGenerator.countIn3Wav(),
+      2 => ToneGenerator.countIn2Wav(),
+      1 => ToneGenerator.countIn1Wav(),
+      _ => ToneGenerator.countInStartWav(),
+    };
+    await _playOnDedicated(wav, volume);
+  }
+
+  @override
+  Future<void> playCountdownWarning(double volume) async {
+    await _playOnDedicated(ToneGenerator.countdownWarningWav(), volume);
+  }
+
+  @override
+  Future<void> playEndBell(double volume) async {
+    await _playOnDedicated(ToneGenerator.endBellWav(), volume);
+  }
+
+  Future<void> _playOnDedicated(Uint8List wav, double volume) async {
+    if (_pool.isEmpty) return;
+    final player = _pool.last;
+    await player.stop();
+    await player.setSource(BytesSource(wav));
+    await player.setVolume(volume);
+    await player.resume();
+  }
+
+  @override
+  Future<void> dispose() async {
+    for (final p in _pool) {
+      p.dispose();
+    }
+    _pool.clear();
+  }
+}

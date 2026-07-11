@@ -1,1 +1,16 @@
-aW1wb3J0IHsgQ29tcG9uZW50LCBQcm9wc1dpdGhDaGlsZHJlbiB9IGZyb20gJ3JlYWN0JwppbXBvcnQgJy4vYXBwLnNjc3MnCgpjbGFzcyBBcHAgZXh0ZW5kcyBDb21wb25lbnQ8UHJvcHNXaXRoQ2hpbGRyZW4+IHsKICBjb21wb25lbnREaWRNb3VudCgpIHt9CgogIGNvbXBvbmVudERpZFNob3coKSB7fQoKICBjb21wb25lbnREaWRIaWRlKCkge30KCiAgcmVuZGVyKCkgewogICAgcmV0dXJuIHRoaXMucHJvcHMuY2hpbGRyZW4KICB9Cn0KCmV4cG9ydCBkZWZhdWx0IEFwcAo=
+import { Component, PropsWithChildren } from 'react'
+import './app.scss'
+
+class App extends Component<PropsWithChildren> {
+  componentDidMount() {}
+
+  componentDidShow() {}
+
+  componentDidHide() {}
+
+  render() {
+    return this.props.children
+  }
+}
+
+export default App

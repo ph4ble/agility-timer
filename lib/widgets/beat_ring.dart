@@ -1,1 +1,81 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CgpjbGFzcyBCZWF0UmluZyBleHRlbmRzIFN0YXRlZnVsV2lkZ2V0IHsKICBmaW5hbCBkb3VibGUgc2l6ZTsKICBmaW5hbCBDb2xvciBjb2xvcjsKICBmaW5hbCBWb2lkQ2FsbGJhY2s/IG9uVGljazsKCiAgY29uc3QgQmVhdFJpbmcoewogICAgc3VwZXIua2V5LAogICAgdGhpcy5zaXplID0gMjAwLAogICAgdGhpcy5jb2xvciA9IENvbG9ycy5ibHVlLAogICAgdGhpcy5vblRpY2ssCiAgfSk7CgogIEBvdmVycmlkZQogIFN0YXRlPEJlYXRSaW5nPiBjcmVhdGVTdGF0ZSgpID0+IEJlYXRSaW5nU3RhdGUoKTsKfQoKY2xhc3MgQmVhdFJpbmdTdGF0ZSBleHRlbmRzIFN0YXRlPEJlYXRSaW5nPiB3aXRoIFNpbmdsZVRpY2tlclByb3ZpZGVyU3RhdGVNaXhpbiB7CiAgbGF0ZSBBbmltYXRpb25Db250cm9sbGVyIF9jb250cm9sbGVyOwogIGxhdGUgQW5pbWF0aW9uPGRvdWJsZT4gX3NjYWxlQW5pbTsKICBsYXRlIEFuaW1hdGlvbjxkb3VibGU+IF9vcGFjaXR5QW5pbTsKCiAgQG92ZXJyaWRlCiAgdm9pZCBpbml0U3RhdGUoKSB7CiAgICBzdXBlci5pbml0U3RhdGUoKTsKICAgIF9jb250cm9sbGVyID0gQW5pbWF0aW9uQ29udHJvbGxlcigKICAgICAgdnN5bmM6IHRoaXMsCiAgICAgIGR1cmF0aW9uOiBjb25zdCBEdXJhdGlvbihtaWxsaXNlY29uZHM6IDE1MCksCiAgICApOwogICAgX3NjYWxlQW5pbSA9IFR3ZWVuKGJlZ2luOiAwLjg1LCBlbmQ6IDEuMDUpLmFuaW1hdGUoCiAgICAgIEN1cnZlZEFuaW1hdGlvbihwYXJlbnQ6IF9jb250cm9sbGVyLCBjdXJ2ZTogQ3VydmVzLmVhc2VPdXQpLAogICAgKTsKICAgIF9vcGFjaXR5QW5pbSA9IFR3ZWVuKGJlZ2luOiAxLjAsIGVuZDogMC4zKS5hbmltYXRlKAogICAgICBDdXJ2ZWRBbmltYXRpb24ocGFyZW50OiBfY29udHJvbGxlciwgY3VydmU6IEN1cnZlcy5lYXNlT3V0KSwKICAgICk7CiAgfQoKICB2b2lkIHB1bHNlKCkgewogICAgX2NvbnRyb2xsZXIuZm9yd2FyZCgpLnRoZW4oKF8pID0+IF9jb250cm9sbGVyLnJldmVyc2UoKSk7CiAgfQoKICBAb3ZlcnJpZGUKICB2b2lkIGRpc3Bvc2UoKSB7CiAgICBfY29udHJvbGxlci5kaXNwb3NlKCk7CiAgICBzdXBlci5kaXNwb3NlKCk7CiAgfQoKICBAb3ZlcnJpZGUKICBXaWRnZXQgYnVpbGQoQnVpbGRDb250ZXh0IGNvbnRleHQpIHsKICAgIHJldHVybiBBbmltYXRlZEJ1aWxkZXIoCiAgICAgIGFuaW1hdGlvbjogX2NvbnRyb2xsZXIsCiAgICAgIGJ1aWxkZXI6IChfLCBjaGlsZCkgewogICAgICAgIHJldHVybiBPcGFjaXR5KAogICAgICAgICAgb3BhY2l0eTogX29wYWNpdHlBbmltLnZhbHVlLAogICAgICAgICAgY2hpbGQ6IFRyYW5zZm9ybS5zY2FsZSgKICAgICAgICAgICAgc2NhbGU6IF9zY2FsZUFuaW0udmFsdWUsCiAgICAgICAgICAgIGNoaWxkOiBDb250YWluZXIoCiAgICAgICAgICAgICAgd2lkdGg6IHdpZGdldC5zaXplLAogICAgICAgICAgICAgIGhlaWdodDogd2lkZ2V0LnNpemUsCiAgICAgICAgICAgICAgZGVjb3JhdGlvbjogQm94RGVjb3JhdGlvbigKICAgICAgICAgICAgICAgIHNoYXBlOiBCb3hTaGFwZS5jaXJjbGUsCiAgICAgICAgICAgICAgICBib3JkZXI6IEJvcmRlci5hbGwoY29sb3I6IHdpZGdldC5jb2xvciwgd2lkdGg6IDQpLAogICAgICAgICAgICAgICAgYm94U2hhZG93OiBbCiAgICAgICAgICAgICAgICAgIEJveFNoYWRvdygKICAgICAgICAgICAgICAgICAgICBjb2xvcjogd2lkZ2V0LmNvbG9yLndpdGhPcGFjaXR5KDAuMyksCiAgICAgICAgICAgICAgICAgICAgYmx1clJhZGl1czogMjAsCiAgICAgICAgICAgICAgICAgICAgc3ByZWFkUmFkaXVzOiA1LAogICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICApLAogICAgICAgICAgICAgIGNoaWxkOiBjb25zdCBDZW50ZXIoCiAgICAgICAgICAgICAgICBjaGlsZDogSWNvbihJY29ucy5maWJlcl9tYW51YWxfcmVjb3JkLCBjb2xvcjogQ29sb3JzLndoaXRlNzAsIHNpemU6IDI4KSwKICAgICAgICAgICAgICApLAogICAgICAgICAgICApLAogICAgICAgICAgKSwKICAgICAgICApOwogICAgICB9LAogICAgKTsKICB9Cn0K
+import 'package:flutter/material.dart';
+
+class BeatRing extends StatefulWidget {
+  final double size;
+  final Color color;
+  final VoidCallback? onTick;
+
+  const BeatRing({
+    super.key,
+    this.size = 200,
+    this.color = Colors.blue,
+    this.onTick,
+  });
+
+  @override
+  State<BeatRing> createState() => BeatRingState();
+}
+
+class BeatRingState extends State<BeatRing> with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _scaleAnim;
+  late Animation<double> _opacityAnim;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 150),
+    );
+    _scaleAnim = Tween(begin: 0.85, end: 1.05).animate(
+      CurvedAnimation(parent: _controller, curve: Curves.easeOut),
+    );
+    _opacityAnim = Tween(begin: 1.0, end: 0.3).animate(
+      CurvedAnimation(parent: _controller, curve: Curves.easeOut),
+    );
+  }
+
+  void pulse() {
+    _controller.forward().then((_) => _controller.reverse());
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedBuilder(
+      animation: _controller,
+      builder: (_, child) {
+        return Opacity(
+          opacity: _opacityAnim.value,
+          child: Transform.scale(
+            scale: _scaleAnim.value,
+            child: Container(
+              width: widget.size,
+              height: widget.size,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                border: Border.all(color: widget.color, width: 4),
+                boxShadow: [
+                  BoxShadow(
+                    color: widget.color.withOpacity(0.3),
+                    blurRadius: 20,
+                    spreadRadius: 5,
+                  ),
+                ],
+              ),
+              child: const Center(
+                child: Icon(Icons.fiber_manual_record, color: Colors.white70, size: 28),
+              ),
+            ),
+          ),
+        );
+      },
+    );
+  }
+}

@@ -1,1 +1,45 @@
-cGx1Z2lucyB7CiAgICBpZCgiY29tLmFuZHJvaWQuYXBwbGljYXRpb24iKQogICAgLy8gVGhlIEZsdXR0ZXIgR3JhZGxlIFBsdWdpbiBtdXN0IGJlIGFwcGxpZWQgYWZ0ZXIgdGhlIEFuZHJvaWQgYW5kIEtvdGxpbiBHcmFkbGUgcGx1Z2lucy4KICAgIGlkKCJkZXYuZmx1dHRlci5mbHV0dGVyLWdyYWRsZS1wbHVnaW4iKQp9CgphbmRyb2lkIHsKICAgIG5hbWVzcGFjZSA9ICJjb20uZXhhbXBsZS5hZ2lsaXR5X3RpbWVyIgogICAgY29tcGlsZVNkayA9IDM2CiAgICBuZGtWZXJzaW9uID0gZmx1dHRlci5uZGtWZXJzaW9uCgogICAgY29tcGlsZU9wdGlvbnMgewogICAgICAgIHNvdXJjZUNvbXBhdGliaWxpdHkgPSBKYXZhVmVyc2lvbi5WRVJTSU9OXzE3CiAgICAgICAgdGFyZ2V0Q29tcGF0aWJpbGl0eSA9IEphdmFWZXJzaW9uLlZFUlNJT05fMTcKICAgIH0KCiAgICBkZWZhdWx0Q29uZmlnIHsKICAgICAgICAvLyBUT0RPOiBTcGVjaWZ5IHlvdXIgb3duIHVuaXF1ZSBBcHBsaWNhdGlvbiBJRCAoaHR0cHM6Ly9kZXZlbG9wZXIuYW5kcm9pZC5jb20vc3R1ZGlvL2J1aWxkL2FwcGxpY2F0aW9uLWlkLmh0bWwpLgogICAgICAgIGFwcGxpY2F0aW9uSWQgPSAiY29tLmV4YW1wbGUuYWdpbGl0eV90aW1lciIKICAgICAgICAvLyBZb3UgY2FuIHVwZGF0ZSB0aGUgZm9sbG93aW5nIHZhbHVlcyB0byBtYXRjaCB5b3VyIGFwcGxpY2F0aW9uIG5lZWRzLgogICAgICAgIC8vIEZvciBtb3JlIGluZm9ybWF0aW9uLCBzZWU6IGh0dHBzOi8vZmx1dHRlci5kZXYvdG8vcmV2aWV3LWdyYWRsZS1jb25maWcuCiAgICAgICAgbWluU2RrID0gZmx1dHRlci5taW5TZGtWZXJzaW9uCiAgICAgICAgdGFyZ2V0U2RrID0gZmx1dHRlci50YXJnZXRTZGtWZXJzaW9uCiAgICAgICAgdmVyc2lvbkNvZGUgPSBmbHV0dGVyLnZlcnNpb25Db2RlCiAgICAgICAgdmVyc2lvbk5hbWUgPSBmbHV0dGVyLnZlcnNpb25OYW1lCiAgICB9CgogICAgYnVpbGRUeXBlcyB7CiAgICAgICAgcmVsZWFzZSB7CiAgICAgICAgICAgIC8vIFRPRE86IEFkZCB5b3VyIG93biBzaWduaW5nIGNvbmZpZyBmb3IgdGhlIHJlbGVhc2UgYnVpbGQuCiAgICAgICAgICAgIC8vIFNpZ25pbmcgd2l0aCB0aGUgZGVidWcga2V5cyBmb3Igbm93LCBzbyBgZmx1dHRlciBydW4gLS1yZWxlYXNlYCB3b3Jrcy4KICAgICAgICAgICAgc2lnbmluZ0NvbmZpZyA9IHNpZ25pbmdDb25maWdzLmdldEJ5TmFtZSgiZGVidWciKQogICAgICAgIH0KICAgIH0KfQoKa290bGluIHsKICAgIGNvbXBpbGVyT3B0aW9ucyB7CiAgICAgICAganZtVGFyZ2V0ID0gb3JnLmpldGJyYWlucy5rb3RsaW4uZ3JhZGxlLmRzbC5Kdm1UYXJnZXQuSlZNXzE3CiAgICB9Cn0KCmZsdXR0ZXIgewogICAgc291cmNlID0gIi4uLy4uIgp9Cg==
+plugins {
+    id("com.android.application")
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id("dev.flutter.flutter-gradle-plugin")
+}
+
+android {
+    namespace = "com.example.agility_timer"
+    compileSdk = 36
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId = "com.example.agility_timer"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://flutter.dev/to/review-gradle-config.
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig = signingConfigs.getByName("debug")
+        }
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
+    }
+}
+
+flutter {
+    source = "../.."
+}

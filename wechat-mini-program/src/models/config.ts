@@ -1,1 +1,84 @@
-ZXhwb3J0IGVudW0gVHJhaW5pbmdNb2RlIHsKICBmcmVlID0gJ2ZyZWUnLAogIHRpbWVkID0gJ3RpbWVkJywKICBwcm9ncmVzc2l2ZSA9ICdwcm9ncmVzc2l2ZScsCiAgaW50ZXJ2YWwgPSAnaW50ZXJ2YWwnLAp9CgpleHBvcnQgZW51bSBUcmFpbmluZ1BoYXNlIHsKICBpZGxlID0gJ2lkbGUnLAogIGNvdW50SW4gPSAnY291bnRJbicsCiAgcnVubmluZyA9ICdydW5uaW5nJywKICByZXN0ID0gJ3Jlc3QnLAogIHBhdXNlZCA9ICdwYXVzZWQnLAogIGZpbmlzaGVkID0gJ2ZpbmlzaGVkJywKfQoKZXhwb3J0IGVudW0gRGlyZWN0aW9uIHsKICBmb3J3YXJkID0gJ2ZvcndhcmQnLAogIGJhY2t3YXJkID0gJ2JhY2t3YXJkJywKICBsZWZ0ID0gJ2xlZnQnLAogIHJpZ2h0ID0gJ3JpZ2h0JywKfQoKZXhwb3J0IGVudW0gU2lnbmFsU291bmRUeXBlIHsKICB0b25lID0gJ3RvbmUnLAogIHZvaWNlRGlyZWN0aW9uID0gJ3ZvaWNlRGlyZWN0aW9uJywKfQoKZXhwb3J0IGVudW0gRGlyZWN0aW9uU2lnbmFsVHlwZSB7CiAgYWxlcnQgPSAnYWxlcnQnLAogIHdoaXN0bGUgPSAnd2hpc3RsZScsCiAgZHJ1bSA9ICdkcnVtJywKICBkaXJGb3J3YXJkID0gJ2RpckZvcndhcmQnLAogIGRpckJhY2t3YXJkID0gJ2RpckJhY2t3YXJkJywKICBkaXJMZWZ0ID0gJ2RpckxlZnQnLAogIGRpclJpZ2h0ID0gJ2RpclJpZ2h0JywKfQoKZXhwb3J0IGludGVyZmFjZSBUcmFpbmluZ0NvbmZpZyB7CiAgYnBtOiBudW1iZXI7CiAgbWluQmVhdHNUb0NoYW5nZTogbnVtYmVyOwogIG1heEJlYXRzVG9DaGFuZ2U6IG51bWJlcjsKICBkaXJlY3Rpb25Db3VudDogbnVtYmVyOwogIHRyYWluaW5nRHVyYXRpb246IG51bWJlcjsgLy8gbWludXRlcwogIG1vZGU6IFRyYWluaW5nTW9kZTsKICBzaWduYWxTb3VuZFR5cGU6IFNpZ25hbFNvdW5kVHlwZTsKICBzaWduYWxWb2x1bWU6IG51bWJlcjsKICByZWd1bGFyVm9sdW1lOiBudW1iZXI7CiAgZW5hYmxlUmFuZG9tQnBtOiBib29sZWFuOwogIHJhbmRvbUJwbVBlcmNlbnQ6IG51bWJlcjsKICBpbnRlcnZhbFdvcmtTZWNvbmRzOiBudW1iZXI7CiAgaW50ZXJ2YWxSZXN0U2Vjb25kczogbnVtYmVyOwogIGludGVydmFsUm91bmRzOiBudW1iZXI7CiAgYmVhdFN1YmRpdmlzaW9uOiBudW1iZXI7CiAgYmVhdHNQZXJCYXI6IG51bWJlcjsKfQoKZXhwb3J0IGNvbnN0IERFRkFVTFRfQ09ORklHOiBUcmFpbmluZ0NvbmZpZyA9IHsKICBicG06IDEwMCwKICBtaW5CZWF0c1RvQ2hhbmdlOiA0LAogIG1heEJlYXRzVG9DaGFuZ2U6IDgsCiAgZGlyZWN0aW9uQ291bnQ6IDIsCiAgdHJhaW5pbmdEdXJhdGlvbjogMywKICBtb2RlOiBUcmFpbmluZ01vZGUuZnJlZSwKICBzaWduYWxTb3VuZFR5cGU6IFNpZ25hbFNvdW5kVHlwZS50b25lLAogIHNpZ25hbFZvbHVtZTogMS4wLAogIHJlZ3VsYXJWb2x1bWU6IDAuOCwKICBlbmFibGVSYW5kb21CcG06IGZhbHNlLAogIHJhbmRvbUJwbVBlcmNlbnQ6IDEwLAogIGludGVydmFsV29ya1NlY29uZHM6IDMwLAogIGludGVydmFsUmVzdFNlY29uZHM6IDEwLAogIGludGVydmFsUm91bmRzOiA1LAogIGJlYXRTdWJkaXZpc2lvbjogMSwKICBiZWF0c1BlckJhcjogNCwKfTsKCmV4cG9ydCBmdW5jdGlvbiBnZXRBY3RpdmVEaXJlY3Rpb25zKGNvdW50OiBudW1iZXIpOiBEaXJlY3Rpb25bXSB7CiAgc3dpdGNoIChjb3VudCkgewogICAgY2FzZSAyOiByZXR1cm4gW0RpcmVjdGlvbi5mb3J3YXJkLCBEaXJlY3Rpb24ubGVmdCwgRGlyZWN0aW9uLnJpZ2h0XTsKICAgIGNhc2UgMzogcmV0dXJuIFtEaXJlY3Rpb24uZm9yd2FyZCwgRGlyZWN0aW9uLmxlZnQsIERpcmVjdGlvbi5yaWdodF07CiAgICBjYXNlIDQ6IHJldHVybiBbRGlyZWN0aW9uLmZvcndhcmQsIERpcmVjdGlvbi5iYWNrd2FyZCwgRGlyZWN0aW9uLmxlZnQsIERpcmVjdGlvbi5yaWdodF07CiAgICBkZWZhdWx0OiByZXR1cm4gW0RpcmVjdGlvbi5mb3J3YXJkLCBEaXJlY3Rpb24ubGVmdCwgRGlyZWN0aW9uLnJpZ2h0XTsKICB9Cn0K
+export enum TrainingMode {
+  free = 'free',
+  timed = 'timed',
+  progressive = 'progressive',
+  interval = 'interval',
+}
+
+export enum TrainingPhase {
+  idle = 'idle',
+  countIn = 'countIn',
+  running = 'running',
+  rest = 'rest',
+  paused = 'paused',
+  finished = 'finished',
+}
+
+export enum Direction {
+  forward = 'forward',
+  backward = 'backward',
+  left = 'left',
+  right = 'right',
+}
+
+export enum SignalSoundType {
+  tone = 'tone',
+  voiceDirection = 'voiceDirection',
+}
+
+export enum DirectionSignalType {
+  alert = 'alert',
+  whistle = 'whistle',
+  drum = 'drum',
+  dirForward = 'dirForward',
+  dirBackward = 'dirBackward',
+  dirLeft = 'dirLeft',
+  dirRight = 'dirRight',
+}
+
+export interface TrainingConfig {
+  bpm: number;
+  minBeatsToChange: number;
+  maxBeatsToChange: number;
+  directionCount: number;
+  trainingDuration: number; // minutes
+  mode: TrainingMode;
+  signalSoundType: SignalSoundType;
+  signalVolume: number;
+  regularVolume: number;
+  enableRandomBpm: boolean;
+  randomBpmPercent: number;
+  intervalWorkSeconds: number;
+  intervalRestSeconds: number;
+  intervalRounds: number;
+  beatSubdivision: number;
+  beatsPerBar: number;
+}
+
+export const DEFAULT_CONFIG: TrainingConfig = {
+  bpm: 100,
+  minBeatsToChange: 4,
+  maxBeatsToChange: 8,
+  directionCount: 2,
+  trainingDuration: 3,
+  mode: TrainingMode.free,
+  signalSoundType: SignalSoundType.tone,
+  signalVolume: 1.0,
+  regularVolume: 0.8,
+  enableRandomBpm: false,
+  randomBpmPercent: 10,
+  intervalWorkSeconds: 30,
+  intervalRestSeconds: 10,
+  intervalRounds: 5,
+  beatSubdivision: 1,
+  beatsPerBar: 4,
+};
+
+export function getActiveDirections(count: number): Direction[] {
+  switch (count) {
+    case 2: return [Direction.forward, Direction.left, Direction.right];
+    case 3: return [Direction.forward, Direction.left, Direction.right];
+    case 4: return [Direction.forward, Direction.backward, Direction.left, Direction.right];
+    default: return [Direction.forward, Direction.left, Direction.right];
+  }
+}

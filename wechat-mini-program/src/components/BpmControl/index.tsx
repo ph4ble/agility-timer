@@ -1,1 +1,51 @@
-aW1wb3J0IHsgVmlldywgVGV4dCwgU2xpZGVyIH0gZnJvbSAnQHRhcm9qcy9jb21wb25lbnRzJzsKaW1wb3J0ICcuL2luZGV4LnNjc3MnOwoKaW50ZXJmYWNlIEJwbUNvbnRyb2xQcm9wcyB7CiAgYnBtOiBudW1iZXI7CiAgb25CcG1DaGFuZ2U6IChicG06IG51bWJlcikgPT4gdm9pZDsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQnBtQ29udHJvbCh7IGJwbSwgb25CcG1DaGFuZ2UgfTogQnBtQ29udHJvbFByb3BzKSB7CiAgY29uc3QgY2hhbmdlQnBtID0gKGRlbHRhOiBudW1iZXIpID0+IHsKICAgIGNvbnN0IG5leHQgPSBNYXRoLm1heCgyMCwgTWF0aC5taW4oMzAwLCBicG0gKyBkZWx0YSkpOwogICAgb25CcG1DaGFuZ2UobmV4dCk7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxWaWV3IGNsYXNzTmFtZT0nYnBtLWNvbnRyb2wnPgogICAgICA8VGV4dCBjbGFzc05hbWU9J2JwbS1sYWJlbCc+QlBNPC9UZXh0PgogICAgICA8VmlldyBjbGFzc05hbWU9J2JwbS12YWx1ZS1yb3cnPgogICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nYnBtLWJ0bicgb25DbGljaz17KCkgPT4gY2hhbmdlQnBtKC0xMCl9PgogICAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdicG0tYnRuLXRleHQnPi0xMDwvVGV4dD4KICAgICAgICA8L1ZpZXc+CiAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdicG0tYnRuJyBvbkNsaWNrPXsoKSA9PiBjaGFuZ2VCcG0oLTEpfT4KICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nYnBtLWJ0bi10ZXh0Jz4tMTwvVGV4dD4KICAgICAgICA8L1ZpZXc+CiAgICAgICAgPFRleHQgY2xhc3NOYW1lPSdicG0tdmFsdWUnPnticG19PC9UZXh0PgogICAgICAgIDxWaWV3IGNsYXNzTmFtZT0nYnBtLWJ0bicgb25DbGljaz17KCkgPT4gY2hhbmdlQnBtKDEpfT4KICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nYnBtLWJ0bi10ZXh0Jz4rMTwvVGV4dD4KICAgICAgICA8L1ZpZXc+CiAgICAgICAgPFZpZXcgY2xhc3NOYW1lPSdicG0tYnRuJyBvbkNsaWNrPXsoKSA9PiBjaGFuZ2VCcG0oMTApfT4KICAgICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nYnBtLWJ0bi10ZXh0Jz4rMTA8L1RleHQ+CiAgICAgICAgPC9WaWV3PgogICAgICA8L1ZpZXc+CiAgICAgIDxWaWV3IGNsYXNzTmFtZT0nYnBtLXNsaWRlci1yb3cnPgogICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nYnBtLXJhbmdlJz4yMDwvVGV4dD4KICAgICAgICA8U2xpZGVyCiAgICAgICAgICBjbGFzc05hbWU9J2JwbS1zbGlkZXInCiAgICAgICAgICB2YWx1ZT17YnBtfQogICAgICAgICAgbWluPXsyMH0KICAgICAgICAgIG1heD17MzAwfQogICAgICAgICAgc3RlcD17MX0KICAgICAgICAgIGFjdGl2ZUNvbG9yPScjRTkxRTYzJwogICAgICAgICAgYmFja2dyb3VuZENvbG9yPSdyZ2JhKDI1NSwyNTUsMjU1LDAuMTIpJwogICAgICAgICAgYmxvY2tDb2xvcj0nI0U5MUU2MycKICAgICAgICAgIGJsb2NrU2l6ZT17MjB9CiAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IG9uQnBtQ2hhbmdlKGUuZGV0YWlsLnZhbHVlKX0KICAgICAgICAvPgogICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nYnBtLXJhbmdlJz4zMDA8L1RleHQ+CiAgICAgIDwvVmlldz4KICAgIDwvVmlldz4KICApOwp9Cg==
+import { View, Text, Slider } from '@tarojs/components';
+import './index.scss';
+
+interface BpmControlProps {
+  bpm: number;
+  onBpmChange: (bpm: number) => void;
+}
+
+export default function BpmControl({ bpm, onBpmChange }: BpmControlProps) {
+  const changeBpm = (delta: number) => {
+    const next = Math.max(20, Math.min(300, bpm + delta));
+    onBpmChange(next);
+  };
+
+  return (
+    <View className='bpm-control'>
+      <Text className='bpm-label'>BPM</Text>
+      <View className='bpm-value-row'>
+        <View className='bpm-btn' onClick={() => changeBpm(-10)}>
+          <Text className='bpm-btn-text'>-10</Text>
+        </View>
+        <View className='bpm-btn' onClick={() => changeBpm(-1)}>
+          <Text className='bpm-btn-text'>-1</Text>
+        </View>
+        <Text className='bpm-value'>{bpm}</Text>
+        <View className='bpm-btn' onClick={() => changeBpm(1)}>
+          <Text className='bpm-btn-text'>+1</Text>
+        </View>
+        <View className='bpm-btn' onClick={() => changeBpm(10)}>
+          <Text className='bpm-btn-text'>+10</Text>
+        </View>
+      </View>
+      <View className='bpm-slider-row'>
+        <Text className='bpm-range'>20</Text>
+        <Slider
+          className='bpm-slider'
+          value={bpm}
+          min={20}
+          max={300}
+          step={1}
+          activeColor='#E91E63'
+          backgroundColor='rgba(255,255,255,0.12)'
+          blockColor='#E91E63'
+          blockSize={20}
+          onChange={(e) => onBpmChange(e.detail.value)}
+        />
+        <Text className='bpm-range'>300</Text>
+      </View>
+    </View>
+  );
+}

@@ -1,1 +1,71 @@
-LmJwbS1jb250cm9sIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBwYWRkaW5nOiA4cHggMDsKfQoKLmJwbS1sYWJlbCB7CiAgZm9udC1zaXplOiAxM3B4OwogIGNvbG9yOiB2YXIoLS1jb2xvci10ZXh0LWRpbSk7CiAgbWFyZ2luLWJvdHRvbTogNHB4OwogIGxldHRlci1zcGFjaW5nOiAzcHg7Cn0KCi5icG0tdmFsdWUtcm93IHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiAxMnB4OwogIG1hcmdpbi1ib3R0b206IDhweDsKfQoKLmJwbS12YWx1ZSB7CiAgZm9udC1zaXplOiA0OHB4OwogIGZvbnQtd2VpZ2h0OiA3MDA7CiAgY29sb3I6IHZhcigtLWNvbG9yLWFjY2VudCk7CiAgbWluLXdpZHRoOiAxMDBweDsKICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgZm9udC12YXJpYW50LW51bWVyaWM6IHRhYnVsYXItbnVtczsKfQoKLmJwbS1idG4gewogIHdpZHRoOiA0NHB4OwogIGhlaWdodDogMzZweDsKICBib3JkZXItcmFkaXVzOiA4cHg7CiAgYmFja2dyb3VuZDogdmFyKC0tY29sb3ItY2FyZCk7CiAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tY29sb3ItYm9yZGVyKTsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgZmxleC1zaHJpbms6IDA7Cn0KCi5icG0tYnRuOmFjdGl2ZSB7CiAgYmFja2dyb3VuZDogdmFyKC0tY29sb3ItYWNjZW50KTsKfQoKLmJwbS1idG4tdGV4dCB7CiAgZm9udC1zaXplOiAxNHB4OwogIGZvbnQtd2VpZ2h0OiA2MDA7CiAgY29sb3I6IHZhcigtLWNvbG9yLXRleHQpOwp9CgouYnBtLXNsaWRlci1yb3cgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDhweDsKICB3aWR0aDogMTAwJTsKICBwYWRkaW5nOiAwIDRweDsKfQoKLmJwbS1yYW5nZSB7CiAgZm9udC1zaXplOiAxMXB4OwogIGNvbG9yOiB2YXIoLS1jb2xvci10ZXh0LWhpbnQpOwogIHdpZHRoOiAyMnB4OwogIHRleHQtYWxpZ246IGNlbnRlcjsKICBmbGV4LXNocmluazogMDsKfQoKLmJwbS1zbGlkZXIgewogIGZsZXg6IDE7Cn0K
+.bpm-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.bpm-label {
+  font-size: 13px;
+  color: var(--color-text-dim);
+  margin-bottom: 4px;
+  letter-spacing: 3px;
+}
+
+.bpm-value-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.bpm-value {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--color-accent);
+  min-width: 100px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.bpm-btn {
+  width: 44px;
+  height: 36px;
+  border-radius: 8px;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.bpm-btn:active {
+  background: var(--color-accent);
+}
+
+.bpm-btn-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.bpm-slider-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 0 4px;
+}
+
+.bpm-range {
+  font-size: 11px;
+  color: var(--color-text-hint);
+  width: 22px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.bpm-slider {
+  flex: 1;
+}

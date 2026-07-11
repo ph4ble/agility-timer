@@ -1,1 +1,58 @@
-aW1wb3J0IHsgVmlldywgVGV4dCB9IGZyb20gJ0B0YXJvanMvY29tcG9uZW50cyc7CmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IERpcmVjdGlvbiwgRGlyZWN0aW9uU2lnbmFsVHlwZSB9IGZyb20gJy4uLy4uL21vZGVscy9jb25maWcnOwppbXBvcnQgJy4vaW5kZXguc2Nzcyc7CgppbnRlcmZhY2UgRGlyZWN0aW9uQXJyb3dQcm9wcyB7CiAgZGlyZWN0aW9uOiBEaXJlY3Rpb24gfCBudWxsOwogIHNpZ25hbFR5cGU6IERpcmVjdGlvblNpZ25hbFR5cGU7Cn0KCmNvbnN0IERJUl9MQUJFTFM6IFJlY29yZDxEaXJlY3Rpb24sIHN0cmluZz4gPSB7CiAgW0RpcmVjdGlvbi5mb3J3YXJkXTogJ+KGkScsCiAgW0RpcmVjdGlvbi5iYWNrd2FyZF06ICfihpMnLAogIFtEaXJlY3Rpb24ubGVmdF06ICfihpAnLAogIFtEaXJlY3Rpb24ucmlnaHRdOiAn4oaSJywKfTsKCmNvbnN0IERJUl9XT1JEUzogUmVjb3JkPERpcmVjdGlvbiwgc3RyaW5nPiA9IHsKICBbRGlyZWN0aW9uLmZvcndhcmRdOiAn5YmN6L+bJywKICBbRGlyZWN0aW9uLmJhY2t3YXJkXTogJ+WQjumAgCcsCiAgW0RpcmVjdGlvbi5sZWZ0XTogJ+WQkeW3picsCiAgW0RpcmVjdGlvbi5yaWdodF06ICflkJHlj7MnLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRGlyZWN0aW9uQXJyb3coeyBkaXJlY3Rpb24sIHNpZ25hbFR5cGUgfTogRGlyZWN0aW9uQXJyb3dQcm9wcykgewogIGNvbnN0IFt2aXNpYmxlLCBzZXRWaXNpYmxlXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbY3VycmVudERpciwgc2V0Q3VycmVudERpcl0gPSB1c2VTdGF0ZTxEaXJlY3Rpb24gfCBudWxsPihudWxsKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghZGlyZWN0aW9uKSByZXR1cm47CiAgICBzZXRDdXJyZW50RGlyKGRpcmVjdGlvbik7CiAgICBzZXRWaXNpYmxlKGZhbHNlKTsKICAgIHJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiBzZXRWaXNpYmxlKHRydWUpKTsKICAgIGNvbnN0IHRpbWVyID0gc2V0VGltZW91dCgoKSA9PiBzZXRWaXNpYmxlKGZhbHNlKSwgMTIwMCk7CiAgICByZXR1cm4gKCkgPT4gY2xlYXJUaW1lb3V0KHRpbWVyKTsKICB9LCBbZGlyZWN0aW9uLCBzaWduYWxUeXBlXSk7CgogIGlmICghY3VycmVudERpcikgewogICAgcmV0dXJuICgKICAgICAgPFZpZXcgY2xhc3NOYW1lPSdkaXJlY3Rpb24tcGxhY2Vob2xkZXInPgogICAgICAgIDxUZXh0IGNsYXNzTmFtZT0nZGlyZWN0aW9uLXBsYWNlaG9sZGVyLXRleHQnPuetieW+heaMh+S7pDwvVGV4dD4KICAgICAgPC9WaWV3PgogICAgKTsKICB9CgogIGNvbnN0IGlzVm9pY2UgPSBzaWduYWxUeXBlID09PSBEaXJlY3Rpb25TaWduYWxUeXBlLmRpckZvcndhcmQgfHwKICAgIHNpZ25hbFR5cGUgPT09IERpcmVjdGlvblNpZ25hbFR5cGUuZGlyQmFja3dhcmQgfHwKICAgIHNpZ25hbFR5cGUgPT09IERpcmVjdGlvblNpZ25hbFR5cGUuZGlyTGVmdCB8fAogICAgc2lnbmFsVHlwZSA9PT0gRGlyZWN0aW9uU2lnbmFsVHlwZS5kaXJSaWdodDsKCiAgcmV0dXJuICgKICAgIDxWaWV3IGNsYXNzTmFtZT17YGRpcmVjdGlvbi1hcnJvdy1jb250YWluZXIgJHt2aXNpYmxlID8gJ2RpcmVjdGlvbi1hcnJvdy0tdmlzaWJsZScgOiAnJ31gfT4KICAgICAgPFRleHQgY2xhc3NOYW1lPSdkaXJlY3Rpb24tYXJyb3ctaWNvbic+e0RJUl9MQUJFTFNbY3VycmVudERpcl19PC9UZXh0PgogICAgICB7aXNWb2ljZSAmJiA8VGV4dCBjbGFzc05hbWU9J2RpcmVjdGlvbi1hcnJvdy13b3JkJz57RElSX1dPUkRTW2N1cnJlbnREaXJdfTwvVGV4dD59CiAgICAgIHshaXNWb2ljZSAmJiA8VGV4dCBjbGFzc05hbWU9J2RpcmVjdGlvbi1hcnJvdy13b3JkJz7lj5jlkJEhPC9UZXh0Pn0KICAgIDwvVmlldz4KICApOwp9Cg==
+import { View, Text } from '@tarojs/components';
+import { useEffect, useState } from 'react';
+import { Direction, DirectionSignalType } from '../../models/config';
+import './index.scss';
+
+interface DirectionArrowProps {
+  direction: Direction | null;
+  signalType: DirectionSignalType;
+}
+
+const DIR_LABELS: Record<Direction, string> = {
+  [Direction.forward]: '↑',
+  [Direction.backward]: '↓',
+  [Direction.left]: '←',
+  [Direction.right]: '→',
+};
+
+const DIR_WORDS: Record<Direction, string> = {
+  [Direction.forward]: '前进',
+  [Direction.backward]: '后退',
+  [Direction.left]: '向左',
+  [Direction.right]: '向右',
+};
+
+export default function DirectionArrow({ direction, signalType }: DirectionArrowProps) {
+  const [visible, setVisible] = useState(false);
+  const [currentDir, setCurrentDir] = useState<Direction | null>(null);
+
+  useEffect(() => {
+    if (!direction) return;
+    setCurrentDir(direction);
+    setVisible(false);
+    requestAnimationFrame(() => setVisible(true));
+    const timer = setTimeout(() => setVisible(false), 1200);
+    return () => clearTimeout(timer);
+  }, [direction, signalType]);
+
+  if (!currentDir) {
+    return (
+      <View className='direction-placeholder'>
+        <Text className='direction-placeholder-text'>等待指令</Text>
+      </View>
+    );
+  }
+
+  const isVoice = signalType === DirectionSignalType.dirForward ||
+    signalType === DirectionSignalType.dirBackward ||
+    signalType === DirectionSignalType.dirLeft ||
+    signalType === DirectionSignalType.dirRight;
+
+  return (
+    <View className={`direction-arrow-container ${visible ? 'direction-arrow--visible' : ''}`}>
+      <Text className='direction-arrow-icon'>{DIR_LABELS[currentDir]}</Text>
+      {isVoice && <Text className='direction-arrow-word'>{DIR_WORDS[currentDir]}</Text>}
+      {!isVoice && <Text className='direction-arrow-word'>变向!</Text>}
+    </View>
+  );
+}

@@ -1,1 +1,76 @@
-ZXhwb3J0IGludGVyZmFjZSBCZWF0RXZlbnQgewogIGJlYXROdW1iZXI6IG51bWJlcjsKICBpc0ZpcnN0QmVhdDogYm9vbGVhbjsKICBpc0NvdW50SW46IGJvb2xlYW47Cn0KCnR5cGUgQmVhdExpc3RlbmVyID0gKGV2ZW50OiBCZWF0RXZlbnQpID0+IHZvaWQ7CgpleHBvcnQgY2xhc3MgTWV0cm9ub21lIHsKICBwcml2YXRlIHRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRJbnRlcnZhbD4gfCBudWxsID0gbnVsbDsKICBwcml2YXRlIGJlYXRDb3VudCA9IDA7CiAgcHJpdmF0ZSBiZWF0c1BlckJhciA9IDQ7CiAgcHJpdmF0ZSBpbnRlcnZhbE1zID0gNTAwOwogIHByaXZhdGUgbGlzdGVuZXJzOiBCZWF0TGlzdGVuZXJbXSA9IFtdOwogIHByaXZhdGUgcnVubmluZyA9IGZhbHNlOwoKICBnZXQgaXNSdW5uaW5nKCk6IGJvb2xlYW4gewogICAgcmV0dXJuIHRoaXMucnVubmluZzsKICB9CgogIGNvbmZpZ3VyZShiZWF0SW50ZXJ2YWxNczogbnVtYmVyLCBiZWF0c1BlckJhcjogbnVtYmVyID0gNCk6IHZvaWQgewogICAgdGhpcy5pbnRlcnZhbE1zID0gYmVhdEludGVydmFsTXM7CiAgICB0aGlzLmJlYXRzUGVyQmFyID0gYmVhdHNQZXJCYXI7CiAgfQoKICBvbkJlYXQoZm46IEJlYXRMaXN0ZW5lcik6IHZvaWQgewogICAgdGhpcy5saXN0ZW5lcnMucHVzaChmbik7CiAgfQoKICByZW1vdmVMaXN0ZW5lcihmbjogQmVhdExpc3RlbmVyKTogdm9pZCB7CiAgICB0aGlzLmxpc3RlbmVycyA9IHRoaXMubGlzdGVuZXJzLmZpbHRlcihsID0+IGwgIT09IGZuKTsKICB9CgogIHN0YXJ0KCk6IHZvaWQgewogICAgdGhpcy5iZWF0Q291bnQgPSAwOwogICAgdGhpcy5ydW5uaW5nID0gdHJ1ZTsKICAgIHRoaXMudGltZXIgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgIHRoaXMuYmVhdENvdW50Kys7CiAgICAgIGNvbnN0IGlzRmlyc3QgPSAodGhpcy5iZWF0Q291bnQgLSAxKSAlIHRoaXMuYmVhdHNQZXJCYXIgPT09IDA7CiAgICAgIGNvbnN0IGV2ZW50OiBCZWF0RXZlbnQgPSB7CiAgICAgICAgYmVhdE51bWJlcjogdGhpcy5iZWF0Q291bnQsCiAgICAgICAgaXNGaXJzdEJlYXQ6IGlzRmlyc3QsCiAgICAgICAgaXNDb3VudEluOiBmYWxzZSwKICAgICAgfTsKICAgICAgZm9yIChjb25zdCBmbiBvZiB0aGlzLmxpc3RlbmVycykgewogICAgICAgIGZuKGV2ZW50KTsKICAgICAgfQogICAgfSwgdGhpcy5pbnRlcnZhbE1zKTsKICAgIC8vIEZpcmUgZmlyc3QgYmVhdCBpbW1lZGlhdGVseQogICAgc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIGlmICghdGhpcy5ydW5uaW5nKSByZXR1cm47CiAgICAgIHRoaXMuYmVhdENvdW50Kys7CiAgICAgIGNvbnN0IGV2ZW50OiBCZWF0RXZlbnQgPSB7CiAgICAgICAgYmVhdE51bWJlcjogdGhpcy5iZWF0Q291bnQsCiAgICAgICAgaXNGaXJzdEJlYXQ6IHRydWUsCiAgICAgICAgaXNDb3VudEluOiBmYWxzZSwKICAgICAgfTsKICAgICAgZm9yIChjb25zdCBmbiBvZiB0aGlzLmxpc3RlbmVycykgewogICAgICAgIGZuKGV2ZW50KTsKICAgICAgfQogICAgfSwgMCk7CiAgfQoKICBzdG9wKCk6IHZvaWQgewogICAgaWYgKHRoaXMudGltZXIgIT09IG51bGwpIHsKICAgICAgY2xlYXJJbnRlcnZhbCh0aGlzLnRpbWVyKTsKICAgICAgdGhpcy50aW1lciA9IG51bGw7CiAgICB9CiAgICB0aGlzLnJ1bm5pbmcgPSBmYWxzZTsKICB9CgogIHJlc2V0KCk6IHZvaWQgewogICAgdGhpcy5zdG9wKCk7CiAgICB0aGlzLmJlYXRDb3VudCA9IDA7CiAgfQp9Cg==
+export interface BeatEvent {
+  beatNumber: number;
+  isFirstBeat: boolean;
+  isCountIn: boolean;
+}
+
+type BeatListener = (event: BeatEvent) => void;
+
+export class Metronome {
+  private timer: ReturnType<typeof setInterval> | null = null;
+  private beatCount = 0;
+  private beatsPerBar = 4;
+  private intervalMs = 500;
+  private listeners: BeatListener[] = [];
+  private running = false;
+
+  get isRunning(): boolean {
+    return this.running;
+  }
+
+  configure(beatIntervalMs: number, beatsPerBar: number = 4): void {
+    this.intervalMs = beatIntervalMs;
+    this.beatsPerBar = beatsPerBar;
+  }
+
+  onBeat(fn: BeatListener): void {
+    this.listeners.push(fn);
+  }
+
+  removeListener(fn: BeatListener): void {
+    this.listeners = this.listeners.filter(l => l !== fn);
+  }
+
+  start(): void {
+    this.beatCount = 0;
+    this.running = true;
+    this.timer = setInterval(() => {
+      this.beatCount++;
+      const isFirst = (this.beatCount - 1) % this.beatsPerBar === 0;
+      const event: BeatEvent = {
+        beatNumber: this.beatCount,
+        isFirstBeat: isFirst,
+        isCountIn: false,
+      };
+      for (const fn of this.listeners) {
+        fn(event);
+      }
+    }, this.intervalMs);
+    // Fire first beat immediately
+    setTimeout(() => {
+      if (!this.running) return;
+      this.beatCount++;
+      const event: BeatEvent = {
+        beatNumber: this.beatCount,
+        isFirstBeat: true,
+        isCountIn: false,
+      };
+      for (const fn of this.listeners) {
+        fn(event);
+      }
+    }, 0);
+  }
+
+  stop(): void {
+    if (this.timer !== null) {
+      clearInterval(this.timer);
+      this.timer = null;
+    }
+    this.running = false;
+  }
+
+  reset(): void {
+    this.stop();
+    this.beatCount = 0;
+  }
+}

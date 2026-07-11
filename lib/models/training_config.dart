@@ -1,1 +1,65 @@
-ZW51bSBUcmFpbmluZ01vZGUgeyBmcmVlLCB0aW1lZCwgcHJvZ3Jlc3NpdmUsIGludGVydmFsIH0KCmVudW0gU2lnbmFsU291bmRUeXBlIHsgdG9uZSwgdm9pY2VEaXJlY3Rpb24gfQoKZW51bSBEaXJlY3Rpb24gewogIGZvcndhcmQsCiAgYmFja3dhcmQsCiAgbGVmdCwKICByaWdodDsKCiAgU3RyaW5nIGdldCBsYWJlbCB7CiAgICBzd2l0Y2ggKHRoaXMpIHsKICAgICAgY2FzZSBEaXJlY3Rpb24uZm9yd2FyZDogcmV0dXJuICfliY0nOwogICAgICBjYXNlIERpcmVjdGlvbi5iYWNrd2FyZDogcmV0dXJuICflkI4nOwogICAgICBjYXNlIERpcmVjdGlvbi5sZWZ0OiByZXR1cm4gJ+W3pic7CiAgICAgIGNhc2UgRGlyZWN0aW9uLnJpZ2h0OiByZXR1cm4gJ+WPsyc7CiAgICB9CiAgfQp9CgpjbGFzcyBUcmFpbmluZ0NvbmZpZyB7CiAgaW50IGJwbTsKICBpbnQgYmVhdFN1YmRpdmlzaW9uOwogIGludCBiZWF0c1BlckJhcjsKICBpbnQgbWluQmVhdHNUb0NoYW5nZTsKICBpbnQgbWF4QmVhdHNUb0NoYW5nZTsKICBpbnQgZGlyZWN0aW9uQ291bnQ7CiAgRHVyYXRpb24gdHJhaW5pbmdEdXJhdGlvbjsKICBUcmFpbmluZ01vZGUgbW9kZTsKICBpbnQgaW50ZXJ2YWxXb3JrU2Vjb25kczsKICBpbnQgaW50ZXJ2YWxSZXN0U2Vjb25kczsKICBpbnQgaW50ZXJ2YWxSb3VuZHM7CiAgYm9vbCBlbmFibGVWaWJyYXRpb247CiAgZG91YmxlIHJlZ3VsYXJWb2x1bWU7CiAgZG91YmxlIHNpZ25hbFZvbHVtZTsKICBTaWduYWxTb3VuZFR5cGUgc2lnbmFsU291bmRUeXBlOwogIGJvb2wgZW5hYmxlUmFuZG9tQnBtOwogIGludCByYW5kb21CcG1QZXJjZW50OwoKICBUcmFpbmluZ0NvbmZpZyh7CiAgICB0aGlzLmJwbSA9IDEwMCwKICAgIHRoaXMuYmVhdFN1YmRpdmlzaW9uID0gMSwKICAgIHRoaXMuYmVhdHNQZXJCYXIgPSA0LAogICAgdGhpcy5taW5CZWF0c1RvQ2hhbmdlID0gNCwKICAgIHRoaXMubWF4QmVhdHNUb0NoYW5nZSA9IDgsCiAgICB0aGlzLmRpcmVjdGlvbkNvdW50ID0gMiwKICAgIHRoaXMudHJhaW5pbmdEdXJhdGlvbiA9IGNvbnN0IER1cmF0aW9uKG1pbnV0ZXM6IDMpLAogICAgdGhpcy5tb2RlID0gVHJhaW5pbmdNb2RlLmZyZWUsCiAgICB0aGlzLmludGVydmFsV29ya1NlY29uZHMgPSAzMCwKICAgIHRoaXMuaW50ZXJ2YWxSZXN0U2Vjb25kcyA9IDEwLAogICAgdGhpcy5pbnRlcnZhbFJvdW5kcyA9IDUsCiAgICB0aGlzLmVuYWJsZVZpYnJhdGlvbiA9IGZhbHNlLAogICAgdGhpcy5yZWd1bGFyVm9sdW1lID0gMC44LAogICAgdGhpcy5zaWduYWxWb2x1bWUgPSAxLjAsCiAgICB0aGlzLnNpZ25hbFNvdW5kVHlwZSA9IFNpZ25hbFNvdW5kVHlwZS50b25lLAogICAgdGhpcy5lbmFibGVSYW5kb21CcG0gPSBmYWxzZSwKICAgIHRoaXMucmFuZG9tQnBtUGVyY2VudCA9IDEwLAogIH0pOwoKICBkb3VibGUgZ2V0IGJlYXRJbnRlcnZhbE1zID0+IDYwMDAwLjAgLyBicG0gLyBiZWF0U3ViZGl2aXNpb247CgogIExpc3Q8RGlyZWN0aW9uPiBnZXQgYWN0aXZlRGlyZWN0aW9ucyB7CiAgICByZXR1cm4gRGlyZWN0aW9uLnZhbHVlcy50YWtlKGRpcmVjdGlvbkNvdW50KS50b0xpc3QoKTsKICB9Cn0K
+enum TrainingMode { free, timed, progressive, interval }
+
+enum SignalSoundType { tone, voiceDirection }
+
+enum Direction {
+  forward,
+  backward,
+  left,
+  right;
+
+  String get label {
+    switch (this) {
+      case Direction.forward: return '前';
+      case Direction.backward: return '后';
+      case Direction.left: return '左';
+      case Direction.right: return '右';
+    }
+  }
+}
+
+class TrainingConfig {
+  int bpm;
+  int beatSubdivision;
+  int beatsPerBar;
+  int minBeatsToChange;
+  int maxBeatsToChange;
+  int directionCount;
+  Duration trainingDuration;
+  TrainingMode mode;
+  int intervalWorkSeconds;
+  int intervalRestSeconds;
+  int intervalRounds;
+  bool enableVibration;
+  double regularVolume;
+  double signalVolume;
+  SignalSoundType signalSoundType;
+  bool enableRandomBpm;
+  int randomBpmPercent;
+
+  TrainingConfig({
+    this.bpm = 100,
+    this.beatSubdivision = 1,
+    this.beatsPerBar = 4,
+    this.minBeatsToChange = 4,
+    this.maxBeatsToChange = 8,
+    this.directionCount = 2,
+    this.trainingDuration = const Duration(minutes: 3),
+    this.mode = TrainingMode.free,
+    this.intervalWorkSeconds = 30,
+    this.intervalRestSeconds = 10,
+    this.intervalRounds = 5,
+    this.enableVibration = false,
+    this.regularVolume = 0.8,
+    this.signalVolume = 1.0,
+    this.signalSoundType = SignalSoundType.tone,
+    this.enableRandomBpm = false,
+    this.randomBpmPercent = 10,
+  });
+
+  double get beatIntervalMs => 60000.0 / bpm / beatSubdivision;
+
+  List<Direction> get activeDirections {
+    return Direction.values.take(directionCount).toList();
+  }
+}
